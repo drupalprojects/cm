@@ -117,20 +117,20 @@ projects[simpletest][version] = "2.10"
 
 ; Features
 
+projects[mm_rotator][download][type] = "git"
+projects[mm_rotator][download][url] = "git@github.com:davidtrainer/mm_rotator.git"
 projects[mm_rotator][subdir] = "cm_features"
-projects[mm_rotator][location] = http://code.minimalmedia.net/fserver
-projects[mm_rotator][version] = "1.0"
 
 ; Themes
 
 projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "1.9"
+projects[tao][version] = "1.9123"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "1.0-beta6"
 
-projects[cm_theme][location] = http://code.minimalmedia.net/fserver
-projects[cm_theme][version] = "1.0"
+projects[cm_theme][type] = "git"
+projects[cm_theme][url] = git@github.com:davidtrainer/mm_rotator.git
 
 ; Libraries
 
