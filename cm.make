@@ -128,7 +128,7 @@ projects[tao][location] = "http://code.developmentseed.org/fserver"
 projects[tao][version] = "3.1"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
-projects[rubik][version] = "1.0-beta6"
+projects[rubik][version] = "3.0-beta1"
 
 projects[cm_theme][type] = "git"
 projects[cm_theme][url] = git@github.com:davidtrainer/mm_rotator.git
