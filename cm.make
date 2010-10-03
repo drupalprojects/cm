@@ -117,6 +117,7 @@ projects[simpletest][version] = "2.10"
 
 ; Features
 
+projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git@github.com:davidtrainer/mm_rotator.git"
 projects[mm_rotator][subdir] = "cm_features"
