@@ -120,6 +120,7 @@ projects[simpletest][version] = "2.10"
 projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git@github.com:davidtrainer/mm_rotator.git"
+projects[mm_rotator][download][branch] = "master"
 projects[mm_rotator][subdir] = "cm_features"
 
 ; Themes
@@ -133,6 +134,7 @@ projects[rubik][version] = "3.0-beta1"
 projects[cm_theme][type] = "theme"
 projects[cm_theme][download][type] = "git"
 projects[cm_theme][download][url] = git@github.com:davidtrainer/cm_theme.git
+projects[cm_theme][download][branch] = "master"
 
 ; Libraries
 
