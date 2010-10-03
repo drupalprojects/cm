@@ -125,7 +125,7 @@ projects[mm_rotator][subdir] = "cm_features"
 ; Themes
 
 projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "1.9"
+projects[tao][version] = "3.1"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "1.0-beta6"
