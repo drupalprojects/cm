@@ -59,6 +59,10 @@ function cm_profile_modules() {
     'nodewords_basic',
     'nodewords_extra',
     'nodewords_tokens',
+  
+    // nodequeue
+    'nodequeue',
+    'smartqueue',
 
     'page_title',
   
