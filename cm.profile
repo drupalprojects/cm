@@ -47,7 +47,11 @@ function cm_profile_modules() {
     'googleanalytics',
     'imageapi',
     'imageapi_gd',
+
+    // imagecache
     'imagecache',
+    'imagecache_ui',
+
     'imagefield',
     'install_profile_api',
     'mollom',
