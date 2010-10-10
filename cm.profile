@@ -132,11 +132,11 @@ function cm_profile_tasks(&$task, $url) {
   _cm_set_content_types();
   _cm_modify_settings();
   _cm_save_nodes();
-  
+  _cm_modify_blocks();
+
 /*
   _cm_set_vocabularies();
   _cm_set_views();
-  _cm_modify_blocks();
   _cm_set_cck_fields();
   _cm_modify_menus();
   _cm_set_permissions();
@@ -173,7 +173,7 @@ function _cm_set_content_types() {
  */
 function _cm_modify_settings() {
   // Basic Drupal settings.
-//  variable_set('site_frontpage', 'home');
+  variable_set('site_frontpage', 'welcome');
 
   // Set the default themes.
   install_default_theme('cm_theme');
@@ -209,4 +209,16 @@ function _cm_modify_settings() {
  */
 function _cm_save_nodes() {
  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.node.php');
+}
+
+/**
+ * Modify the default settings of Drupal and contributed modules.
+ */
+function _cm_modify_blocks() {
+  // First, disable all blocks
+	$theme = 'cm_theme';
+  db_query("UPDATE {blocks} SET status = 0 where theme = '%s'", $theme);
+
+  // Enable user login
+  install_set_block('user', 0, 'cm_theme', 'sidebar_second');
 }
