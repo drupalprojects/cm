@@ -52,6 +52,10 @@ function cm_profile_modules() {
     'install_profile_api',
     'mollom',
 
+    // node_export
+    'node_export',
+    'node_export_file',
+
     // nodewords
     'nodewords',
     'nodewords_admin',
@@ -59,7 +63,7 @@ function cm_profile_modules() {
     'nodewords_basic',
     'nodewords_extra',
     'nodewords_tokens',
-  
+
     // nodequeue
     'nodequeue',
     'smartqueue',
@@ -127,12 +131,13 @@ function cm_profile_tasks(&$task, $url) {
 
   _cm_set_content_types();
   _cm_modify_settings();
+  _cm_save_nodes();
+  
 /*
   _cm_set_vocabularies();
   _cm_set_views();
   _cm_modify_blocks();
   _cm_set_cck_fields();
-  _cm_save_nodes();
   _cm_modify_menus();
   _cm_set_permissions();
 */
@@ -163,7 +168,6 @@ function _cm_set_content_types() {
   }
 }
 
-
 /**
  * Modify the default settings of Drupal and contributed modules.
  */
@@ -175,6 +179,11 @@ function _cm_modify_settings() {
   install_default_theme('cm_theme');
   install_admin_theme('rubik');
 
+  // Do not show the site name
+  $cm_theme_settings = variable_get('theme_cm_theme_settings', '');
+  $cm_theme_settings['toggle_name'] = FALSE;
+  variable_set('theme_cm_theme_settings', $cm_theme_settings);
+  
   // Do not show post info for pages.
   $theme_settings = variable_get('theme_settings', array());
   $theme_settings['toggle_node_info_page'] = FALSE;
@@ -193,4 +202,11 @@ function _cm_modify_settings() {
   db_query("INSERT INTO {wysiwyg} (format, editor) " .
     "VALUES (%d, '%s')",
     2, 'ckeditor');
+}
+
+/**
+ * Modify the default settings of Drupal and contributed modules.
+ */
+function _cm_save_nodes() {
+ install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.node.php');
 }
