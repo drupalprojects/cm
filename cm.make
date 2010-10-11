@@ -56,6 +56,9 @@ projects[imagefield][version] = "3.7"
 projects[install_profile_api][subdir] = "contrib"
 projects[install_profile_api][version] = "2.1"
 
+projects[link][subdir] = "contrib"
+projects[link][version] = "2.9"
+
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.13"
 

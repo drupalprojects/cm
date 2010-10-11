@@ -54,6 +54,7 @@ function cm_profile_modules() {
 
     'imagefield',
     'install_profile_api',
+    'link',
     'mollom',
 
     // node_export
