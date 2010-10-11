@@ -63,6 +63,9 @@ projects[link][version] = "2.9"
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.13"
 
+projects[node_export][subdir] = "contrib"
+projects[node_export][version] = "2.21"
+
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.9"
 
