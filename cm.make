@@ -138,6 +138,9 @@ projects[tao][version] = "3.1"
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "3.0-beta1"
 
+projects[zen][type] = "theme"
+projects[zen][version] = "2.0"
+
 projects[cm_theme][type] = "theme"
 projects[cm_theme][download][type] = "git"
 projects[cm_theme][download][url] = "git://github.com/davidtrainer/cm_theme.git"
