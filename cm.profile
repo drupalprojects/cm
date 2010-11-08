@@ -83,11 +83,11 @@ function cm_profile_modules() {
     //'path_redirect', causing problems
     'pathauto',
   
-    //rules
-    'rules_admin',
-    'rules',
-    'rules_forms',
-    'rules_scheduler',
+    //rules - has been interfering with Aegir
+    //'rules_admin',
+    //'rules',
+    //'rules_forms',
+    //'rules_scheduler',
 
     'scheduler',
     'search404',
