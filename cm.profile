@@ -178,7 +178,7 @@ function _cm_set_content_types() {
  */
 function _cm_modify_settings() {
   // Basic Drupal settings.
-  variable_set('site_frontpage', 'welcome');
+  variable_set('site_frontpage', 'content/welcome');
 
   // Set the default themes.
   install_default_theme('cm_theme');

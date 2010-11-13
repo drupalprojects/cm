@@ -23,7 +23,6 @@ array(
   'name' => 'admin',
   'picture' => '',
   'data' => 'a:0:{}',
-  'path' => 'welcome',
   'taxonomy' => array(),
   'page_title' => FALSE,
   'nodewords' => array(
