@@ -56,6 +56,8 @@ function cm_profile_modules() {
     'install_profile_api',
     'link',
     'mollom',
+    'jquery_ui',
+    'jquery_update',
 
     // node_export
     'node_export',

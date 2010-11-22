@@ -57,6 +57,12 @@ projects[imagefield][version] = "3.7"
 projects[install_profile_api][subdir] = "contrib"
 projects[install_profile_api][version] = "2.1"
 
+projects[jquery_ui][subdir] = "contrib"
+projects[jquery_ui][version] = "1.4"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "1.1"
+
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
@@ -152,3 +158,9 @@ projects[cm_theme][download][branch] = "master"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+; jQuery UI
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
+libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
