@@ -12,7 +12,7 @@ function cm_profile_modules() {
     'block', 'filter', 'node', 'system', 'user',
 
     // Enable optional core modules next.
-    'dblog', 'menu', 'path', 'taxonomy',
+    'dblog', 'contact', 'menu', 'path', 'search', 'statistics', 'taxonomy', 'upload',
 
     // Then, enable any contributed modules here.
     'admin',
