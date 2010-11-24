@@ -33,7 +33,7 @@ function cm_profile_modules() {
     
     // context
     'context',
-    'context_contrib',
+    'context_layouts',
     'context_ui',
 
     // ctools
