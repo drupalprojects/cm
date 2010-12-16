@@ -1,0 +1,16 @@
+api = 2
+core = "6.x"
+
+; Pressflow core
+
+projects[pressflow][type] = "core"
+projects[pressflow][download][type] = "get"
+projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.94/+download/pressflow-6.19.94.tar.gz"
+
+; Cm Platform
+
+projects[cm][type] = "profile"
+projects[cm][download][type] = "git"
+projects[cm][download][url] = "git://github.com/davidtrainer/Cm.git"
+projects[cm][download][branch] = "master"
+;projects[cm][download][tag] = ""
