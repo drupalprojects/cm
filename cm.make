@@ -21,6 +21,9 @@ projects[auto_nodetitle][version] = "1.2"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
+projects[cache_actions][subdir] = "contrib"
+projects[cache_actions][version] = "2.0-beta1"
+
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.7"
 
