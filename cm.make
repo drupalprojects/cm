@@ -111,6 +111,9 @@ projects[vertical_tabs][version] = "1.0-rc1"
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.11"
 
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations[version] = "1.10"
+
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "2.3"
 
