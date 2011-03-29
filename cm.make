@@ -43,7 +43,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta11"
+projects[features][version] = "1.0"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
