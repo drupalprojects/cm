@@ -22,6 +22,10 @@ function cm_profile_modules() {
     'auto_nodetitle',
     'backup_migrate',
 
+    // calendar
+    'calendar',
+    'jcalendar',
+
     // cck
     'content',
     'content_copy',
@@ -40,6 +44,12 @@ function cm_profile_modules() {
     'bulk_export',
     'ctools',
 
+    // date
+    'date',
+    'date_api',
+    'date_popup',
+    'date_tools',
+    
     'diff',
     'features',
     'filefield',
@@ -113,6 +123,16 @@ function cm_profile_modules() {
     'xmlsitemap_menu',
     'xmlsitemap_node',
     'xmlsitemap_taxonomy',
+    
+    // Custom features
+    // defaults
+    'mm_defaults',
+    
+    // events calendar
+    'mm_events_calendar',
+    
+    // rotator
+    'mm_rotator',
   );
 }
 
