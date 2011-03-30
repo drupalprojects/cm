@@ -23,8 +23,8 @@ function cm_profile_modules() {
     'backup_migrate',
 
     // calendar
-    'calendar',
-    'jcalendar',
+    //'calendar',
+    //'jcalendar',
 
     // cck
     'content',
@@ -45,10 +45,10 @@ function cm_profile_modules() {
     'ctools',
 
     // date
-    'date',
-    'date_api',
-    'date_popup',
-    'date_tools',
+    //'date',
+    //'date_api',
+    //'date_popup',
+    //'date_tools',
     
     'diff',
     'features',
@@ -126,10 +126,10 @@ function cm_profile_modules() {
     
     // Custom features
     // defaults
-    'mm_defaults',
+    //'mm_defaults',
     
     // events calendar
-    'mm_events_calendar',
+    //'mm_events_calendar',
     
     // rotator
     'mm_rotator',
