@@ -233,6 +233,7 @@ function _cm_modify_settings() {
 
 /**
  * Modify the default settings of Drupal and contributed modules.
+ * @todo re-export these nodes
  */
 function _cm_save_nodes() {
  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.node.php');
