@@ -24,8 +24,8 @@ projects[backup_migrate][version] = "2.2"
 projects[cache_actions][subdir] = "contrib"
 projects[cache_actions][version] = "2.0-beta1"
 
-;projects[calendar][subdir] = "contrib"
-;projects[calendar][version] = "2.4"
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "2.4"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.7"

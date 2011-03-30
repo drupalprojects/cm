@@ -23,8 +23,8 @@ function cm_profile_modules() {
     'backup_migrate',
 
     // calendar
-    //'calendar',
-    //'jcalendar',
+    'calendar',
+    'jcalendar',
 
     // cck
     'content',
