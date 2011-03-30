@@ -15,7 +15,20 @@ function cm_profile_modules() {
     'dblog', 'contact', 'menu', 'path', 'search', 'statistics', 'taxonomy', 'upload',
 
     // Then, enable any contributed modules here.
-    'admin',
+    
+    // views
+    'views',
+    'views_export',
+    'views_slideshow',
+    'views_slideshow_singleframe',
+    'views_ui',
+
+    // date
+    'date_api',
+    'date',
+    'date_popup',
+    'date_timezone',
+
     'admin_menu',
     'adminrole',
     'advanced_help',
@@ -23,8 +36,8 @@ function cm_profile_modules() {
     'backup_migrate',
 
     // calendar
-    //'calendar',
-    //'jcalendar',
+    'calendar',
+    'jcalendar',
 
     // cck
     'content',
@@ -44,12 +57,6 @@ function cm_profile_modules() {
     'bulk_export',
     'ctools',
 
-    // date
-    //'date',
-    //'date_api',
-    //'date_popup',
-    //'date_tools',
-    
     'diff',
     'features',
     'filefield',
@@ -107,13 +114,6 @@ function cm_profile_modules() {
     'token_actions',
     'vertical_tabs',
 
-    // views
-    'views',
-    'views_export',
-    'views_slideshow',
-    'views_slideshow_singleframe',
-    'views_ui',
-
     'wysiwyg',
 
     // xmlsitemap
@@ -126,10 +126,10 @@ function cm_profile_modules() {
     
     // Custom features
     // defaults
-    //'mm_defaults',
+    'mm_defaults',
     
     // events calendar
-    //'mm_events_calendar',
+    'mm_events_calendar',
     
     // rotator
     'mm_rotator',
@@ -243,7 +243,7 @@ function _cm_save_nodes() {
  */
 function _cm_modify_blocks() {
   // First, disable all blocks
-	$theme = 'cm_theme';
+  $theme = 'cm_theme';
   db_query("UPDATE {blocks} SET status = 0 where theme = '%s'", $theme);
 
   // Enable user login
