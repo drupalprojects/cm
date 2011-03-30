@@ -45,10 +45,10 @@ function cm_profile_modules() {
     'ctools',
 
     // date
-    //'date',
-    //'date_api',
-    //'date_popup',
-    //'date_tools',
+    'date',
+    'date_api',
+    'date_popup',
+    'date_tools',
     
     'diff',
     'features',
