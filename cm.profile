@@ -34,6 +34,7 @@ function cm_profile_modules() {
     'advanced_help',
     'auto_nodetitle',
     'backup_migrate',
+    //'boost',
 
     // calendar
     'calendar',
@@ -73,6 +74,7 @@ function cm_profile_modules() {
     'install_profile_api',
     'lightbox2',
     'link',
+    'mobile_tools',
     'mollom',
     'jquery_ui',
     'jquery_update',
@@ -113,6 +115,7 @@ function cm_profile_modules() {
     'search404',
     'token',
     'token_actions',
+    'transliteration',
     'vertical_tabs',
 
     'wysiwyg',
