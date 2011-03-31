@@ -21,6 +21,9 @@ projects[auto_nodetitle][version] = "1.2"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
+projects[boost][subdir] = "contrib"
+projects[boost][version] = "1.18"
+
 projects[cache_actions][subdir] = "contrib"
 projects[cache_actions][version] = "2.0-beta1"
 
@@ -72,8 +75,14 @@ projects[jquery_ui][version] = "1.4"
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "1.1"
 
+projects[lightbox2][subdir] = "contrib"
+projects[lightbox2][version] = "1.11"
+
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
+
+projects[mobile_tools][subdir] = "contrib"
+projects[mobile_tools][version] = "2.2"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.13"
@@ -110,6 +119,9 @@ projects[search404][version] = "1.9"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.13"
+
+projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = "3.0"
 
 projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
@@ -167,6 +179,9 @@ projects[tao][version] = "3.1"
 
 projects[rubik][location] = "http://code.developmentseed.org/fserver"
 projects[rubik][version] = "3.0-beta1"
+
+projects[mobile][type] = "theme"
+projects[mobile][version] = "1.1"
 
 projects[zen][type] = "theme"
 projects[zen][version] = "2.0"

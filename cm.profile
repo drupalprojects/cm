@@ -71,6 +71,7 @@ function cm_profile_modules() {
 
     'imagefield',
     'install_profile_api',
+    'lightbox2',
     'link',
     'mollom',
     'jquery_ui',
