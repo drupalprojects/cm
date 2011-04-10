@@ -21,6 +21,9 @@ projects[auto_nodetitle][version] = "1.2"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
+projects[better_formats][subdir] = "contrib"
+projects[better_formats][version] = "1.2"
+
 projects[boost][subdir] = "contrib"
 projects[boost][version] = "1.18"
 
@@ -109,7 +112,7 @@ projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-beta6"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "1.2"
+projects[rules][version] = "1.4"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.7"
