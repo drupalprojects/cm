@@ -160,19 +160,19 @@ projects[simpletest][version] = "2.10"
 projects[mm_defaults][type] = "module"
 projects[mm_defaults][download][type] = "git"
 projects[mm_defaults][download][url] = "git://github.com/minimalmedia/mm_defaults.git"
-projects[mm_defaults][download][branch] = "master"
+projects[mm_defaults][download][tag] = "v1.0"
 projects[mm_defaults][subdir] = "cm_features"
 
 projects[mm_events_calendar][type] = "module"
 projects[mm_events_calendar][download][type] = "git"
 projects[mm_events_calendar][download][url] = "git://github.com/minimalmedia/mm_events_calendar.git"
-projects[mm_events_calendar][download][branch] = "master"
+projects[mm_events_calendar][download][tag] = "v1.1"
 projects[mm_events_calendar][subdir] = "cm_features"
 
 projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.git"
-projects[mm_rotator][download][branch] = "master"
+projects[mm_rotator][download][tag] = "v1.0"
 projects[mm_rotator][subdir] = "cm_features"
 
 ; Themes
