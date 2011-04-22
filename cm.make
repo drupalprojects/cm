@@ -90,6 +90,9 @@ projects[mobile_tools][version] = "2.2"
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.13"
 
+projects[nodeblock][subdir] = "contrib"
+projects[nodeblock][version] = "1.4"
+
 projects[node_export][subdir] = "contrib"
 projects[node_export][version] = "2.21"
 
