@@ -29,11 +29,14 @@ function cm_profile_modules() {
     'date_popup',
     'date_timezone',
 
+    // modules below this line have no known dependency issues
+
     'admin_menu',
     'adminrole',
     'advanced_help',
     'auto_nodetitle',
     'backup_migrate',
+    'better_formats',
     //'boost',
 
     // calendar
@@ -78,6 +81,8 @@ function cm_profile_modules() {
     'mollom',
     'jquery_ui',
     'jquery_update',
+    'nice_menus',
+    'nodeblock',
 
     // node_export
     'node_export',
@@ -117,6 +122,7 @@ function cm_profile_modules() {
     'token_actions',
     'transliteration',
     'vertical_tabs',
+    'views_bulk_operations',
 
     'wysiwyg',
 
