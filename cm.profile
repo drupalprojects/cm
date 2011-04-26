@@ -62,8 +62,10 @@ function cm_profile_modules() {
     'ctools',
 
     'diff',
+    'exportables',
     'features',
     'filefield',
+    'filefield_sources',
     'globalredirect',
     'googleanalytics',
     'imageapi',
@@ -74,6 +76,9 @@ function cm_profile_modules() {
     'imagecache_ui',
 
     'imagefield',
+    'image_resize_filter',
+    'imce',
+    'imce_wysiwyg',
     'install_profile_api',
     'lightbox2',
     'link',
@@ -118,12 +123,12 @@ function cm_profile_modules() {
 
     'scheduler',
     'search404',
+    'strongarm',
     'token',
     'token_actions',
     'transliteration',
     'vertical_tabs',
     'views_bulk_operations',
-
     'wysiwyg',
 
     // xmlsitemap
