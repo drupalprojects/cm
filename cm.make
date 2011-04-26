@@ -48,11 +48,17 @@ projects[date][version] = "2.7"
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
 
+projects[exportables][subdir] = "contrib"
+projects[exportables][version] = "2.0-beta1"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
+
+projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.4"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3-alpha1"
@@ -68,6 +74,15 @@ projects[imagecache][version] = "2.0-beta10"
 
 projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.7"
+
+projects[image_resize_filter][subdir] = "contrib"
+projects[image_resize_filter][version] = "1.12"
+
+projects[imce][subdir] = "contrib"
+projects[imce][version] = "2.1"
+
+projects[imce_wysiwyg][subdir] = "contrib"
+projects[imce_wysiwyg][version] = "1.1"
 
 projects[install_profile_api][subdir] = "contrib"
 projects[install_profile_api][version] = "2.1"
@@ -126,6 +141,9 @@ projects[scheduler][version] = "1.7"
 projects[search404][subdir] = "contrib"
 projects[search404][version] = "1.9"
 
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = "2.0"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.13"
 
@@ -145,7 +163,8 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "2.3"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.3"
+projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-5.patch"
 
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.0-beta1"
@@ -204,7 +223,7 @@ projects[cm_theme][download][branch] = "master"
 
 ; CKEditor
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 ; jQuery UI
