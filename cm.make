@@ -233,10 +233,19 @@ projects[cm_theme][download][tag] = "v1.0"
 
 ; CKEditor
 libraries[ckeditor][download][type] = "get"
+
+; Wysiwyg profiles page will not save
 ;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.3/ckeditor_3.4.3.tar.gz"
-;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.4/ckeditor_3.5.4.tar.gz"
+
+; IMCE integration is broken
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
+
+; Fails to detect editor as installed
+;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.4/ckeditor_3.5.4.tar.gz"
+
+; Fails to detect editor as installed
 ;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6/ckeditor_3.6.tar.gz"
+
 libraries[ckeditor][directory_name] = "ckeditor"
 
 ; jQuery UI
