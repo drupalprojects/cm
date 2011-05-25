@@ -84,6 +84,9 @@ projects[imce][version] = "2.1"
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.1"
 
+projects[input_formats][subdir] = "contrib"
+projects[input_formats][version] = "1.0-beta6"
+
 projects[install_profile_api][subdir] = "contrib"
 projects[install_profile_api][version] = "2.1"
 
@@ -200,6 +203,12 @@ projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.
 projects[mm_rotator][download][tag] = "v1.0"
 projects[mm_rotator][subdir] = "cm_features"
 
+projects[mm_wysiwyg][type] = "module"
+projects[mm_wysiwyg][download][type] = "git"
+projects[mm_wysiwyg][download][url] = "git://github.com/minimalmedia/mm_wysiwyg.git"
+projects[mm_wysiwyg][download][tag] = "v1.0"
+projects[mm_wysiwyg][subdir] = "cm_features"
+
 ; Themes
 
 projects[tao][location] = "http://code.developmentseed.org/fserver"
@@ -223,7 +232,8 @@ projects[cm_theme][download][branch] = "master"
 
 ; CKEditor
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
+;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.3/ckeditor_3.5.3.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6/ckeditor_3.6.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 ; jQuery UI
