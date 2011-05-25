@@ -203,11 +203,11 @@ projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.
 projects[mm_rotator][download][tag] = "v1.0"
 projects[mm_rotator][subdir] = "cm_features"
 
-projects[mm_wysiwyg][type] = "module"
-projects[mm_wysiwyg][download][type] = "git"
-projects[mm_wysiwyg][download][url] = "git://github.com/minimalmedia/mm_wysiwyg.git"
-projects[mm_wysiwyg][download][tag] = "v1.0"
-projects[mm_wysiwyg][subdir] = "cm_features"
+;projects[mm_wysiwyg][type] = "module"
+;projects[mm_wysiwyg][download][type] = "git"
+;projects[mm_wysiwyg][download][url] = "git://github.com/minimalmedia/mm_wysiwyg.git"
+;projects[mm_wysiwyg][download][tag] = "v1.0"
+;projects[mm_wysiwyg][subdir] = "cm_features"
 
 ; Themes
 
