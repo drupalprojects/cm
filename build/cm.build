@@ -5,12 +5,11 @@ core = "6.x"
 
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.94/+download/pressflow-6.19.94.tar.gz"
+projects[pressflow][download][url] = "http://launchpadlibrarian.net/72484080/pressflow-6.22.102.tar.gz"
 
 ; Cm Platform
 
 projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
 projects[cm][download][url] = "git://github.com/davidtrainer/Cm.git"
-projects[cm][download][branch] = "master"
-;projects[cm][download][tag] = ""
+projects[cm][download][tag] = "v0.15"
