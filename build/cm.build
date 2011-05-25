@@ -11,5 +11,5 @@ projects[pressflow][download][url] = "http://launchpadlibrarian.net/72484080/pre
 
 projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
-projects[cm][download][url] = "git://github.com/davidtrainer/Cm.git"
+projects[cm][download][url] = "git://github.com/minimalmedia/Cm.git"
 projects[cm][download][tag] = "v0.15"
