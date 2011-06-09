@@ -106,6 +106,12 @@ projects[devel][version] = "1.0"
 
 ; Themes
 
+projects[tao][type] = "theme"
+projects[tao][version] = "3.0-beta3"
+
+projects[rubik][type] = "theme"
+projects[rubik][version] = "4.0-beta5"
+
 projects[zen][type] = "theme"
 projects[zen][version] = "3.1"
 
