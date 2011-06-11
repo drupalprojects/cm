@@ -2,9 +2,13 @@ name = Cm
 description = Cm is a general purpose content management platform.
 core = 7.x
 
+; Core modules
+
 dependencies[] = block
+dependencies[] = blog
 dependencies[] = color
 dependencies[] = comment
+dependencies[] = contact
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = help
@@ -23,5 +27,56 @@ dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
+
+; Contrib modules
+
+dependencies[] = actions_permissions
+dependencies[] = admin_menu
+dependencies[] = admin_views
+dependencies[] = bulk_export
+dependencies[] = ctools
+dependencies[] = ctools_access_ruleset
+dependencies[] = page_manager
+dependencies[] = stylizer
+dependencies[] = views_content
+dependencies[] = context
+dependencies[] = context_layouts
+dependencies[] = context_ui
+dependencies[] = openid
+dependencies[] = features
+dependencies[] = filefield_sources
+dependencies[] = link
+dependencies[] = node_reference
+dependencies[] = references
+dependencies[] = user_reference
+dependencies[] = advanced_help
+dependencies[] = auto_nodetitle
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = globalredirect
+dependencies[] = logintoboggan
+dependencies[] = logintoboggan_rules
+dependencies[] = nodeblock
+dependencies[] = page_title
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = scheduler
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = panels
+dependencies[] = panels_node
+dependencies[] = rules
+dependencies[] = rules_scheduler
+dependencies[] = rules_admin
+dependencies[] = googleanalytics
+dependencies[] = views_bulk_operations
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
 
 files[] = cm.profile
