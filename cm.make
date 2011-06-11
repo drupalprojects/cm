@@ -90,6 +90,9 @@ projects[token][version] = "1.0-beta2"
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0-alpha1"
 
+projects[views][subdir] = "contrib"
+projects[views][version] = "3.0-beta3"
+
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.0-alpha2"
 
