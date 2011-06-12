@@ -14,6 +14,9 @@ projects[advanced_help][version] = "1.0-beta1"
 projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.0"
 
+projects[cck][subdir] = "contrib"
+projects[cck][version] = "2.x-dev"
+
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta1"
 
@@ -28,6 +31,9 @@ projects[entity][version] = "1.0-beta8"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta2"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.0"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
@@ -47,6 +53,15 @@ projects[link][version] = "1.0-alpha3"
 
 projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "1.0-beta4"
+
+projects[media_browser_plus][subdir] = "contrib"
+projects[media_browser_plus][version] = "1.0-beta2"
+
+projects[media_gallery][subdir] = "contrib"
+projects[media_gallery][version] = "1.0-beta5"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.0"
