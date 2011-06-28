@@ -272,3 +272,6 @@ libraries[codemirror][directory_name] = "codemirror"
 
 ; Zen conflicts with Context module
 projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
+
+; Nice Mega Dropdowns
+projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
