@@ -39,6 +39,9 @@ projects[cck][version] = "2.9"
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0"
 
+projects[cpn][subdir] = "contrib"
+projects[cpn][version] = "1.1"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.7"
 
@@ -102,6 +105,9 @@ projects[lightbox2][version] = "1.11"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "2.0-beta1"
+
 projects[mobile_tools][subdir] = "contrib"
 projects[mobile_tools][version] = "2.2"
 
@@ -143,6 +149,9 @@ projects[scheduler][version] = "1.7"
 
 projects[search404][subdir] = "contrib"
 projects[search404][version] = "1.9"
+
+projects[site_verify][subdir] = "contrib"
+projects[site_verify][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -254,6 +263,12 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
+; CodeMirror
+libraries[codemirror][download][type] = "get"
+libraries[codemirror][url] = "http://codemirror.net/codemirror-2.1.zip"
+libraries[codemirror][directory_name] = "codemirror"
+
 ; Patches
 
+; Zen conflicts with Context module
 projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
