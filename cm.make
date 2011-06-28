@@ -265,7 +265,7 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 ; CodeMirror
 libraries[codemirror][download][type] = "get"
-libraries[codemirror][url] = "http://codemirror.net/codemirror-2.1.zip"
+libraries[codemirror][download][url] = "http://codemirror.net/codemirror-2.1.zip"
 libraries[codemirror][directory_name] = "codemirror"
 
 ; Patches
