@@ -23,6 +23,9 @@ projects[colorbox][version] = "1.0-beta4"
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta1"
 
+projects[cpn][subdir] = "contrib"
+projects[cpn][version] = "1.3"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-beta1"
 
@@ -104,6 +107,9 @@ projects[scheduler][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta2"
+
+projects[styles][subdir] = "contrib"
+projects[styles][version] = "2.0-alpha8"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta2"
