@@ -14,6 +14,9 @@ projects[advanced_help][version] = "1.0-beta1"
 projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.0"
 
+projects[backup_migrate][subdir] = "contrib"
+projects[backup_migrate][version] = "2.1"
+
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.x-dev"
 
