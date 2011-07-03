@@ -155,3 +155,9 @@ projects[zen][version] = "3.1"
 ;libraries[arc][download][url] = http://code.semsol.org/source/arc.tar.gz
 ;libraries[arc][destination] = modules/rdf/vendor
 ;libraries[arc][directory_name] = arc
+
+; Colorbox
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][destination] = "libraries"
+libraries[colorbox][directory_name] = "colorbox"
