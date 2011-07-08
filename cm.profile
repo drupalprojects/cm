@@ -12,7 +12,7 @@ function cm_profile_modules() {
     'block', 'filter', 'node', 'system', 'user',
 
     // Enable optional core modules next.
-    'dblog', 'contact', 'menu', 'path', 'search', 'statistics', 'taxonomy', 'upload',
+    'dblog', 'contact', 'menu', 'openid', 'path', 'search', 'statistics', 'taxonomy', 'update', 'upload',
 
     // Then, enable any contributed modules here.
     
@@ -56,6 +56,7 @@ function cm_profile_modules() {
     'context',
     'context_layouts',
     'context_ui',
+    'cpn',
 
     // ctools
     'bulk_export',
@@ -82,11 +83,13 @@ function cm_profile_modules() {
     'install_profile_api',
     'lightbox2',
     'link',
+    'menu_attributes',
     'mobile_tools',
     'mollom',
     'jquery_ui',
     'jquery_update',
     'nice_menus',
+    'nice_mega_dropdowns',
     'nodeblock',
 
     // node_export
@@ -123,6 +126,7 @@ function cm_profile_modules() {
 
     'scheduler',
     'search404',
+    'site_verify',
     'strongarm',
     'token',
     'token_actions',
