@@ -99,6 +99,9 @@ projects[jquery_ui][version] = "1.4"
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "1.1"
 
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "1.0"
+
 projects[lightbox2][subdir] = "contrib"
 projects[lightbox2][version] = "1.11"
 
@@ -275,6 +278,12 @@ projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-confl
 
 ; Input Formats causes duplicate entry sql errors: http://drupal.org/node/991344
 projects[input_formats][patch][] = "http://drupal.org/files/issues/input_formats-duplicates.patch"
+
+; Libraries API: Make paths available for scripts: http://drupal.org/node/1214056
+projects[libraries][patch][] = "http://drupal.org/files/issues/libraries-js-settings.patch"
+
+; cpn: Support Libraries API: http://drupal.org/node/1214062
+projects[cpn][patch][] = "http://drupal.org/files/issues/cpn-libraries.patch"
 
 ; Nice Mega Dropdowns
 projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
