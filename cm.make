@@ -273,5 +273,8 @@ libraries[codemirror][directory_name] = "codemirror"
 ; Zen conflicts with Context module
 projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-conflict.patch"
 
+; Input Formats causes duplicate entry sql errors: http://drupal.org/node/991344
+projects[input_formats][patch][] = "http://drupal.org/files/issues/input_formats-duplicates.patch"
+
 ; Nice Mega Dropdowns
 projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
