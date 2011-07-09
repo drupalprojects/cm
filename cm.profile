@@ -80,6 +80,7 @@ function cm_profile_modules() {
     'image_resize_filter',
     'imce',
     'imce_wysiwyg',
+    'input_formats',
     'install_profile_api',
     'lightbox2',
     'link',
@@ -152,6 +153,9 @@ function cm_profile_modules() {
     
     // rotator
     'mm_rotator',
+
+    // wysiwyg
+    'mm_wysiwyg',
   );
 }
 
