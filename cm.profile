@@ -252,6 +252,10 @@ function _cm_modify_settings() {
   db_query("INSERT INTO {wysiwyg} (format, editor) " .
     "VALUES (%d, '%s')",
     2, 'ckeditor');
+
+  // Enable code per node for Pages
+  variable_set('cpn_css_page', 1);
+  variable_set('cpn_js_page', 1);
 }
 
 /**
