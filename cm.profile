@@ -85,7 +85,7 @@ function cm_profile_modules() {
     'lightbox2',
     'link',
     'menu_attributes',
-    'mobile_tools',
+    // 'mobile_tools', execute() on a non-object line 175 http://drupal.org/node/1118108
     'mollom',
     'jquery_ui',
     'jquery_update',
