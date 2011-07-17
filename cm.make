@@ -279,11 +279,8 @@ projects[zen][patch][] = "http://drupal.org/files/issues/634552-63-context-confl
 ; Input Formats causes duplicate entry sql errors: http://drupal.org/node/991344
 projects[input_formats][patch][] = "http://drupal.org/files/issues/input_formats-duplicates.patch"
 
-; Libraries API: Make paths available for scripts: http://drupal.org/node/1214056
-projects[libraries][patch][] = "http://drupal.org/files/issues/libraries-js-settings.patch"
-
 ; cpn: Support Libraries API: http://drupal.org/node/1214062
-projects[cpn][patch][] = "http://drupal.org/files/issues/cpn-libraries.patch"
+; projects[cpn][patch][] = "http://drupal.org/files/issues/cpn-libraries.patch"
 
 ; Nice Mega Dropdowns
-projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
+; projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
