@@ -283,4 +283,4 @@ projects[input_formats][patch][] = "http://drupal.org/files/issues/input_formats
 ; projects[cpn][patch][] = "http://drupal.org/files/issues/cpn-libraries.patch"
 
 ; Nice Mega Dropdowns
-; projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
+projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
