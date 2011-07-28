@@ -148,7 +148,7 @@ projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-beta6"
 
 projects[robotstxt][subdir] = "contrib"
-projects[robotstxt][version] = "1.4"
+projects[robotstxt][version] = "1.2"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "1.4"
