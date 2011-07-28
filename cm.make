@@ -12,6 +12,9 @@ projects[admin_menu][version] = "1.8"
 projects[adminrole][subdir] = "contrib"
 projects[adminrole][version] = "1.3"
 
+projects[advagg][subdir] = "contrib"
+projects[advagg][version] = "1.4"
+
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
 
@@ -143,6 +146,9 @@ projects[pathauto][version] = "1.3"
 
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-beta6"
+
+projects[robotstxt][subdir] = "contrib"
+projects[robotstxt][version] = "1.4"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "1.4"
