@@ -206,7 +206,7 @@ projects[simpletest][version] = "2.10"
 projects[mm_defaults][type] = "module"
 projects[mm_defaults][download][type] = "git"
 projects[mm_defaults][download][url] = "git://github.com/minimalmedia/mm_defaults.git"
-projects[mm_defaults][download][tag] = "v1.1"
+projects[mm_defaults][download][tag] = "v1.2"
 projects[mm_defaults][subdir] = "cm_features"
 
 projects[mm_events_calendar][type] = "module"
