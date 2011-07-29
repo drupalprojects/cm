@@ -33,6 +33,8 @@ function cm_profile_modules() {
 
     'admin_menu',
     'adminrole',
+    'advagg',
+    'advagg_bundler',
     'advanced_help',
     'auto_nodetitle',
     'backup_migrate',
