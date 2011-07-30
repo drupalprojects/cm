@@ -120,7 +120,6 @@ function cm_profile_modules() {
 
     //'path_redirect', causing problems
     'pathauto',
-    'robotstxt',
   
     //rules - has been interfering with Aegir
     //'rules_admin',
@@ -194,6 +193,11 @@ function cm_profile_tasks(&$task, $url) {
   _cm_modify_menus();
   _cm_set_permissions();
 */
+
+  // RobotsTxt complains about Clean URLs during install: http://drupal.org/node/831522
+  include_once('includes/install.inc');
+  module_rebuild_cache();
+  drupal_install_modules(array('robotstxt'));
 }
 
 
