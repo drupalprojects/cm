@@ -16,6 +16,10 @@ function cm_profile_modules() {
 
     // Then, enable any contributed modules here.
     
+    // ctools
+    'bulk_export',
+    'ctools',
+
     // views
     'views',
     'views_export',
@@ -59,11 +63,6 @@ function cm_profile_modules() {
     'context_layouts',
     'context_ui',
     'cpn',
-
-    // ctools
-    'bulk_export',
-    'ctools',
-
     'diff',
     'exportables',
     'features',
