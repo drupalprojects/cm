@@ -12,7 +12,7 @@ function cm_profile_modules() {
     'block', 'filter', 'node', 'system', 'user',
 
     // Enable optional core modules next.
-    'dblog', 'contact', 'menu', 'openid', 'path', 'search', 'statistics', 'taxonomy', 'update', 'upload',
+    'dblog', 'contact', 'menu', 'openid', 'path', 'search', 'statistics', 'taxonomy', 'upload',
 
     // Then, enable any contributed modules here.
     
@@ -230,6 +230,9 @@ function _cm_set_content_types() {
 function _cm_modify_settings() {
   // Basic Drupal settings.
   variable_set('site_frontpage', 'content/welcome');
+
+  // Suppress errors
+  variable_set('error_level', '0');
 
   // Set the default themes.
   install_default_theme('cm_theme');
