@@ -118,7 +118,7 @@ projects[mobile_tools][subdir] = "contrib"
 projects[mobile_tools][version] = "2.2"
 
 projects[mollom][subdir] = "contrib"
-projects[mollom][version] = "1.13"
+projects[mollom][version] = "1.16"
 
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.1"
