@@ -27,9 +27,6 @@ projects[backup_migrate][version] = "2.2"
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.2"
 
-projects[boost][subdir] = "contrib"
-projects[boost][version] = "1.18"
-
 projects[cache_actions][subdir] = "contrib"
 projects[cache_actions][version] = "2.0-beta1"
 
