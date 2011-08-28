@@ -67,7 +67,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3-alpha1"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.2"
+projects[google_analytics][version] = "3.3"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.8"
