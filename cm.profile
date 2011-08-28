@@ -170,6 +170,7 @@ function cm_profile_details() {
   return array(
     'name' => 'Cm',
     'description' => 'A content management system customized by Minimal Media.',
+    'old_short_name' => 'default',
   );
 }
 
