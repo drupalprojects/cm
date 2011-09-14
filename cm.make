@@ -239,10 +239,10 @@ projects[mobile][version] = "1.1"
 projects[zen][type] = "theme"
 projects[zen][version] = "2.0"
 
-projects[cm_theme][type] = "theme"
-projects[cm_theme][download][type] = "git"
-projects[cm_theme][download][url] = "git://github.com/minimalmedia/cm_theme.git"
-projects[cm_theme][download][tag] = "v1.0"
+;projects[cm_theme][type] = "theme"
+;projects[cm_theme][download][type] = "git"
+;projects[cm_theme][download][url] = "git://github.com/minimalmedia/cm_theme.git"
+;projects[cm_theme][download][tag] = "v1.0"
 
 ; Libraries
 
