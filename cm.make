@@ -227,11 +227,11 @@ projects[mm_wysiwyg][subdir] = "cm_features"
 
 ; Themes
 
-projects[tao][location] = "http://code.developmentseed.org/fserver"
-projects[tao][version] = "3.1"
+projects[tao][type] = "theme"
+projects[tao][version] = "3.2"
 
-projects[rubik][location] = "http://code.developmentseed.org/fserver"
-projects[rubik][version] = "3.0-beta1"
+projects[rubik][type] = "theme"
+projects[rubik][version] = "3.0-beta2"
 
 projects[mobile][type] = "theme"
 projects[mobile][version] = "1.1"
