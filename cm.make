@@ -136,10 +136,10 @@ projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.3"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.7"
+projects[panels][version] = "3.9"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.3"
+projects[pathauto][version] = "1.5"
 
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-beta6"
@@ -175,7 +175,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations[version] = "1.10"
+projects[views_bulk_operations[version] = "1.11"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "2.3"
