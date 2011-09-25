@@ -43,7 +43,7 @@ projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.1"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
