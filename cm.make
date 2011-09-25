@@ -180,6 +180,9 @@ projects[views_bulk_operations[version] = "1.10"
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "2.3"
 
+projects[webform][subdir] = "contrib"
+projects[webform][version] = "3.14"
+
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.3"
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-5.patch"

@@ -135,6 +135,7 @@ function cm_profile_modules() {
     'transliteration',
     'vertical_tabs',
     'views_bulk_operations',
+    'webform',
     'wysiwyg',
 
     // xmlsitemap
