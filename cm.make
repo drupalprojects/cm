@@ -5,7 +5,7 @@ projects[drupal][type] = "core"
 projects[drupal][version] = "7.8"
 
 ; http://drupal.org/node/1220602
-projects[drupal][patches][] = http://drupal.org/files/issues/forum_upgrade.patch
+projects[drupal][patches][] = "http://drupal.org/files/issues/forum_upgrade.patch"
 
 ; Contrib Projects
 
@@ -28,7 +28,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.0-beta4"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta1"
+projects[context][version] = "3.0-beta2"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.3"
