@@ -60,6 +60,9 @@ projects[globalredirect][version] = "1.3"
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
 
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "1.0"
+
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0-alpha3"
 
@@ -162,6 +165,6 @@ projects[zen][version] = "3.1"
 
 ; Colorbox
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
