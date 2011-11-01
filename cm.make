@@ -5,7 +5,7 @@ projects[drupal][type] = "core"
 projects[drupal][version] = "7.8"
 
 ; http://drupal.org/node/1220602
-projects[drupal][patches][] = "http://drupal.org/files/issues/forum_upgrade.patch"
+; projects[drupal][patches][] = "http://drupal.org/files/issues/forum_upgrade.patch"
 
 ; Contrib Projects
 
