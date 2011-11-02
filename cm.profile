@@ -276,6 +276,13 @@ function _cm_modify_settings() {
 function _cm_save_nodes() {
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/features_overview.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/about_us.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/blocks_context.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/contact_form.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/creating_content.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/taxonomy.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/upload_logo.node.php');
 }
 
 /**
