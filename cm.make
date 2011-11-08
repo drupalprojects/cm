@@ -1,7 +1,7 @@
 api = 2
 core = "6.x"
 
-; Contrib projects 
+; Contrib projects
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0"
@@ -172,7 +172,7 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.12"
+projects[views][version] = "2.14"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations[version] = "1.11"
@@ -193,7 +193,7 @@ projects[xmlsitemap][version] = "2.0-beta1"
 ; Development Modules
 
 projects[devel][subdir] = "development"
-projects[devel][version] = "1.22"
+projects[devel][version] = "1.26"
 
 projects[coder][subdir] = "development"
 projects[coder][version] = "2.0-beta1"
