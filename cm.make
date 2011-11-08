@@ -218,7 +218,7 @@ projects[mm_events_calendar][subdir] = "cm_features"
 projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.git"
-projects[mm_rotator][download][tag] = "v1.0"
+projects[mm_rotator][download][tag] = "v1.1"
 projects[mm_rotator][subdir] = "cm_features"
 
 projects[mm_wysiwyg][type] = "module"
