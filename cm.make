@@ -290,3 +290,6 @@ projects[input_formats][patch][] = "http://drupal.org/files/issues/input_formats
 
 ; Nice Mega Dropdowns
 projects[nice_menus][patch][] = "http://drupal.org/files/issues/nice_mega_dropdowns_0.patch"
+
+; Re-add Create Content link to admin menu: http://drupal.org/node/502500
+projects[admin_menu][patch][] = "http://drupal.org/files/issues/admin_menu-6.x-3.x-1276525395.patch"
