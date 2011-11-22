@@ -144,6 +144,9 @@ projects[pathauto][version] = "1.5"
 projects[path_redirect][subdir] = "contrib"
 projects[path_redirect][version] = "1.0-beta6"
 
+projects[publishcontent][subdir] = "contrib"
+projects[publishcontent][version] = "1.4"
+
 projects[robotstxt][subdir] = "contrib"
 projects[robotstxt][version] = "1.2"
 
@@ -245,7 +248,7 @@ projects[zen][version] = "2.0"
 projects[cm_theme][type] = "theme"
 projects[cm_theme][download][type] = "git"
 projects[cm_theme][download][url] = "git://github.com/minimalmedia/cm_theme.git"
-projects[cm_theme][download][tag] = "v1.0"
+projects[cm_theme][download][tag] = "v1.1"
 
 ; Libraries
 
