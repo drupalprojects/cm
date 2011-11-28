@@ -218,6 +218,12 @@ projects[mm_events_calendar][download][url] = "git://github.com/minimalmedia/mm_
 projects[mm_events_calendar][download][tag] = "v1.1"
 projects[mm_events_calendar][subdir] = "cm_features"
 
+projects[mm_image][type] = "module"
+projects[mm_image][download][type] = "git"
+projects[mm_image][download][url] = "git://github.com/minimalmedia/mm_image.git"
+projects[mm_image][download][tag] = "v1.0"
+projects[mm_image][subdir] = "cm_features"
+
 projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.git"
