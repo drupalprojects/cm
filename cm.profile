@@ -237,7 +237,8 @@ function _cm_set_content_types() {
  */
 function _cm_modify_settings() {
   // Basic Drupal settings.
-  variable_set('site_frontpage', 'content/welcome');
+  variable_set('site_frontpage', 'content/frontpage');
+  variable_set('site_slogan', 'A Web content management system for institutions of all shapes and sizes');
 
   // Suppress errors
   variable_set('error_level', '0');
