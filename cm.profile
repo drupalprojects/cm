@@ -147,16 +147,19 @@ function cm_profile_modules() {
     'xmlsitemap_taxonomy',
     
     // Custom features
-    // defaults
+    // Defaults
     'mm_defaults',
     
-    // events calendar
+    // Events Calendar
     'mm_events_calendar',
-    
-    // rotator
+  
+    // Image
+    'mm_image',
+  
+    // Rotator
     'mm_rotator',
 
-    // wysiwyg
+    // WYSIWYG
     'mm_wysiwyg',
   );
 }
