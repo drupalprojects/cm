@@ -119,7 +119,9 @@ function cm_profile_modules() {
 
     //'path_redirect', causing problems
     'pathauto',
-  
+
+    'publishcontent',
+
     //rules - has been interfering with Aegir
     //'rules_admin',
     //'rules',
