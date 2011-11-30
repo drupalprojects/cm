@@ -274,15 +274,33 @@ function _cm_modify_settings() {
  * @todo re-export these nodes
  */
 function _cm_save_nodes() {
-  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.node.php');
-  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/features_overview.node.php');
+  // Page nodes.
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/about_us.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/blocks_context.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/contact_form.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/creating_content.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/features_overview.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/about_us.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/taxonomy.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/upload_logo.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.php');
+
+  // Image nodes.
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/image_robot_0.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/image_robot_1.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/image_robot_2.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/image_robot_3.node.php');
+
+  // Image Gallery nodes.
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/image_gallery_robot_gallery.node.php');
+
+  // Panel nodes.
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/panel_frontpage.node.php');
+
+  // Rotator Item nodes.
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator_item_rive_right_in.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator_item_get_started.node.php');
 }
 
 /**
