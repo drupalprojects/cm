@@ -305,7 +305,7 @@ function _cm_save_nodes() {
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/panel_frontpage.node.php');
 
   // Rotator Item nodes.
-  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator_item_rive_right_in.node.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator_item_dive_right_in.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator_item_get_started.node.php');
 }
 
