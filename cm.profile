@@ -291,7 +291,7 @@ function _cm_save_nodes() {
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/rotator.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/taxonomy.node.php');
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/upload_logo.node.php');
-  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.php');
+  install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/welcome.node.php');
 
   // Image nodes.
   install_node_export_import_from_file(drupal_get_path('profile', 'cm') . '/content/image_robot_0.node.php');
