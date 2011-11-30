@@ -191,6 +191,7 @@ function cm_profile_tasks(&$task, $url) {
   _cm_modify_settings();
   _cm_save_nodes();
   _cm_modify_blocks();
+  _cm_create_rotator();
 
 /*
   _cm_set_vocabularies();
@@ -318,4 +319,36 @@ function _cm_modify_blocks() {
 
   // Enable user login
   install_set_block('user', 0, 'cm_theme', 'sidebar_second');
+}
+
+/**
+ * Create the Rotator nodequeue.
+ */
+function _cm_create_rotator() {
+  $rotator = new stdClass;
+  $rotator->title = 'Rotator';
+  $rotator->size = '5';
+  $rotator->reverse = 0;
+  $rotator->link = 'Add to Rotator';
+  $rotator->link_remove = 'Remove from Rotator';
+  $rotator->roles = array(
+    0 => 3,
+    1 => 4,
+  );
+  $rotator->types = array(
+    0 => 'rotator_item',
+  );
+  $rotator->show_in_links = 1;
+  $rotator->show_in_tab = 1;
+  $rotator->show_in_ui = 1;
+  $rotator->reference = 0;
+  $rotator->add_subqueue = array(
+    1 => 'Rotator',
+  );
+
+  $qid = nodequeue_save($rotator);
+  
+  $rotator = nodequeue_load($qid);
+  $subqueues = nodequeue_load_subqueues_by_queue($queue->qid);
+  nodequeue_subqueue_add($rotator, &$subqueues[1], 16);
 }
