@@ -77,13 +77,16 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.0-beta4"
+projects[media][version] = "1.0-rc2"
 
 projects[media_browser_plus][subdir] = "contrib"
 projects[media_browser_plus][version] = "1.0-beta2"
 
 projects[media_gallery][subdir] = "contrib"
 projects[media_gallery][version] = "1.0-beta5"
+
+projects[metatag][subdir] = "contrib"
+projects[metatag][version] = "1.0-alpha4"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.0"
@@ -105,6 +108,9 @@ projects[panels][version] = "3.0-alpha3"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-beta1"
+
+projects[plupload][subdir] = "contrib"
+projects[plupload][version] = "1.0-beta3"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta3"
