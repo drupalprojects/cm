@@ -31,6 +31,7 @@ dependencies[] = rdf
 ; Contrib modules
 
 dependencies[] = actions_permissions
+dependencies[] = advanced_help
 dependencies[] = admin_menu
 dependencies[] = admin_views
 dependencies[] = bulk_export
@@ -83,3 +84,11 @@ dependencies[] = xmlsitemap_node
 dependencies[] = xmlsitemap_taxonomy
 
 files[] = cm.profile
+
+; Users
+users[admin][uid]    = 1
+users[admin][name]   = admin
+users[admin][mail]   = admin@admin
+users[admin][roles]  = administrator
+users[admin][status] = 1
+

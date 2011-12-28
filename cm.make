@@ -13,7 +13,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc1"
 
 projects[advanced_help][subdir] = "contrib"
-projects[advanced_help][version] = "1.0-beta1"
+projects[advanced_help][version] = "1.0"
 
 projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.0"
@@ -153,6 +153,15 @@ projects[zenophile][version] = "1.0"
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.0"
 
+
+; Features
+
+projects[mm_defaults][type] = "module"
+projects[mm_defaults][download][type] = "git"
+projects[mm_defaults][download][url] = "git://github.com/minimalmedia/mm_defaults.git"
+projects[mm_defaults][download][tag] = "7.x-dev"
+projects[mm_defaults][subdir] = "cm_features"
+
 ; Themes
 
 projects[tao][type] = "theme"
@@ -163,6 +172,11 @@ projects[rubik][version] = "4.0-beta5"
 
 projects[zen][type] = "theme"
 projects[zen][version] = "3.1"
+
+projects[cm_theme][type] = "theme"
+projects[cm_theme][download][type] = "git"
+projects[cm_theme][download][url] = "git://github.com/minimalmedia/cm_theme.git"
+projects[cm_theme][download][tag] = "7.x-dev"
 
 ; Libraries
 
