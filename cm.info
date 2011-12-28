@@ -46,12 +46,14 @@ dependencies[] = context_ui
 dependencies[] = openid
 dependencies[] = features
 dependencies[] = filefield_sources
+dependencies[] = libraries
 dependencies[] = link
 dependencies[] = node_reference
 dependencies[] = references
 dependencies[] = user_reference
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
+dependencies[] = defaultcontent
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
@@ -83,6 +85,10 @@ dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
 dependencies[] = xmlsitemap_taxonomy
 
+; Features
+
+dependencies[] = mm_defaults
+
 files[] = cm.profile
 
 ; Users
@@ -91,4 +97,9 @@ users[admin][name]   = admin
 users[admin][mail]   = admin@admin
 users[admin][roles]  = administrator
 users[admin][status] = 1
+
+; Libraries
+
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz
 
