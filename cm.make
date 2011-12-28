@@ -159,7 +159,7 @@ projects[devel][version] = "1.0"
 projects[mm_defaults][type] = "module"
 projects[mm_defaults][download][type] = "git"
 projects[mm_defaults][download][url] = "git://github.com/minimalmedia/mm_defaults.git"
-projects[mm_defaults][download][tag] = "7.x-dev"
+projects[mm_defaults][download][branch] = "7.x-dev"
 projects[mm_defaults][subdir] = "cm_features"
 
 ; Themes
@@ -176,7 +176,7 @@ projects[zen][version] = "3.1"
 projects[cm_theme][type] = "theme"
 projects[cm_theme][download][type] = "git"
 projects[cm_theme][download][url] = "git://github.com/minimalmedia/cm_theme.git"
-projects[cm_theme][download][tag] = "7.x-dev"
+projects[cm_theme][download][branch] = "7.x-dev"
 
 ; Libraries
 
