@@ -97,6 +97,8 @@ dependencies[] = xmlsitemap_taxonomy
 ; Features
 
 dependencies[] = mm_defaults
+dependencies[] = mm_events_calendar
+dependencies[] = mm_image
 
 files[] = cm.profile
 

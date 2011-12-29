@@ -168,6 +168,18 @@ projects[mm_defaults][download][url] = "git://github.com/minimalmedia/mm_default
 projects[mm_defaults][download][branch] = "7.x-dev"
 projects[mm_defaults][subdir] = "cm_features"
 
+projects[mm_events_calendar][type] = "module"
+projects[mm_events_calendar][download][type] = "git"
+projects[mm_events_calendar][download][url] = "git://github.com/minimalmedia/mm_events_calendar.git"
+projects[mm_events_calendar][download][branch] = "7.x-dev"
+projects[mm_events_calendar][subdir] = "cm_features"
+
+projects[mm_image][type] = "module"
+projects[mm_image][download][type] = "git"
+projects[mm_image][download][url] = "git://github.com/minimalmedia/mm_image.git"
+projects[mm_image][download][branch] = "7.x-dev"
+projects[mm_image][subdir] = "cm_features"
+
 ; Themes
 
 projects[tao][type] = "theme"
