@@ -22,8 +22,6 @@ dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = toolbar
-dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
@@ -32,7 +30,7 @@ dependencies[] = rdf
 
 dependencies[] = actions_permissions
 dependencies[] = advanced_help
-dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = bulk_export
 dependencies[] = ctools
