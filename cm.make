@@ -142,6 +142,9 @@ projects[views][version] = "3.0-beta3"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.0-alpha2"
 
+projects[webform][subdir] = "contrib"
+projects[webform][version] = "3.15"
+
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.0-beta2"
 

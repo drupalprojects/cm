@@ -86,6 +86,7 @@ dependencies[] = views
 dependencies[] = views_export
 dependencies[] = views_ui
 dependencies[] = views_bulk_operations
+dependencies[] = webform
 dependencies[] = xmlsitemap
 dependencies[] = xmlsitemap_custom
 dependencies[] = xmlsitemap_engines
