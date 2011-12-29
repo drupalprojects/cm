@@ -51,9 +51,17 @@ dependencies[] = link
 dependencies[] = node_reference
 dependencies[] = references
 dependencies[] = user_reference
+
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
+dependencies[] = calendar
 dependencies[] = defaultcontent
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_repeat
+dependencies[] = date_tools
+dependencies[] = date_views
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
