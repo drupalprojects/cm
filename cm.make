@@ -207,6 +207,13 @@ projects[cm_theme][download][branch] = "7.x-dev"
 ;libraries[arc][destination] = modules/rdf/vendor
 ;libraries[arc][directory_name] = arc
 
+; CKEditor
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz"
+libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][directory_name] = "ckeditor"
+
 ; Colorbox
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
