@@ -57,6 +57,9 @@ projects[features][version] = "1.0-beta2"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.0"
 
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-unstable2"
+
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
 
@@ -80,13 +83,13 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.0-rc2"
+projects[media][version] = "2.0-unstable2"
 
 projects[media_browser_plus][subdir] = "contrib"
-projects[media_browser_plus][version] = "1.0-beta2"
+projects[media_browser_plus][version] = "1.0-beta3"
 
 projects[media_gallery][subdir] = "contrib"
-projects[media_gallery][version] = "1.0-beta5"
+projects[media_gallery][version] = "1.0-beta7"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha4"
