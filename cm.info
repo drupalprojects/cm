@@ -53,6 +53,7 @@ dependencies[] = user_reference
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
 dependencies[] = calendar
+dependencies[] = cpn
 dependencies[] = defaultcontent
 dependencies[] = date
 dependencies[] = date_api
