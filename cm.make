@@ -104,7 +104,7 @@ projects[nodeblock][version] = "1.0"
 ;projects[opencalais][subdir] = "contrib"
 
 projects[page_title][subdir] = "contrib"
-projects[page_title][version] = "2.4-beta1"
+projects[page_title][version] = "2.5"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.0-alpha3"
