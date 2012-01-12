@@ -32,6 +32,7 @@ function cm_setup_wysiwyg() {
     'language' => 'en',
     'buttons' => array(
       'default' => array(
+        'Source' => 1,
         'Bold' => 1,
         'Italic' => 1,
         'Underline' => 1,
