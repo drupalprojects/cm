@@ -65,6 +65,7 @@ dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = globalredirect
+dependencies[] = imce
 dependencies[] = logintoboggan
 dependencies[] = logintoboggan_rules
 dependencies[] = nodeblock
