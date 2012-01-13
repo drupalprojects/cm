@@ -104,30 +104,19 @@ function cm_setup_wysiwyg() {
 }
 
 function cm_create_taxonomy_terms() {
-  $terms = array();
+  // _cm_create_taxonomy_term($vid, $name, $tid)
 
-  $terms[] = array(
-    'vid' => 1,
-    'name' => 'Sample Content',
-  );
+  _cm_create_taxonomy_term(1, 'Sample Content', 1);
+  _cm_create_taxonomy_term(1, 'Documentation', 2);
+  _cm_create_taxonomy_term(1, 'Getting Started', 3);
+  _cm_create_taxonomy_term(1, 'Customization', 4);
+}
 
-  $terms[] = array(
-    'vid' => 2,
-    'name' => 'Documentation',
-  );
-
-  $terms[] = array(
-    'vid' => 3,
-    'name' => 'Getting Started',
-  );
-
-  $terms[] = array(
-    'vid' => 4,
-    'name' => 'Customization',
-  );
-
-  foreach ($terms as $term) {
-    taxonomy_term_save($term);
-  }
+_cm_create_taxonomy_term($vid, $name, $tid) {
+  $term = new stdClass();
+  $term->name = $name;
+  $term->vid = $vid;
+  taxonomy_term_save($term);
+  return $term->tid;
 }
 
