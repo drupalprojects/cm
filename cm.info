@@ -104,6 +104,7 @@ dependencies[] = mm_image
 files[] = cm.profile
 
 ; Users
+
 users[admin][uid]    = 1
 users[admin][name]   = admin
 users[admin][mail]   = admin@admin

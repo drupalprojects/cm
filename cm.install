@@ -18,6 +18,8 @@ function cm_install() {
   if (module_exists('wysiwyg')) {
     cm_setup_wysiwyg();
   }
+
+  cm_create_taxonomy_terms();
 }
 
 /**
@@ -101,4 +103,31 @@ function cm_setup_wysiwyg() {
   ->execute();
 }
 
+function cm_create_taxonomy_terms() {
+  $terms = array();
+
+  $terms[] = array(
+    'vid' => 1,
+    'name' => 'Sample Content',
+  );
+
+  $terms[] = array(
+    'vid' => 2,
+    'name' => 'Documentation',
+  );
+
+  $terms[] = array(
+    'vid' => 3,
+    'name' => 'Getting Started',
+  );
+
+  $terms[] = array(
+    'vid' => 4,
+    'name' => 'Customization',
+  );
+
+  foreach ($terms as $term) {
+    taxonomy_save_term($term);
+  }
+}
 
