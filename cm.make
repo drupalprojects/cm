@@ -171,7 +171,6 @@ projects[zenophile][version] = "1.0"
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.0"
 
-
 ; Features
 
 projects[mm_defaults][type] = "module"
@@ -229,4 +228,10 @@ libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
+
+; Patches
+
+; Exportable WYSIWYG Profiles
+projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
+
 
