@@ -127,7 +127,7 @@ function cm_create_taxonomy_terms() {
   );
 
   foreach ($terms as $term) {
-    taxonomy_save_term($term);
+    taxonomy_term_save($term);
   }
 }
 
