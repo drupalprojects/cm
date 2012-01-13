@@ -72,6 +72,9 @@ projects[google_analytics][version] = "1.2"
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
 
+projects[imce_wysiwyg][subdir] = "contrib"
+projects[imce_wysiwyg][version] = "1.0"
+
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
 

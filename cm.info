@@ -66,6 +66,7 @@ dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = globalredirect
 dependencies[] = imce
+dependencies[] = imce_wysiwyg
 dependencies[] = logintoboggan
 dependencies[] = logintoboggan_rules
 dependencies[] = nodeblock
