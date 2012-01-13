@@ -112,7 +112,7 @@ function cm_create_taxonomy_terms() {
   _cm_create_taxonomy_term(1, 'Customization', 4);
 }
 
-_cm_create_taxonomy_term($vid, $name, $tid) {
+function _cm_create_taxonomy_term($vid, $name, $tid) {
   $term = new stdClass();
   $term->name = $name;
   $term->vid = $vid;
