@@ -119,6 +119,9 @@ projects[nodeblock][version] = "1.0"
 projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
 
+projects[panelizer][subdir] = "contrib"
+projects[panelizer][version] = "2.0-rc1"
+
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.0-alpha3"
 
