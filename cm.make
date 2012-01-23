@@ -51,6 +51,10 @@ projects[diff][version] = "2.0-beta2"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-beta8"
 
+projects[fbconnect][subdir] = "contrib"
+projects[fbconnect][download][type] = "git"
+projects[fbconnect][download][revision] = "7c1d439e717d7219b4907796781be76775b5ad82"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta2"
 
@@ -76,7 +80,8 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "2.0-alpha1
+"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0-alpha3"
@@ -229,9 +234,21 @@ libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zi
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
 
+; Facebook PHP SDK
+libraries[facebook-php-sdk][download][type] = "get"
+libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk/tarball/v3.1.1"
+libraries[facebook-php-sdk][destination] = "libraries"
+libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
+
 ; Patches
 
 ; Exportable WYSIWYG Profiles
 projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
+
+; Fbconnect: Cannot detect Facebook PHP SDK: http://drupal.org/node/1318946
+projects[fbconnect][patch][] = "http://drupal.org/files/facebook-library-not-found-1318946-27.patch"
+
+; Fbconnect: Undefined index: email in fbconnect_register_page() http://drupal.org/node/1324150
+projects[fbconnect][patch][] = "http://drupal.org/files/fbconnect-register_require_email-1324150-8.patch"
 
 
