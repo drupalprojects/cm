@@ -64,6 +64,7 @@ dependencies[] = date_views
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
+dependencies[] = fbconnect
 dependencies[] = globalredirect
 dependencies[] = imce
 dependencies[] = imce_wysiwyg
