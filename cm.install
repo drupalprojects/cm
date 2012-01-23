@@ -9,23 +9,46 @@ function cm_install() {
   include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
   standard_install();
 
+  cm_initialize_content_types();
+  cm_initialize_taxonomy_terms();
+  cm_initialize_themes();
+  cm_initialize_wysiwyg();
+}
+
+/**
+ * Initialize default content types.
+ */
+function cm_initialize_content_types() {
+  node_type_delete('page');
+}
+
+/**
+ * Initialize default theme and admin theme.
+ */
+function cm_initialize_themes() {
   // Set the default and admin themes
   variable_set("theme_default", "cm_theme");
   //variable_set("admin_theme", "rubik");
   variable_set("node_admin_theme", '1');
   theme_enable(array("cm_theme"));
+}
 
-  if (module_exists('wysiwyg')) {
-    cm_setup_wysiwyg();
-  }
+/**
+ * Initialize default taxonomy terms.
+ */
+function cm_initialize_taxonomy_terms() {
+  // _cm_create_taxonomy_term($vid, $name, $tid)
 
-  cm_create_taxonomy_terms();
+  _cm_create_taxonomy_term(1, 'Sample Content', 1);
+  _cm_create_taxonomy_term(1, 'Documentation', 2);
+  _cm_create_taxonomy_term(1, 'Getting Started', 3);
+  _cm_create_taxonomy_term(1, 'Customization', 4);
 }
 
 /**
  * Sets default WYSIWYG settings for Cm
  */
-function cm_setup_wysiwyg() {
+function cm_initialize_wysiwyg() {
   $settings = array(
     'default' => 1,
     'user_choose' => 1,
@@ -101,15 +124,6 @@ function cm_setup_wysiwyg() {
   ->condition('format', 'full_html')
   ->fields(array('weight' => 0))
   ->execute();
-}
-
-function cm_create_taxonomy_terms() {
-  // _cm_create_taxonomy_term($vid, $name, $tid)
-
-  _cm_create_taxonomy_term(1, 'Sample Content', 1);
-  _cm_create_taxonomy_term(1, 'Documentation', 2);
-  _cm_create_taxonomy_term(1, 'Getting Started', 3);
-  _cm_create_taxonomy_term(1, 'Customization', 4);
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
