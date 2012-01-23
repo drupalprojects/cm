@@ -75,7 +75,6 @@ dependencies[] = nodeblock
 dependencies[] = page_title
 dependencies[] = panelizer
 dependencies[] = panels
-dependencies[] = panels_node
 dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = rules
