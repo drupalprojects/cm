@@ -153,6 +153,9 @@ projects[token][version] = "1.0-beta2"
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0-alpha1"
 
+projects[twitter_pull][subdir] = "contrib"
+projects[twitter_pull][version] = "1.0-rc1"
+
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.0"
 

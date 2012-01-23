@@ -84,6 +84,7 @@ dependencies[] = rules
 dependencies[] = rules_scheduler
 dependencies[] = rules_admin
 dependencies[] = googleanalytics
+dependencies[] = twitter_pull
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = views_bulk_operations
