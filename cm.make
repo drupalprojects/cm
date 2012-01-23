@@ -56,7 +56,7 @@ projects[fbconnect][download][type] = "git"
 projects[fbconnect][download][revision] = "7c1d439e717d7219b4907796781be76775b5ad82"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta2"
+projects[features][version] = "1.0-beta6"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.0"
@@ -80,8 +80,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.0-alpha1
-"
+projects[libraries][version] = "2.0-alpha2"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0-alpha3"
