@@ -93,7 +93,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable2"
+projects[media][version] = "2.0-unstable3"
 
 projects[media_browser_plus][subdir] = "contrib"
 projects[media_browser_plus][version] = "1.0-beta3"
@@ -123,7 +123,7 @@ projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "2.0-rc1"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.0-alpha3"
+projects[panels][version] = "3.0"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-beta1"
