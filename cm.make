@@ -241,7 +241,7 @@ libraries[colorbox][directory_name] = "colorbox"
 
 ; Facebook PHP SDK
 libraries[facebook-php-sdk][download][type] = "get"
-libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/facebook-php-sdk/tarball/v3.1.1"
+libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk/tarball/v3.1.1"
 libraries[facebook-php-sdk][destination] = "libraries"
 libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
 
