@@ -110,6 +110,9 @@ projects[mollom][version] = "1.0"
 projects[nodeblock][subdir] = "contrib"
 projects[nodeblock][version] = "1.0"
 
+projects[nice_menus][subdir] = "contrib"
+projects[nice_menus][version] = "2.0"
+
 ;projects[opencalais][type] = "module"
 ;projects[opencalais][download][type] = "git"
 ;projects[opencalais][download][url] = "https://github.com/phase2/opencalais.git"

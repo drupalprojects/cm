@@ -71,6 +71,7 @@ dependencies[] = imce
 dependencies[] = imce_wysiwyg
 dependencies[] = logintoboggan
 dependencies[] = logintoboggan_rules
+dependencies[] = nice_menus
 dependencies[] = nodeblock
 dependencies[] = page_title
 dependencies[] = panelizer
