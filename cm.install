@@ -106,7 +106,7 @@ function cm_initialize_wysiwyg() {
     'css_path' => '%t/css/editor.css',
     'css_classes' => '',
   );
-  
+
   $fields = array(
     'format' => 'full_html',
     'editor' => 'ckeditor',
