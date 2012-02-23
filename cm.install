@@ -57,7 +57,6 @@ function cm_initialize_wysiwyg() {
     'language' => 'en',
     'buttons' => array(
       'default' => array(
-        'Source' => 1,
         'Bold' => 1,
         'Italic' => 1,
         'Underline' => 1,
@@ -76,6 +75,7 @@ function cm_initialize_wysiwyg() {
         'Superscript' => 1,
         'Subscript' => 1,
         'Blockquote' => 1,
+        'Source' => 1,
         'HorizontalRule' => 1,
         'Cut' => 1,
         'Copy' => 1,
