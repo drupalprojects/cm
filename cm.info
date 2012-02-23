@@ -65,6 +65,7 @@ dependencies[] = logintoboggan_rules
 dependencies[] = nice_menus
 dependencies[] = node_reference
 dependencies[] = nodeblock
+dependencies[] = nodequeue
 dependencies[] = openid
 dependencies[] = page_manager
 dependencies[] = page_title

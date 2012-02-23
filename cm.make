@@ -110,6 +110,9 @@ projects[mollom][version] = "1.0"
 projects[nodeblock][subdir] = "contrib"
 projects[nodeblock][version] = "1.0"
 
+projects[nodequeue][subdir] = "contrib"
+projects[nodequeue][version] = "2.0-beta1"
+
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.0"
 
@@ -250,6 +253,13 @@ libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
+
+; Cycle Plugin
+
+libraries[cycle][download][type] = "get"
+libraries[cycle][download][url] = "https://raw.github.com/malsup/cycle/8704578d7364ef0f24fe4927215a32a20b7eb11c/jquery.cycle.all.js"
+libraries[cycle][destination] = "libraries"
+libraries[cycle][directory_name] = "jquery.cycle"
 
 ; Facebook PHP SDK
 libraries[facebook-php-sdk][download][type] = "get"
