@@ -22,7 +22,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.1"
 
 projects[calendar][subdir] = "contrib"
-projects[calendar][version] = "3.0-alpha1"
+projects[calendar][version] = "3.0"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.x-dev"
