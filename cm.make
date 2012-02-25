@@ -165,7 +165,7 @@ projects[twitter_pull][subdir] = "contrib"
 projects[twitter_pull][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0"
+projects[views][version] = "3.3"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.0-beta3"
