@@ -28,7 +28,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.x-dev"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "1.0-beta4"
+projects[colorbox][version] = "1.2"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta2"
