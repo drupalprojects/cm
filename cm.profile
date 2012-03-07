@@ -35,7 +35,7 @@ function cm_install_tasks() {
  * Initialize default content types.
  */
 function cm_initialize_content_types() {
-  cm_log('Initializing taxonomy terms');
+  cm_log('Initializing content types');
   node_type_delete('page');
 }
 
