@@ -28,11 +28,6 @@ function cm_install_tasks() {
       'display_name' => st('Initialize Front Page'),
       'type' => 'normal',
     ),
-    'cm_finish' => array(
-      'display_name' => st('Apply Configuration'),
-      'display' => TRUE,
-      'type' => 'batch',
-    ),
   );
 }
 
@@ -80,15 +75,6 @@ function cm_initialize_front_page($node, $view_mode, $langcode) {
   $result = array_shift($result['node']);
   cm_log('Front page nid: ' . $$result->nid);
   variable_set('site_frontpage', $result->nid);
-}
-
-/**
- * Perform tasks after all modules have been enabled.
- */
-function cm_finish() {
-  module_list(TRUE);
-  drupal_flush_all_caches();
-  return array();
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
