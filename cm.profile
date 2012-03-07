@@ -35,6 +35,7 @@ function cm_install_tasks() {
  * Initialize default content types.
  */
 function cm_initialize_content_types() {
+  cm_log('Initializing taxonomy terms');
   node_type_delete('page');
 }
 
@@ -42,6 +43,7 @@ function cm_initialize_content_types() {
  * Initialize default taxonomy terms.
  */
 function cm_initialize_taxonomy_terms() {
+  cm_log('Initializing taxonomy terms');
   // _cm_create_taxonomy_term($vid, $name, $tid)
 
   _cm_create_taxonomy_term(1, 'Sample Content', 1);
@@ -54,6 +56,7 @@ function cm_initialize_taxonomy_terms() {
  * Initialize default theme and admin theme.
  */
 function cm_initialize_themes() {
+  cm_log('Initializing themes');
   // Set the default and admin themes
   variable_set("theme_default", "cm_theme");
   //variable_set("admin_theme", "rubik");
@@ -64,7 +67,8 @@ function cm_initialize_themes() {
 /**
  * Initialize the front page.
  */
-function cm_initialize_front_page($node, $view_mode, $langcode) {
+function cm_initialize_front_page() {
+  cm_log('Initializing front page');
   // Find the front page by Title
   $query = new EntityFieldQuery;
   $result = $query
