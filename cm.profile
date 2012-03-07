@@ -79,4 +79,27 @@ function _cm_create_taxonomy_term($vid, $name, $tid) {
   return $term->tid;
 }
 
+/**
+ * Log a message, environment agnostic.
+ *
+ * @param $message
+ *   The message to log.
+ * @param $severity
+ *   The severity of the message: status, warning or error.
+ */
+function cm_log($message, $severity = 'status') {
+  if (function_exists('drush_verify_cli')) {
+    $message = strip_tags($message);
+    if ($severity == 'status') {
+      $severity = 'ok';
+    }
+    elseif ($severity == 'error') {
+      drush_set_error($message);
+      return;
+    }
+    drush_log($message, $severity);
+    return;
+  }
+  drupal_set_message($message, $severity, FALSE);
+}
 
