@@ -24,6 +24,10 @@ function cm_install_tasks() {
       'display_name' => st('Initialize Themes'),
       'type' => 'normal',
     ),
+    'cm_initialize_front_page' => array(
+      'display_name' => st('Initialize Front Page'),
+      'type' => 'normal',
+    ),
     'cm_finish' => array(
       'display_name' => st('Apply Configuration'),
       'display' => TRUE,
@@ -60,6 +64,22 @@ function cm_initialize_themes() {
   //variable_set("admin_theme", "rubik");
   variable_set("node_admin_theme", '1');
   theme_enable(array("cm_theme"));
+}
+
+/**
+ * Initialize the front page.
+ */
+function cm_initialize_front_page($node, $view_mode, $langcode) {
+  // Find the front page by Title
+  $query = new EntityFieldQuery;
+  $result = $query
+    ->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', 'cm_page')
+    ->propertyCondition('title', 'Welcome to Cm', '=')
+    ->execute();
+  $result = array_shift($result['node']);
+  cm_log('Front page nid: ' . $$result->nid);
+  variable_set('site_frontpage', $result->nid);
 }
 
 /**
