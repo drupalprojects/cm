@@ -128,6 +128,9 @@ projects[pathauto][version] = "1.0-beta1"
 projects[plupload][subdir] = "contrib"
 projects[plupload][version] = "1.0-beta3"
 
+projects[publishcontent][subdir] = "contrib"
+projects[publishcontent][version] = "1.0"
+
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta3"
 

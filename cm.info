@@ -72,6 +72,7 @@ dependencies[] = page_title
 dependencies[] = panelizer
 dependencies[] = panels
 dependencies[] = pathauto
+dependencies[] = publishcontent
 dependencies[] = redirect
 dependencies[] = references
 dependencies[] = rules
