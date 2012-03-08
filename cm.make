@@ -95,6 +95,9 @@ projects[logintoboggan][version] = "1.2"
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha4"
 
+projects[mobile_tools][subdir] = "contrib"
+projects[mobile_tools][version] = "2.0-unstable1"
+
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.0"
 
@@ -212,11 +215,17 @@ projects[mm_rotator][subdir] = "cm_features"
 
 ; Themes
 
+projects[adaptivetheme][type] = "theme"
+projects[adaptivetheme][version] = "2.2"
+
 projects[tao][type] = "theme"
 projects[tao][version] = "3.0-beta3"
 
 projects[rubik][type] = "theme"
 projects[rubik][version] = "4.0-beta5"
+
+projects[sky][type] = "theme"
+projects[sky][version] = "2.3"
 
 projects[zen][type] = "theme"
 projects[zen][version] = "3.1"
