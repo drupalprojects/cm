@@ -92,15 +92,6 @@ projects[link][version] = "1.0-alpha3"
 projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
-projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable3"
-
-projects[media_browser_plus][subdir] = "contrib"
-projects[media_browser_plus][version] = "1.0-beta3"
-
-projects[media_gallery][subdir] = "contrib"
-projects[media_gallery][version] = "1.0-beta7"
-
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha4"
 
