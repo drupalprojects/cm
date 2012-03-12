@@ -52,8 +52,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-beta8"
 
 projects[fbconnect][subdir] = "contrib"
-projects[fbconnect][download][type] = "git"
-projects[fbconnect][download][revision] = "7c1d439e717d7219b4907796781be76775b5ad82"
+projects[fbconnect][download][version] = "2.0-beta3"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta6"
