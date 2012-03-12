@@ -76,9 +76,11 @@ function cm_initialize_front_page() {
     ->entityCondition('bundle', 'cm_page')
     ->propertyCondition('title', 'Welcome to Cm', '=')
     ->execute();
-  $result = array_shift($result['node']);
-  cm_log('Front page nid: ' . $$result->nid);
-  variable_set('site_frontpage', $result->nid);
+  cm_log('Initializing front page: ' . $result);
+  if ($result->nid) {
+    $result = array_shift($result['node']);
+    variable_set('site_frontpage', $result->nid);
+  }
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
