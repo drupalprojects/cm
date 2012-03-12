@@ -67,6 +67,9 @@ projects[file_entity][version] = "2.0-unstable2"
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
 
+projects[fontyourface][subdir] = "contrib"
+projects[fontyourface][version] = "2.2"
+
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3"
 
