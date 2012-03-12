@@ -65,6 +65,7 @@ dependencies[] = imce
 dependencies[] = imce_wysiwyg
 dependencies[] = libraries
 dependencies[] = link
+dependencies[] = linkchecker
 dependencies[] = logintoboggan
 dependencies[] = logintoboggan_rules
 dependencies[] = mobile_tools
