@@ -85,6 +85,9 @@ projects[libraries][version] = "2.0-alpha2"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0-alpha3"
 
+projects[linkchecker][subdir] = "contrib"
+projects[linkchecker][version] = "1.0-beta1"
+
 ; Waiting for a stable release of location
 ;projects[location][subdir] = "contrib"
 ;projects[location][version] = "3.x-dev"
