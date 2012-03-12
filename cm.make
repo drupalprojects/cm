@@ -101,6 +101,9 @@ projects[mobile_tools][version] = "2.0-unstable1"
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.0"
 
+projects[node_clone][subdir] = "contrib"
+projects[node_clone][version] = "1.0-beta1"
+
 projects[nodeblock][subdir] = "contrib"
 projects[nodeblock][version] = "1.0"
 
