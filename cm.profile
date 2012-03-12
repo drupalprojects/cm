@@ -68,7 +68,11 @@ function cm_initialize_themes() {
  * Initialize the front page.
  */
 function cm_initialize_front_page() {
+  // Force cron to run here or else EntityFieldQuery won't find any nodes
+  drupal_cron_run();
+
   cm_log('Initializing front page');
+ 
   // Find the front page by Title
   $query = new EntityFieldQuery;
   $result = $query
@@ -76,10 +80,9 @@ function cm_initialize_front_page() {
     ->entityCondition('bundle', 'cm_page')
     ->propertyCondition('title', 'Welcome to Cm', '=')
     ->execute();
-  cm_log('Initializing front page: ' . $result);
-  if ($result->nid) {
+  if ($result['node']) {
     $result = array_shift($result['node']);
-    variable_set('site_frontpage', $result->nid);
+    variable_set('site_frontpage', 'node/' . $result->nid); // Set the front page
   }
 }
 
