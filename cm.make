@@ -9,6 +9,9 @@ projects[drupal][version] = "7.12"
 
 ; Contrib Projects
 
+projects[addressfield][subdir] = "contrib"
+projects[addressfield][version] = "1.0-beta2"
+
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc1"
 
@@ -69,6 +72,15 @@ projects[filefield_sources][version] = "1.4"
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.2"
 
+projects[geocoder][subdir] = "contrib"
+projects[geocoder][version] = "1.0-beta1"
+
+projects[geofield][subdir] = "contrib"
+projects[geofield][version] = "1.0"
+
+projects[geophp][subdir] = "contrib"
+projects[geophp][version] = "1.1"
+
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3"
 
@@ -89,10 +101,6 @@ projects[link][version] = "1.0-alpha3"
 
 projects[linkchecker][subdir] = "contrib"
 projects[linkchecker][version] = "1.0-beta1"
-
-; Waiting for a stable release of location
-;projects[location][subdir] = "contrib"
-;projects[location][version] = "3.x-dev"
 
 projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
@@ -123,6 +131,9 @@ projects[nice_menus][version] = "2.0"
 ;projects[opencalais][download][url] = "https://github.com/phase2/opencalais.git"
 ;projects[opencalais][download][branch] = "experimental"
 ;projects[opencalais][subdir] = "contrib"
+
+projects[openlayers][subdir] = "contrib"
+projects[openlayers][version] = "2.0-beta1"
 
 projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
@@ -246,6 +257,7 @@ projects[cm_theme][download][branch] = "7.x-dev"
 ; Libraries
 
 ; ARC2 Library required by RDF 
+
 ;libraries[arc][download][type] = get
 ;libraries[arc][download][url] = http://code.semsol.org/source/arc.tar.gz
 ;libraries[arc][destination] = modules/rdf/vendor
@@ -273,10 +285,18 @@ libraries[cycle][destination] = "libraries"
 libraries[cycle][directory_name] = "jquery.cycle"
 
 ; Facebook PHP SDK
-libraries[facebook-php-sdk][download][type] = "get"
-libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk/tarball/v3.1.1"
-libraries[facebook-php-sdk][destination] = "libraries"
-libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
+
+;libraries[facebook-php-sdk][download][type] = "get"
+;libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk/tarball/v3.1.1"
+;libraries[facebook-php-sdk][destination] = "libraries"
+;libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
+
+; GeoPHP
+
+libraries[geophp][download][type] = "get"
+libraries[geophp][download][url] = "https://github.com/downloads/phayes/geoPHP/geoPHP.tar.gz"
+libraries[geophp][destination] = "libraries"
+libraries[geophp][directory_name] = "geophp"
 
 ; Patches
 
