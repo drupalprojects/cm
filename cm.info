@@ -119,6 +119,7 @@ dependencies[] = xmlsitemap_taxonomy
 dependencies[] = mm_defaults
 dependencies[] = mm_events_calendar
 dependencies[] = mm_image
+dependencies[] = mm_location
 dependencies[] = mm_rotator
 
 files[] = cm.profile
