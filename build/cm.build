@@ -1,16 +1,16 @@
 api = 2
-core = "6.x"
+core = "7.x"
 
-; Pressflow core
+; Drupal core
 
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://launchpad.net/pressflow/6.x/6.19.94/+download/pressflow-6.19.94.tar.gz"
+projects[drupal][type] = "core"
+projects[drupal][version] = "7.12"
 
 ; Cm Platform
 
 projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
-projects[cm][download][url] = "git://github.com/davidtrainer/Cm.git"
-projects[cm][download][branch] = "master"
-;projects[cm][download][tag] = ""
+projects[cm][download][url] = "https://github.com/minimalmedia/Cm.git"
+projects[cm][download][branch] = "7.x-dev"
+;projects[cm][download][tag] = "7.x-0.7"
+
