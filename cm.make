@@ -208,12 +208,6 @@ projects[devel][version] = "1.0"
 
 ; Features
 
-projects[mm_defaults][type] = "module"
-projects[mm_defaults][download][type] = "git"
-projects[mm_defaults][download][url] = "git://github.com/minimalmedia/mm_defaults.git"
-projects[mm_defaults][download][branch] = "7.x-dev"
-projects[mm_defaults][subdir] = "cm_features"
-
 projects[mm_events_calendar][type] = "module"
 projects[mm_events_calendar][download][type] = "git"
 projects[mm_events_calendar][download][url] = "git://github.com/minimalmedia/mm_events_calendar.git"
