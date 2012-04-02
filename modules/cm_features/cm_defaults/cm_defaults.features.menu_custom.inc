@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.menu_custom.inc
+ * cm_defaults.features.menu_custom.inc
  */
 
 /**
  * Implements hook_menu_default_menu_custom().
  */
-function mm_defaults_menu_default_menu_custom() {
+function cm_defaults_menu_default_menu_custom() {
   $menus = array();
 
   // Exported menu: menu-tags

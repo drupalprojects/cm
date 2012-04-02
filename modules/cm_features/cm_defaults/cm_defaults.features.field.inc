@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.field.inc
+ * cm_defaults.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function mm_defaults_field_default_fields() {
+function cm_defaults_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-cm_block-body'

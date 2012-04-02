@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.menu_links.inc
+ * cm_defaults.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function mm_defaults_menu_default_menu_links() {
+function cm_defaults_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu:blog

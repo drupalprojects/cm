@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.inc
+ * cm_defaults.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function mm_defaults_ctools_plugin_api() {
+function cm_defaults_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "context" && $api == "context") {
     return array("version" => "3");
@@ -25,7 +25,7 @@ function mm_defaults_ctools_plugin_api() {
 /**
  * Implements hook_node_info().
  */
-function mm_defaults_node_info() {
+function cm_defaults_node_info() {
   $items = array(
     'cm_block' => array(
       'name' => t('Block'),

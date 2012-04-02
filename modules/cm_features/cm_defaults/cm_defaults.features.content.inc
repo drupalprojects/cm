@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.content.inc
+ * cm_defaults.features.content.inc
  */
 
 /**
  * Implements hook_content_defaults().
  */
-function mm_defaults_content_defaults() {
+function cm_defaults_content_defaults() {
 $content = array();
 $content['about-us'] = (object)array(
   'exported_path' => 'content/about-us',

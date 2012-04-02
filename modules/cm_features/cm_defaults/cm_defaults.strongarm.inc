@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.strongarm.inc
+ * cm_defaults.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function mm_defaults_strongarm() {
+function cm_defaults_strongarm() {
   $export = array();
 
   $strongarm = new stdClass;

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.context.inc
+ * cm_defaults.context.inc
  */
 
 /**
  * Implements hook_context_default_contexts().
  */
-function mm_defaults_context_default_contexts() {
+function cm_defaults_context_default_contexts() {
   $export = array();
 
   $context = new stdClass;
@@ -116,8 +116,8 @@ function mm_defaults_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '-9',
         ),
-        'mm_defaults-mini_contact_form' => array(
-          'module' => 'mm_defaults',
+        'cm_defaults-mini_contact_form' => array(
+          'module' => 'cm_defaults',
           'delta' => 'mini_contact_form',
           'region' => 'sidebar_second',
           'weight' => '-8',

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.taxonomy.inc
+ * cm_defaults.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function mm_defaults_taxonomy_default_vocabularies() {
+function cm_defaults_taxonomy_default_vocabularies() {
   return array(
     'tags' => array(
       'name' => 'Tags',

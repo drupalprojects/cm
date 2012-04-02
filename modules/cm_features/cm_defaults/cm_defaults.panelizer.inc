@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.panelizer.inc
+ * cm_defaults.panelizer.inc
  */
 
 /**
  * Implements hook_panelizer_defaults().
  */
-function mm_defaults_panelizer_defaults() {
+function cm_defaults_panelizer_defaults() {
   $export = array();
 
   $panelizer = new stdClass;

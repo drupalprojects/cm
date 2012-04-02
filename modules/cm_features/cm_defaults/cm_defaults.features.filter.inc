@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.filter.inc
+ * cm_defaults.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function mm_defaults_filter_default_formats() {
+function cm_defaults_filter_default_formats() {
   $formats = array();
 
   // Exported format: Full HTML

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.user_permission.inc
+ * cm_defaults.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function mm_defaults_user_default_permissions() {
+function cm_defaults_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: access site-wide contact form

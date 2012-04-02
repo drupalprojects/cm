@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * mm_defaults.features.wysiwyg.inc
+ * cm_defaults.features.wysiwyg.inc
  */
 
 /**
  * Implements hook_wysiwyg_default_profiles().
  */
-function mm_defaults_wysiwyg_default_profiles() {
+function cm_defaults_wysiwyg_default_profiles() {
   $profiles = array();
 
   // Exported profile: full_html
