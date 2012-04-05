@@ -73,6 +73,7 @@ dependencies[] = linkchecker
 dependencies[] = local_fonts
 dependencies[] = logintoboggan
 dependencies[] = logintoboggan_rules
+dependencies[] = metatag
 dependencies[] = mobile_tools
 dependencies[] = nice_menus
 dependencies[] = node_reference
