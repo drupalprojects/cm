@@ -84,7 +84,6 @@ dependencies[] = openlayers
 dependencies[] = openlayers_ui
 dependencies[] = openlayers_views
 dependencies[] = page_manager
-dependencies[] = page_title
 dependencies[] = panelizer
 dependencies[] = panels
 dependencies[] = pathauto

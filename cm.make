@@ -54,8 +54,8 @@ projects[diff][version] = "2.0-beta2"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-beta8"
 
-projects[fbconnect][subdir] = "contrib"
-projects[fbconnect][download][version] = "2.0-beta3"
+;projects[fbconnect][subdir] = "contrib"
+;projects[fbconnect][download][version] = "2.0-beta3"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta6"
@@ -106,7 +106,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha4"
+projects[metatag][version] = "1.0-alpha5pu"
 
 projects[mobile_tools][subdir] = "contrib"
 projects[mobile_tools][version] = "2.0-unstable1"
@@ -134,9 +134,6 @@ projects[nice_menus][version] = "2.0"
 
 projects[openlayers][subdir] = "contrib"
 projects[openlayers][version] = "2.0-beta1"
-
-projects[page_title][subdir] = "contrib"
-projects[page_title][version] = "2.5"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "2.0-rc1"
