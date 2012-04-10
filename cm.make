@@ -278,6 +278,7 @@ libraries[colorbox][directory_name] = "colorbox"
 
 libraries[cycle][download][type] = "get"
 libraries[cycle][download][url] = "https://raw.github.com/malsup/cycle/8704578d7364ef0f24fe4927215a32a20b7eb11c/jquery.cycle.all.js"
+libraries[cycle][download][filename] = "jquery.cycle.all.js"
 libraries[cycle][destination] = "libraries"
 libraries[cycle][directory_name] = "jquery.cycle"
 
