@@ -40,7 +40,7 @@ projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0-beta1"
+projects[ctools][version] = "1.0"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.2"

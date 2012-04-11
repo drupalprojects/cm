@@ -36,7 +36,6 @@ dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
 dependencies[] = bulk_export
 dependencies[] = calendar
-dependencies[] = clone
 dependencies[] = context
 dependencies[] = context_layouts
 dependencies[] = context_ui
