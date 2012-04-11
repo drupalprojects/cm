@@ -106,7 +106,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha5pu"
+projects[metatag][version] = "1.0-alpha5"
 
 projects[mobile_tools][subdir] = "contrib"
 projects[mobile_tools][version] = "2.0-unstable1"
