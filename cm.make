@@ -16,6 +16,10 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][branch] = "7.x-3.x"
 projects[admin_menu][revision] = "47da7dc58b399f0c1bd2ef9bedc7fbee5b0121c2"
 
+projects[admin_views][subdir] = "contrib"
+projects[admin_views][branch] = "7.x-1.x"
+projects[admin_views][revision] = "752523b874582505a8c493862417b3b8903a1aee"
+
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
 
