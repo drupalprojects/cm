@@ -13,7 +13,8 @@ projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta2"
 
 projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "3.0-rc1"
+projects[admin_menu][branch] = "7.x-3.x"
+projects[admin_menu][revision] = "47da7dc58b399f0c1bd2ef9bedc7fbee5b0121c2"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
