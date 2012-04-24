@@ -216,12 +216,6 @@ projects[mm_image][download][url] = "git://github.com/minimalmedia/mm_image.git"
 projects[mm_image][download][branch] = "7.x-dev"
 projects[mm_image][subdir] = "cm_features"
 
-projects[mm_location][type] = "module"
-projects[mm_location][download][type] = "git"
-projects[mm_location][download][url] = "git://github.com/minimalmedia/mm_location.git"
-projects[mm_location][download][branch] = "master"
-projects[mm_location][subdir] = "cm_features"
-
 projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.git"
