@@ -210,12 +210,6 @@ projects[devel][version] = "1.0"
 
 ; Features
 
-projects[mm_image][type] = "module"
-projects[mm_image][download][type] = "git"
-projects[mm_image][download][url] = "git://github.com/minimalmedia/mm_image.git"
-projects[mm_image][download][branch] = "7.x-dev"
-projects[mm_image][subdir] = "cm_features"
-
 projects[mm_rotator][type] = "module"
 projects[mm_rotator][download][type] = "git"
 projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.git"
