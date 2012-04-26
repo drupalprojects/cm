@@ -1,4 +1,4 @@
-Rotator: An image rotator module for Drupal 6.x.
+Rotator: An image rotator module for Drupal 7.x.
 
 Usage:
 
