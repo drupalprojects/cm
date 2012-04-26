@@ -208,14 +208,6 @@ projects[zenophile][version] = "1.0"
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.0"
 
-; Features
-
-projects[mm_rotator][type] = "module"
-projects[mm_rotator][download][type] = "git"
-projects[mm_rotator][download][url] = "git://github.com/minimalmedia/mm_rotator.git"
-projects[mm_rotator][download][branch] = "7.x-dev"
-projects[mm_rotator][subdir] = "cm_features"
-
 ; Themes
 
 projects[adaptivetheme][type] = "theme"

@@ -119,7 +119,7 @@ dependencies[] = cm_defaults
 dependencies[] = cm_events_calendar
 dependencies[] = cm_location
 dependencies[] = cm_image
-dependencies[] = mm_rotator
+dependencies[] = cm_rotator
 
 files[] = cm.profile
 
