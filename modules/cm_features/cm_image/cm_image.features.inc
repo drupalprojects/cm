@@ -1,77 +1,69 @@
 <?php
+/**
+ * @file
+ * cm_image.features.inc
+ */
 
 /**
- * Implementation of hook_ctools_plugin_api().
+ * Implements hook_ctools_plugin_api().
  */
 function cm_image_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
-    return array("version" => 1);
+    return array("version" => "1");
   }
 }
 
 /**
- * Implementation of hook_imagecache_default_presets().
+ * Implements hook_image_default_styles().
  */
-function cm_image_imagecache_default_presets() {
-  $items = array(
-    'image_gallery_thumbnail_medium' => array(
-      'presetname' => 'image_gallery_thumbnail_medium',
-      'actions' => array(
-        '0' => array(
-          'weight' => '0',
-          'module' => 'imagecache',
-          'action' => 'imagecache_scale_and_crop',
-          'data' => array(
-            'width' => '100',
-            'height' => '100',
-          ),
+function cm_image_image_default_styles() {
+  $styles = array();
+
+  // Exported image style: cm_image_square_thumb
+  $styles['cm_image_square_thumb'] = array(
+    'name' => 'cm_image_square_thumb',
+    'effects' => array(
+      1 => array(
+        'label' => 'Scale and crop',
+        'help' => 'Scale and crop will maintain the aspect-ratio of the original image, then crop the larger dimension. This is most useful for creating perfectly square thumbnails without stretching the image.',
+        'effect callback' => 'image_scale_and_crop_effect',
+        'dimensions callback' => 'image_resize_dimensions',
+        'form callback' => 'image_resize_form',
+        'summary theme' => 'image_resize_summary',
+        'module' => 'image',
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '90',
+          'height' => '90',
         ),
-      ),
-    ),
-    'image_gallery_thumbnail_small' => array(
-      'presetname' => 'image_gallery_thumbnail_small',
-      'actions' => array(
-        '0' => array(
-          'weight' => '0',
-          'module' => 'imagecache',
-          'action' => 'imagecache_scale_and_crop',
-          'data' => array(
-            'width' => '50',
-            'height' => '50',
-          ),
-        ),
+        'weight' => '1',
       ),
     ),
   );
-  return $items;
+
+  return $styles;
 }
 
 /**
- * Implementation of hook_node_info().
+ * Implements hook_node_info().
  */
 function cm_image_node_info() {
   $items = array(
     'image' => array(
       'name' => t('Image'),
-      'module' => 'features',
+      'base' => 'node_content',
       'description' => t('An image.'),
       'has_title' => '1',
       'title_label' => t('Title'),
-      'has_body' => '0',
-      'body_label' => '',
-      'min_word_count' => '0',
       'help' => '',
     ),
     'image_gallery' => array(
       'name' => t('Image Gallery'),
-      'module' => 'features',
-      'description' => t('A series of images presented as a gallery.'),
+      'base' => 'node_content',
+      'description' => t('A series of images presented in a lightbox.'),
       'has_title' => '1',
       'title_label' => t('Title'),
-      'has_body' => '1',
-      'body_label' => t('Description'),
-      'min_word_count' => '0',
       'help' => '',
     ),
   );
