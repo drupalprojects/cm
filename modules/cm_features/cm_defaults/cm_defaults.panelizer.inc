@@ -10,7 +10,7 @@
 function cm_defaults_panelizer_defaults() {
   $export = array();
 
-  $panelizer = new stdClass;
+  $panelizer = new stdClass();
   $panelizer->disabled = FALSE; /* Edit this to true to make a default panelizer disabled initially */
   $panelizer->api_version = 1;
   $panelizer->name = 'node:cm_panel:2-column-stacked';
@@ -24,7 +24,7 @@ function cm_defaults_panelizer_defaults() {
   $panelizer->contexts = array();
   $panelizer->relationships = array();
   $panelizer->did = 3;
-  $display = new panels_display;
+  $display = new panels_display();
   $display->layout = 'twocol_stacked';
   $display->layout_settings = array();
   $display->panel_settings = array(
@@ -41,7 +41,7 @@ function cm_defaults_panelizer_defaults() {
   $display->title = '';
   $display->content = array();
   $display->panels = array();
-    $pane = new stdClass;
+    $pane = new stdClass();
     $pane->pid = 'new-1';
     $pane->panel = 'bottom';
     $pane->type = 'block';
@@ -62,7 +62,7 @@ function cm_defaults_panelizer_defaults() {
     $pane->locks = array();
     $display->content['new-1'] = $pane;
     $display->panels['bottom'][0] = 'new-1';
-    $pane = new stdClass;
+    $pane = new stdClass();
     $pane->pid = 'new-2';
     $pane->panel = 'top';
     $pane->type = 'node_content';

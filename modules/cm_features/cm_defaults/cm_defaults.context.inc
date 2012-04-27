@@ -10,7 +10,7 @@
 function cm_defaults_context_default_contexts() {
   $export = array();
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'front';
@@ -43,7 +43,7 @@ function cm_defaults_context_default_contexts() {
   t('cm');
   $export['front'] = $context;
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'front-user-anonymous';
@@ -66,7 +66,7 @@ function cm_defaults_context_default_contexts() {
   t('cm');
   $export['front-user-anonymous'] = $context;
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'interior';
@@ -88,7 +88,7 @@ function cm_defaults_context_default_contexts() {
   t('cm');
   $export['interior'] = $context;
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'sitewide';
@@ -151,7 +151,7 @@ function cm_defaults_context_default_contexts() {
   t('cm');
   $export['sitewide'] = $context;
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'user-administrator';
@@ -173,7 +173,7 @@ function cm_defaults_context_default_contexts() {
   t('cm');
   $export['user-administrator'] = $context;
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'user-anonymous';
@@ -195,7 +195,7 @@ function cm_defaults_context_default_contexts() {
   t('cm');
   $export['user-anonymous'] = $context;
 
-  $context = new stdClass;
+  $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = 'user-authenticated';

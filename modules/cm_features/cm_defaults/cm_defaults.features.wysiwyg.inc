@@ -71,6 +71,7 @@ function cm_defaults_wysiwyg_default_profiles() {
       'css_path' => '%t/css/editor.css',
       'css_classes' => '',
     ),
+    'metatags' => array(),
     'rdf_mapping' => array(),
   );
 
