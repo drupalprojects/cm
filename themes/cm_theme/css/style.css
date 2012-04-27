@@ -1,0 +1,116 @@
+/**
+ * Main content
+ */
+
+#main {
+  padding: 0px 0px 20px 0px;
+}
+
+/**
+ * Search Form
+ */
+
+#block-search-form input.form-text {
+  border: 2px solid #555;
+}
+
+#block-search-form input.form-submit {
+  border: none;
+  background: #555;
+  color: #fff;
+  height: 1.6em;
+  position: relative;
+  left: -8px;
+}
+
+/**
+ * Header
+ */
+
+#header {
+  padding: 10px 0px;
+}
+
+/**
+ * Push the right sidebar down, out from behind the rotator
+ */
+
+body.front div.region-sidebar-second {
+  margin-top: 410px;
+}
+
+/**
+ * Main Menu
+ */
+
+#block-system-main-menu h2.block-title {
+  display: none;
+}
+
+#block-system-main-menu {
+  position: absolute;
+  top: 20px;
+  right: 216px;
+}
+
+#block-system-main-menu li {
+  display: inline;
+  list-style: none;
+  margin: 0px 12px;
+}
+
+#block-system-main-menu a,
+#block-system-main-menu a:link,
+#block-system-main-menu a:visited,
+#block-system-main-menu a:hover,
+#block-system-main-menu a:focus,
+#block-system-main-menu a:active {
+  color: #333;
+  text-decoration: none;
+}
+
+/**
+ * Footer
+ */
+
+.region-bottom {
+  width: 100%;
+  background: #222;
+  padding: 40px 0px;
+}
+
+.region-bottom .block-nodeblock {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.region-bottom .block-nodeblock h2.block-title {
+  display: none;
+}
+
+div.footer {
+  display: table-row;
+}
+
+div.footer .cell {
+  display: table-cell;
+  width: 450px;
+  vertical-align: top;
+  padding-right: 30px;
+}
+
+div.footer h3 {
+  color: #ccc;
+  text-shadow: 0 0 1 #000;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:visited,
+.footer address,
+.footer p {
+  color: #eee;
+  font-size: 13px;
+}
+
+

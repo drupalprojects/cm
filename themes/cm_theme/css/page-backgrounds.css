@@ -1,5 +1,3 @@
-/* $Id$ */
-
 /**
  * @file
  * Page Background Styling
@@ -33,8 +31,5 @@ body {
 #main {
 }
 
-#footer {
-}
-
-#footer .section {
+.region-footer {
 }

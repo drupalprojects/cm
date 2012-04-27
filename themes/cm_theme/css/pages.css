@@ -1,5 +1,3 @@
-/* $Id$ */
-
 /**
  * @file
  * Page Styling
@@ -15,49 +13,34 @@
  */
 body {
   margin: 0;
-  padding: 12px 0 0 0;
-  background: #e7e7e7 url(../images/bg-main.png) center repeat-y;
+  padding: 0;
 }
 
 #page-wrapper {
 }
 
 #page {
-  min-height: 650px;
 }
 
 /*
- * The skip navigation link will be completely hidden until a user tabs to the
- * link. See http://www.webaim.org/techniques/skipnav/
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
  */
 #skip-link a,
 #skip-link a:visited {
-  position: absolute;
   display: block;
-  left: 0;
-  top: -500px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  width: 100%;
+  padding: 2px 0 3px 0;
   text-align: center;
   background-color: #666;
   color: #fff;
-}
-
-#skip-link a:hover,
-#skip-link a:active,
-#skip-link a:focus {
-  position: static;
-  width: 100%;
-  height: auto;
-  padding: 2px 0 3px 0;
 }
 
 /*
  * Header
  */
 #header {
-  margin: 0 0 12px 0;
+  position: relative;
 }
 
 #header .section {
@@ -74,13 +57,14 @@ body {
 }
 
 #name-and-slogan /* Wrapper for website name and slogan */ {
+  float: left;
 }
 
 h1#site-name,
 div#site-name /* The name of the website */ {
   margin: 0;
   font-size: 2em;
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 
 #site-name a:link,
@@ -98,6 +82,7 @@ div#site-name /* The name of the website */ {
 }
 
 .region-header /* Wrapper for any blocks placed in the header region */ {
+  clear: both; /* Clear the logo */
 }
 
 /*
@@ -118,10 +103,7 @@ div#site-name /* The name of the website */ {
 #content .section {
 }
 
-#mission /* The mission statement of the site (displayed on homepage) */ {
-}
-
-.region-content-top /* Wrapper for any blocks placed in the "content top" region */ {
+.region-highlighted {
 }
 
 .breadcrumb /* The path to the current page in the form of a list of links */ {
@@ -129,7 +111,10 @@ div#site-name /* The name of the website */ {
 }
 
 h1.title, /* The title of the page */
-h2.title, /* Block title or the title of a piece of content when it is given in a list of content */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
 h3.title /* Comment title */ {
   margin: 0;
 }
@@ -143,6 +128,12 @@ tr.odd {
 }
 
 div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+}
+
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.status /* Normal priority messages */ {
@@ -168,54 +159,38 @@ tr.error /* High priority messages. See also the .error declaration below. */ {
 div.tabs /* See also the tabs.css file. */ {
 }
 
-.help /* Help text on a page */ {
-  margin: 1em 0;
+.region-help /* Help text on a page */ {
 }
 
 .more-help-link /* Link to more help */ {
-  font-size: 0.85em;
-  text-align: right;
 }
 
-#content-area /* Wrapper for the actual page content */ {
+.region-content /* Wrapper for the actual page content */ {
 }
 
 ul.links /* List of links */ {
-  margin: 1em 0;
-  padding: 0;
 }
 
 ul.links.inline {
-  margin: 0;
-  display: inline;
+  display: block; /* Let the links be inline, but the container be a block. */
 }
 
 ul.links li {
-  display: inline;
-  list-style-type: none;
+  padding: 0 1em 0 0; /* LTR */
+}
+
+.item-list .pager /* A list of page numbers when more than 1 page of content is available */ {
+  padding: 0;
+}
+
+.item-list .pager li /* Each page number in the pager list */ {
   padding: 0 0.5em;
 }
 
-.pager /* A list of page numbers when more than 1 page of content is available */ {
-  clear: both;
-  margin: 1em 0;
-  text-align: center;
-}
-
-.pager a,
-.pager strong.pager-current /* Each page number in the pager list */ {
-  padding: 0.5em;
-}
-
-.feed-icons /* The links to the RSS or Atom feeds for the current list of content */ {
-  margin: 1em 0;
+.feed-icon /* The link to the RSS or Atom feed for the current list of content */ {
 }
 
 .more-link /* Aggregator, blog, and forum more link */ {
-  text-align: right; /* LTR */
-}
-
-.region-content-bottom /* Wrapper for any blocks placed in the "content bottom" region */ {
 }
 
 /*
@@ -245,75 +220,11 @@ ul.links li {
 /*
  * Footer
  */
-#footer {
-}
-
-#footer .section {
-}
-
-#footer-message /* Wrapper for the footer message from Drupal's "Site information"
-                   and for any blocks placed in the footer region */ {
-}
-
 .region-footer {
 }
 
 /*
- * Closure
+ * Page bottom
  */
-.region-page-closure /* Wrapper for any blocks placed in the closure region */ {
-}
-
-/*
- * Drupal boxes
- *
- * Wrapper for Comment form, Comment viewing options, Menu admin, and
- * Search results.
- */
-.box /* Wrapper for box */ {
-}
-
-.box h2 /* Box title */ {
-}
-
-.box .content /* Box's content wrapper */ {
-}
-
-/*
- * Markup free clearing (See: http://www.positioniseverything.net/easyclearing.html )
- */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-/**
- * Hide elements from all users.
- *
- * Used for elements which should not be immediately displayed to any user. An
- * example would be a collapsible fieldset that will be expanded with a click
- * from a user. The effect of this class can be toggled with the jQuery show()
- * and hide() functions.
- */
-.element-hidden {
-  display: none;
-}
-
-/**
- * Hide elements visually, but keep them available for screen-readers.
- *
- * Used for information required for screen-reader users to understand and use
- * the site where visual display is undesirable. Information provided in this
- * manner should be kept concise, to avoid unnecessary burden on the user. Must
- * not be used for focusable elements (such as links and form elements) as this
- * causes issues for keyboard only or voice recognition users. "!important" is
- * used to prevent unintentional overrides.
- */
-.element-invisible {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
+.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
 }
