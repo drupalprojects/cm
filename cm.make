@@ -225,11 +225,6 @@ projects[sky][version] = "2.3"
 projects[zen][type] = "theme"
 projects[zen][version] = "3.1"
 
-projects[cm_theme][type] = "theme"
-projects[cm_theme][download][type] = "git"
-projects[cm_theme][download][url] = "git://github.com/minimalmedia/cm_theme.git"
-projects[cm_theme][download][branch] = "7.x-dev"
-
 ; Libraries
 
 ; ARC2 Library required by RDF 
