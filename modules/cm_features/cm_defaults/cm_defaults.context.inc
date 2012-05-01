@@ -122,15 +122,21 @@ function cm_defaults_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '-8',
         ),
-        'system-main-menu' => array(
+        'system-main' => array(
           'module' => 'system',
-          'delta' => 'main-menu',
-          'region' => 'header',
+          'delta' => 'main',
+          'region' => 'content',
           'weight' => '-10',
         ),
         'search-form' => array(
           'module' => 'search',
           'delta' => 'form',
+          'region' => 'header',
+          'weight' => '-10',
+        ),
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
           'region' => 'header',
           'weight' => '-10',
         ),
