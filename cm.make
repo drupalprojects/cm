@@ -205,7 +205,7 @@ projects[zenophile][version] = "1.0"
 ; Development Modules
 
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.0"
+projects[devel][version] = "1.2"
 
 ; Themes
 
