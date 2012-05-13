@@ -109,6 +109,9 @@ projects[linkchecker][version] = "1.0-beta1"
 projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.2"
 
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.0-unstable4"
+
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha6"
 
