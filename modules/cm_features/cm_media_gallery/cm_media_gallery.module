@@ -1,0 +1,46 @@
+<?php
+/**
+ * @file
+ * Code for the Media Gallery feature.
+ */
+
+include_once('cm_media_gallery.features.inc');
+
+function cm_media_gallery_theme($existing, $type, $theme, $path) {
+  return array(
+    'node__media_gallery' => array(
+      'render element' => 'elements',
+      'path' => drupal_get_path('module', 'cm_media_gallery') . '/theme',
+      'template' => 'node--media-gallery',
+  ),
+  );
+}
+
+function cm_media_gallery_preprocess_node(&$variables) {
+  if($variables['type'] == 'media_gallery') {
+    drupal_add_js(drupal_get_path('module', 'cm_media_gallery') . '/js/cm_media_gallery.js', 'file');
+    $variables['media'] = '';
+    foreach($variables['field_media']['und'] as $key => $media) {
+      $file = $media['file'];
+      $image_uri = file_create_url($file->uri);
+
+      // html for a styled image
+      // e.g. '<img typeof="foaf:Image" src="http://mysite.com/sites/default/files/styles/banner/public/masthead.jpg" alt="" />'
+      $image_html = theme('image_style', array('style_name' => 'cm_image_square_thumb', 'path' => $file->uri));
+
+      //$image_description = $node->field_cm_image_description[$node->language][0]['safe_value'];
+      if($file->field_file_description) {
+        $image_description = $file->field_file_description['und'][0]['safe_value'];
+      }
+
+      // l($text, $path, array $options = array())
+      $image_link = l($image_html, $image_uri, array(
+        'attributes' => array('class' => array('image-gallery'), 'title' => $image_description),
+        'html' => TRUE
+      ));
+
+      $variables['media'] .= $image_link;
+    }
+  }
+}
+
