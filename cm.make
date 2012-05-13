@@ -34,6 +34,9 @@ projects[calendar][version] = "3.0"
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.x-dev"
 
+projects[coffee][subdir] = "contrib"
+projects[coffee][version] = "1.0"
+
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.2"
 
@@ -174,6 +177,9 @@ projects[strongarm][version] = "2.0-beta2"
 
 projects[styles][subdir] = "contrib"
 projects[styles][version] = "2.0-alpha8"
+
+projects[sweaver][subdir] = "contrib"
+projects[sweaver][version] = "1.3"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta2"
