@@ -12,4 +12,4 @@ projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
 projects[cm][download][url] = "https://github.com/minimalmedia/Cm.git"
 projects[cm][download][branch] = "7.x-dev"
-;projects[cm][download][tag] = "7.x-0.11"
+
