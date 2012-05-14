@@ -1,5 +1,5 @@
 name = "Events Calendar"
-description = "An image and image gallery feature."
+description = "Content associated with a date and time, presented in a calendar format."
 core = "7.x"
 package = "Features"
 php = "5.2.4"
