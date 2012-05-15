@@ -200,7 +200,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.17"
+projects[webform][version] = "3.18"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"

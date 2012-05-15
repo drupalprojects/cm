@@ -29,7 +29,7 @@ function cm_media_gallery_preprocess_node(&$variables) {
       $image_html = theme('image_style', array('style_name' => 'cm_media_gallery_square_thumbnail', 'path' => $file->uri));
 
       //$image_description = $node->field_cm_image_description[$node->language][0]['safe_value'];
-      if($file->field_file_description) {
+      if($file->field_file_description) { //todo: debug
         $image_description = $file->field_file_description['und'][0]['safe_value'];
       }
 
