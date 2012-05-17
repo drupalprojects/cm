@@ -4,9 +4,6 @@ core = "7.x"
 projects[drupal][type] = "core"
 projects[drupal][version] = "7.14"
 
-; http://drupal.org/node/1220602
-; projects[drupal][patches][] = "http://drupal.org/files/issues/forum_upgrade.patch"
-
 ; Contrib Projects
 
 projects[addressfield][subdir] = "contrib"
@@ -16,8 +13,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc2"
 
 projects[admin_views][subdir] = "contrib"
-projects[admin_views][branch] = "7.x-1.x"
-projects[admin_views][revision] = "752523b874582505a8c493862417b3b8903a1aee"
+projects[admin_views][version] = "1.0-alpha1"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
@@ -29,7 +25,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.1"
 
 projects[calendar][subdir] = "contrib"
-projects[calendar][version] = "3.0"
+projects[calendar][version] = "3.2"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.x-dev"
@@ -50,19 +46,19 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.2"
+projects[date][version] = "2.5"
 
 projects[defaultcontent][subdir] = "contrib"
 projects[defaultcontent][version] = "1.0-alpha4"
+
+projects[delta][subdir] = "contrib"
+projects[delta][version] = "3.0-beta9"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0-beta2"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-beta8"
-
-;projects[fbconnect][subdir] = "contrib"
-;projects[fbconnect][download][version] = "2.0-beta3"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta6"
@@ -118,9 +114,6 @@ projects[media][version] = "2.0-unstable4"
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha6"
 
-projects[mobile_tools][subdir] = "contrib"
-projects[mobile_tools][version] = "2.0-unstable1"
-
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.0"
 
@@ -136,11 +129,8 @@ projects[nodequeue][version] = "2.0-beta1"
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.0"
 
-;projects[opencalais][type] = "module"
-;projects[opencalais][download][type] = "git"
-;projects[opencalais][download][url] = "https://github.com/phase2/opencalais.git"
-;projects[opencalais][download][branch] = "experimental"
-;projects[opencalais][subdir] = "contrib"
+projects[omega_tools][subdir] = "contrib"
+projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
 projects[openlayers][version] = "2.0-beta1"
@@ -218,17 +208,8 @@ projects[devel][version] = "1.2"
 
 ; Themes
 
-projects[adaptivetheme][type] = "theme"
-projects[adaptivetheme][version] = "2.2"
-
-projects[tao][type] = "theme"
-projects[tao][version] = "3.0-beta3"
-
-projects[rubik][type] = "theme"
-projects[rubik][version] = "4.0-beta5"
-
-projects[sky][type] = "theme"
-projects[sky][version] = "2.3"
+projects[omega][type] = "theme"
+projects[omega][version] = "3.1"
 
 projects[zen][type] = "theme"
 projects[zen][version] = "3.1"

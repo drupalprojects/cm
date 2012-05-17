@@ -53,7 +53,6 @@ dependencies[] = date_views
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
-;dependencies[] = fbconnect
 dependencies[] = features
 dependencies[] = filefield_sources
 dependencies[] = fontyourface_ui
@@ -77,7 +76,6 @@ dependencies[] = media
 dependencies[] = mediafield
 dependencies[] = media_internet
 dependencies[] = metatag
-dependencies[] = mobile_tools
 dependencies[] = nice_menus
 dependencies[] = node_reference
 dependencies[] = nodeblock
@@ -122,8 +120,8 @@ dependencies[] = xmlsitemap_taxonomy
 
 dependencies[] = cm_defaults
 dependencies[] = cm_events_calendar
+dependencies[] = cm_image
 dependencies[] = cm_location
-dependencies[] = cm_media_gallery
 dependencies[] = cm_rotator
 
 files[] = cm.profile
