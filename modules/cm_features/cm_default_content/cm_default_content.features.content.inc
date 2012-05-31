@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * cm_defaults.features.content.inc
+ * cm_default_content.features.content.inc
  */
 
 /**
  * Implements hook_content_defaults().
  */
-function cm_defaults_content_defaults() {
+function cm_default_content_content_defaults() {
 $content = array();
 $content['about-us'] = (object)array(
   'exported_path' => 'content/about-us',
@@ -342,3 +342,4 @@ $content['welcome-to-cm'] = (object)array(
 );
 return $content;
 }
+
