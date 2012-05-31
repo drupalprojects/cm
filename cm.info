@@ -96,7 +96,6 @@ dependencies[] = rules_scheduler
 dependencies[] = rules_admin
 dependencies[] = scheduler
 dependencies[] = strongarm
-dependencies[] = sweaver
 dependencies[] = token
 dependencies[] = transliteration
 dependencies[] = twitter_pull
