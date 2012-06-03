@@ -117,6 +117,7 @@ dependencies[] = xmlsitemap_taxonomy
 
 ; Features
 
+dependencies[] = cm_default_content
 dependencies[] = cm_defaults
 dependencies[] = cm_events_calendar
 dependencies[] = cm_image
