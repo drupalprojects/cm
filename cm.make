@@ -42,6 +42,9 @@ projects[context][version] = "3.0-beta2"
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
 
+projects[cs_adaptive_image][subdir] = "contrib"
+projects[cs_adaptive_image][version] = "1.0-alpha2"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
 
@@ -205,6 +208,13 @@ projects[zenophile][version] = "1.0"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.2"
+
+; Sandbox projects
+
+projects[bendy][type] = module
+projects[bendy][download][type] = git
+projects[bendy][download][revision] = 5407e2a
+projects[bendy][download][branch] = 7.x-1.x
 
 ; Themes
 
