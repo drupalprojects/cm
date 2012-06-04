@@ -1,0 +1,29 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+body {
+  /* background: #eef2f6 url(../images/bg.jpg) no-repeat center top; */
+}
+
+#block-system-main-menu,
+.logo-img,
+.site-name-slogan,
+#block-search-form {
+  margin: 0px;
+}
+
+.logo-img {
+  text-align: left;
+}
+
+.site-name-slogan {
+  float: left;
+  text-align: left;
+  position: relative;
+}
+
+#block-search-form {
+  text-align: left;
+  float: right;
+  position: relative;
+}
+

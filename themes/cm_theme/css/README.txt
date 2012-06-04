@@ -1,111 +1,70 @@
-ZEN'S STYLESHEETS
------------------
+##########################################################################################
+      _                _                                  _                     _
+   __| | _____   _____| | ___  _ __  _ __ ___   ___ _ __ | |_    __ _  ___  ___| | _____
+  / _` |/ _ \ \ / / _ \ |/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __|  / _` |/ _ \/ _ \ |/ / __|
+ | (_| |  __/\ V /  __/ | (_) | |_) | | | | | |  __/ | | | |_  | (_| |  __/  __/   <\__ \
+  \__,_|\___| \_/ \___|_|\___/| .__/|_| |_| |_|\___|_| |_|\__|  \__, |\___|\___|_|\_\___/
+                              |_|                               |___/
+##########################################################################################
 
-Don't panic!
+##########################################################################################
+##### Omega Theme
+##########################################################################################
+Informational:  http://himer.us/omega960
+Documentation:  http://himer.us/omega-docs
+Project Page:   http://drupal.org/project/omega
+Issue Queue:    http://drupal.org/project/issues/omega
+Usage Stats:    http://drupal.org/project/usage/omega
+Twitter:        http://twitter.com/Omeglicon
+##########################################################################################
+##### CSS Files
+##########################################################################################
 
-There are 25 CSS files in this sub-theme, but its not as bad as it first seems:
-- The drupal7-reference.css is just a reference file and isn't used directly by
-  your sub-theme. See below.
-- There are 7 CSS files whose names end in "-rtl.css". Those are CSS files
-  needed to style content written in Right-to-Left languages, such as Arabic and
-  Hebrew. If your website doesn't use such languages, you can safely delete all
-  of those CSS files.
-- If you aren't using this theme while doing wireframes of the functionality of
-  your sub-theme, you can remove wireframes.css from your sub-theme's .info file
-  and delete the file as well.
+Any custom CSS files should be placed in this folder.
 
-That leaves just 16 CSS files. (Okay, still quite a few, but better than 25.)
+Five CSS files are provided by default. These files will be loaded according to the 
+media queries established in your theme's settings. The default values are provided below.
 
-- Instead of one monolithic stylesheet, your sub-theme's CSS files are organized
-  into several smaller stylesheets that are grouped to allow cascading across
-  common Drupal template files.
-- The order of the stylesheets is designed to allow CSS authors to use the
-  lowest specificity possible to achieve the required styling.
+To use these stylesheets, rename the files and cm_theme with the name of your theme.
+For example, if your theme is named beta, the files would be named:
+  global.css (this file does not get renamed)
+  beta-alpha-default.css  
+  beta-alpha-default-narrow.css  
+  beta-alpha-default-normal.css
+  beta-alpha-default-wide.css
 
+global.css 
+  * Loaded all for all layouts, including mobile.
+  * Default media query: n/a. Always applied.
+  * By default, this is the only stylesheet loaded for the mobile version of your site.
+  * This layout does not use the 960gs for its layout. It provides a linearized 
+    view of your site's content. 
 
-ORDER AND PURPOSE OF DEFAULT STYLESHEETS
-----------------------------------------
+cm_theme-alpha-default.css
+  * Loaded for all layouts using the alpha grid (i.e. not the mobile layout).
+  * Default media query: n/a. Applied to all layouts using the alpha grid.
+  * By default the alpha grid is applied when the device width is at least 
+    740px wide.
 
-First off, if you find you don't like this organization of stylesheets, you are
-free to change it; simply edit the stylesheet declarations in your sub-theme's
-.info file. This structure was crafted based on several years of experience
-theming Drupal websites.
+cm_theme-alpha-default-narrow.css  
+  * Loaded for all layouts using the alpha grid. Styles will "cascade" to 
+    wider layouts. You may overwrite any styles in the normal or wide 
+    layout-specific CSS files if you wish.
+  * Default media query for the narrow layout is: 
+      all and (min-width: 740px) and (min-device-width: 740px), 
+      (max-device-width: 800px) and (min-width: 740px) 
+      and (orientation:landscape)
 
-- html-reset.css:
-  This is the place where you should set the default styling for all HTML
-  elements and standardize the styling across browsers. If you prefer a specific
-  reset method, feel free to add it.
+cm_theme-alpha-default-normal.css
+  * By default this style sheet will be loaded for the normal and wide layouts 
+  * Styles will "cascade" to the wide layout as well. 
+  * Default media query for the normal layout is: 
+      all and (min-width: 980px) and (min-device-width: 980px), 
+      all and (max-device-width: 1024px) and (min-width: 1024px) 
+      and (orientation:landscape)
 
-- layout-fixed.css:
-- layout-liquid.css:
-  Zen's default layout is based on the Zen Columns layout method. The
-  layout-fixed.css file is used by default and can be swapped with the
-  layout-liquid.css file. These files are designed to be easily replaced. If you
-  are more familiar with a different CSS layout method, such as Blueprint or
-  960.gs, you can replace these files with your choice of layout CSS file.
+cm_theme-alpha-default-wide.css
+  * By default this style sheet will apply only to the widescreen layout.
+  * Default media query for the wide layout is: 
+      all and (min-width: 1220px)
 
-- page-backgrounds.css:
-  Layered backgrounds across scattered divs can be easier to manage if they are
-  centralized in one location.
-
-- tabs.css:
-  While most of the CSS rulesets in your sub-theme are guidelines without any
-  actual properties, the tabs stylesheet contains actual styling for Drupal
-  tabs, a common Drupal element that is often neglected by site desiners. Zen
-  provides some basic styling which you are free to use or to rip out and
-  replace.
-
-- pages.css:
-  Page styling for the markup in the page.tpl.php template.
-
-- blocks.css:
-  Block styling for the markup in the block.tpl.php template.
-
-- navigation.css:
-  The styling for your site's menus can get quite bulky and its easier to see
-  all the styles if they are grouped together rather then across the
-  header/footer sections of pages.css and in blocks.css.
-
-- views-styles.css:
-  Views styling for the markup in various views templates. You'll notice this
-  stylesheet isn't called "views.css" as that would override (remove) the Views
-  module's stylesheet.
-
-- nodes.css:
-  Node styling for the markkup in the node.tpl.php template.
-
-- comments.css:
-  Comment styling for the markup in the comment-wrapper.tpl.php and
-  comments.tpl.php templates.
-
-- forms.css:
-  Form styling for the markup in various Drupal forms.
-
-- fields.css:
-  Field styling for the markup produced by theme_field().
-
-- print.css:
-  The print styles for all markup.
-
-- ie7.css:
-- ie6.css:
-  The Internet Explorer stylesheets are added via conditional comments. Many CSS
-  authors find using IE "conditional stylesheets" much easier then writing
-  rulesets with CSS hacks that are known to only apply to various versions of
-  IE. The full conditional comment syntax can be found on Microsoft's website:
-  http://msdn.microsoft.com/en-us/library/ms537512.aspx
-  An alternative method presented by Paul Irish can be found at
-  http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
-
-In these stylesheets, we have included all of the classes and IDs from this
-theme's tpl.php files. We have also included many of the useful Drupal core
-styles to make it easier for theme developers to see them.
-
-
-DRUPAL CORE'S STYLESHEETS
--------------------------
-
-Many of Zen's styles are overriding Drupal's core stylesheets, so if you remove
-a declaration from them, the styles may still not be what you want since
-Drupal's core stylesheets are still styling the element. See the
-drupal7-reference.css file for a complete list of all Drupal 7.x core styles.
