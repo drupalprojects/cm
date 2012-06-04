@@ -26,9 +26,9 @@ function cm_defaults_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-rotator-block_1' => array(
+        'views-1276454308d2d14a0972b14f9f3f6225' => array(
           'module' => 'views',
-          'delta' => 'rotator-block_1',
+          'delta' => '1276454308d2d14a0972b14f9f3f6225',
           'region' => 'highlighted',
           'weight' => '-10',
         ),
@@ -104,6 +104,18 @@ function cm_defaults_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'system-main' => array(
+          'module' => 'system',
+          'delta' => 'main',
+          'region' => 'content',
+          'weight' => '-10',
+        ),
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'menu',
+          'weight' => '-10',
+        ),
         'twitter_pull-0' => array(
           'module' => 'twitter_pull',
           'delta' => 0,
@@ -122,28 +134,16 @@ function cm_defaults_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '-8',
         ),
-        'system-main' => array(
-          'module' => 'system',
-          'delta' => 'main',
-          'region' => 'content',
-          'weight' => '-10',
-        ),
         'search-form' => array(
           'module' => 'search',
           'delta' => 'form',
-          'region' => 'header',
-          'weight' => '-10',
-        ),
-        'system-main-menu' => array(
-          'module' => 'system',
-          'delta' => 'main-menu',
-          'region' => 'header',
+          'region' => 'header_first',
           'weight' => '-10',
         ),
         'nodeblock-cm-footer' => array(
           'module' => 'nodeblock',
           'delta' => 'cm-footer',
-          'region' => 'bottom',
+          'region' => 'footer_first',
           'weight' => '-10',
         ),
       ),
