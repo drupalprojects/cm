@@ -34,6 +34,7 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
+dependencies[] = bendy
 dependencies[] = bulk_export
 dependencies[] = calendar
 dependencies[] = coffee
