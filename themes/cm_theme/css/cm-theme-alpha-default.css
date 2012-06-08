@@ -58,7 +58,7 @@ body {
 }
 
 #section-footer a:link,
-#section-footer a:visited
+#section-footer a:visited,
 #section-footer a:hover,
 #section-footer a:active {
   color: #60c1fe;
