@@ -139,7 +139,7 @@ projects[openlayers][subdir] = "contrib"
 projects[openlayers][version] = "2.0-beta1"
 
 projects[panelizer][subdir] = "contrib"
-projects[panelizer][version] = "2.0-rc1"
+projects[panelizer][version] = "2.0"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.0"
