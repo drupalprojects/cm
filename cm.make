@@ -88,7 +88,7 @@ projects[geophp][subdir] = "contrib"
 projects[geophp][version] = "1.1"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.3"
+projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
