@@ -22,7 +22,7 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.0"
 
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.1"
+projects[backup_migrate][version] = "2.4"
 
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.3"
@@ -61,7 +61,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0-beta2"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-beta8"
+projects[entity][version] = "1.0-rc3"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta6"
