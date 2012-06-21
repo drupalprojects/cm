@@ -66,6 +66,9 @@ projects[entity][version] = "1.0-rc3"
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta6"
 
+projects[features_override][subdir] = "contrib"
+projects[features_override][version] = "1.0-beta1"
+
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.0"
 
