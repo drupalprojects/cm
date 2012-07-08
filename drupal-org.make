@@ -275,3 +275,6 @@ libraries[geophp][directory_name] = "geophp"
 
 ; Exportable WYSIWYG Profiles
 projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
+
+; Delta issue where Contexts cannot be saved: http://drupal.org/node/1512744
+projects[delta][patch][] = "http://drupal.org/files/i1512744-28.patch"
