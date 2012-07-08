@@ -214,7 +214,7 @@ projects[devel][version] = "1.2"
 
 projects[bendy][type] = module
 projects[bendy][download][type] = git
-projects[bendy][download][url] = http://git.drupal.org/sandbox/nicoz/1538528.git
+projects[bendy][download][url] = http://git.drupal.org/project/bendy.git
 projects[bendy][download][revision] = 5407e2a
 projects[bendy][download][branch] = 7.x-1.x
 
