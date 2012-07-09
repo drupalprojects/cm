@@ -10,6 +10,5 @@ projects[drupal][version] = "7.14"
 
 projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
-projects[cm][download][url] = "https://github.com/minimalmedia/Cm.git"
-projects[cm][download][branch] = "7.x-dev"
-
+projects[cm][download][url] = "http://git.drupal.org/project/cm.git "
+projects[cm][download][tag] = "7.x-0.15"
