@@ -167,7 +167,7 @@ projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta2"
+projects[strongarm][version] = "2.0"
 
 projects[styles][subdir] = "contrib"
 projects[styles][version] = "2.0-alpha8"
