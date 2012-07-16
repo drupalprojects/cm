@@ -161,7 +161,7 @@ projects[references][subdir] = "contrib"
 projects[references][version] = "2.0-beta3"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.0-beta1"
+projects[rules][version] = "2.1"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
