@@ -279,3 +279,6 @@ projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-6240
 
 ; Delta issue where Contexts cannot be saved: http://drupal.org/node/1512744
 projects[delta][patch][] = "http://drupal.org/files/i1512744-28.patch"
+
+; OpenLayers IE rendering bug: http://drupal.org/node/1364304#comment-6240652
+projects[openlayers][patch][] = "http://drupal.org/files/openlayers-blank-gif-1364304.patch"
