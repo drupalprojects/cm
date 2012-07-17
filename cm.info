@@ -126,6 +126,7 @@ dependencies[] = cm_defaults
 dependencies[] = cm_events_calendar
 dependencies[] = cm_image
 dependencies[] = cm_location
+dependencies[] = cm_panel
 
 files[] = cm.profile
 

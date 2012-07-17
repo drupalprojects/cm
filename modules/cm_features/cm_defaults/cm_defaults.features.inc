@@ -13,10 +13,6 @@ function cm_defaults_ctools_plugin_api() {
     return array("version" => "3");
   }
   list($module, $api) = func_get_args();
-  if ($module == "panelizer" && $api == "panelizer") {
-    return array("version" => "1");
-  }
-  list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -39,14 +35,6 @@ function cm_defaults_node_info() {
       'name' => t('Page'),
       'base' => 'node_content',
       'description' => t('A static page.'),
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'help' => '',
-    ),
-    'cm_panel' => array(
-      'name' => t('Panel'),
-      'base' => 'node_content',
-      'description' => t('A panel layout broken up into rows and columns.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
