@@ -22,6 +22,12 @@ projects[auto_nodetitle][version] = "1.0"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
+projects[bendy][type] = module
+projects[bendy][download][type] = git
+projects[bendy][download][url] = http://git.drupal.org/project/Bendy.git
+projects[bendy][download][branch] = 7.x-1.x
+projects[bendy][download][revision] = 5407e2a
+
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.3"
 
@@ -209,15 +215,6 @@ projects[zenophile][version] = "1.0"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.2"
-
-; Sandbox projects
-
-projects[bendy][type] = module
-projects[bendy][download][type] = git
-projects[bendy][download][url] = http://git.drupal.org/project/Bendy.git
-projects[bendy][download][branch] = 7.x-1.x
-projects[bendy][download][revision] = 5407e2a
-projects[bendy][directory_name] = bendy
 
 ; Themes
 
