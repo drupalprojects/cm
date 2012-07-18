@@ -7120,6 +7120,7 @@ $content['front-page'] = (object)array(
   'comment' => '1',
   'translate' => '0',
   'machine_name' => 'front-page',
+  'body' => array(),
 );
 $content['get-started'] = (object)array(
   'exported_path' => 'content/get-started-0',
