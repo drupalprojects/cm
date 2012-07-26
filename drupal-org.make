@@ -211,11 +211,6 @@ projects[xmlsitemap][version] = "2.0-beta2"
 projects[zenophile][subdir] = "contrib"
 projects[zenophile][version] = "1.0"
 
-; Development Modules
-
-projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.2"
-
 ; Themes
 
 projects[omega][type] = "theme"
