@@ -293,6 +293,34 @@ function cm_defaults_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_cm_block';
+  $strongarm->value = '1';
+  $export['nodeblock_cm_block'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_cm_page';
+  $strongarm->value = '0';
+  $export['nodeblock_cm_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_view_mode_cm_block';
+  $strongarm->value = 'full';
+  $export['nodeblock_view_mode_cm_block'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_view_mode_cm_page';
+  $strongarm->value = 'full';
+  $export['nodeblock_view_mode_cm_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_options_cm_block';
   $strongarm->value = array(
     0 => 'status',
@@ -323,34 +351,6 @@ function cm_defaults_strongarm() {
   $strongarm->name = 'node_submitted_cm_page';
   $strongarm->value = 0;
   $export['node_submitted_cm_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'nodeblock_cm_block';
-  $strongarm->value = '1';
-  $export['nodeblock_cm_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'nodeblock_cm_page';
-  $strongarm->value = '0';
-  $export['nodeblock_cm_page'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'nodeblock_view_mode_cm_block';
-  $strongarm->value = 'full';
-  $export['nodeblock_view_mode_cm_block'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'nodeblock_view_mode_cm_page';
-  $strongarm->value = 'full';
-  $export['nodeblock_view_mode_cm_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

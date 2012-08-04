@@ -50,10 +50,14 @@ function cm_defaults_context_default_contexts() {
   $context->description = 'The front page, while the user is anonymous.';
   $context->tag = 'cm';
   $context->conditions = array(
-    'context' => array(
+    'path' => array(
       'values' => array(
-        'front' => 'front',
-        'user-anonymous' => 'user-anonymous',
+        '<front>' => '<front>',
+      ),
+    ),
+    'user' => array(
+      'values' => array(
+        'anonymous user' => 'anonymous user',
       ),
     ),
   );
