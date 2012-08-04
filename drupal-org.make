@@ -137,7 +137,7 @@ projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.0-beta1"
 
 projects[nice_menus][subdir] = "contrib"
-projects[nice_menus][version] = "2.0"
+projects[nice_menus][version] = "2.1"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -274,3 +274,6 @@ projects[delta][patch][] = "http://drupal.org/files/i1512744-28.patch"
 
 ; OpenLayers IE rendering bug: http://drupal.org/node/1364304#comment-6240652
 projects[openlayers][patch][] = "http://drupal.org/files/openlayers-blank-gif-1364304.patch"
+
+; Nice Mega Dropdowns: http://drupal.org/node/1148746
+projects[nice_menus][patch][] = "http://drupal.org/files/1148746-nice-mega-dropdowns-d7.patch"

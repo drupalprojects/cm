@@ -80,6 +80,7 @@ dependencies[] = mediafield
 dependencies[] = media_internet
 dependencies[] = metatag
 dependencies[] = nice_menus
+dependencies[] = nice_mega_dropdowns
 dependencies[] = node_reference
 dependencies[] = nodeblock
 dependencies[] = nodequeue
