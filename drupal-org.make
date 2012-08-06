@@ -22,12 +22,6 @@ projects[auto_nodetitle][version] = "1.0"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
-projects[bendy][type] = module
-projects[bendy][download][type] = git
-projects[bendy][download][url] = http://git.drupal.org/project/Bendy.git
-projects[bendy][download][branch] = 7.x-1.x
-projects[bendy][download][revision] = 5407e2a
-
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.3"
 
@@ -81,6 +75,9 @@ projects[file_entity][version] = "2.0-unstable4"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
+
+projects[flexslider][subdir] = "contrib"
+projects[flexslider][version] = "2.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.2"
@@ -242,20 +239,20 @@ libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zi
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
 
-; Cycle Plugin
-
-libraries[cycle][download][type] = "get"
-libraries[cycle][download][url] = "https://raw.github.com/malsup/cycle/8704578d7364ef0f24fe4927215a32a20b7eb11c/jquery.cycle.all.js"
-libraries[cycle][download][filename] = "jquery.cycle.all.js"
-libraries[cycle][destination] = "libraries"
-libraries[cycle][directory_name] = "jquery.cycle"
-
 ; Facebook PHP SDK
 
 ;libraries[facebook-php-sdk][download][type] = "get"
 ;libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk/tarball/v3.1.1"
 ;libraries[facebook-php-sdk][destination] = "libraries"
 ;libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
+
+; FlexSlider
+
+libraries[cycle][download][type] = "get"
+libraries[cycle][download][url] = "https://raw.github.com/woothemes/FlexSlider/a9168b8978715b206d33d58f58349f35d895e92c/jquery.flexslider-min.js"
+libraries[cycle][download][filename] = "jquery.flexslider-min.js"
+libraries[cycle][destination] = "libraries"
+libraries[cycle][directory_name] = "flexslider"
 
 ; GeoPHP
 
