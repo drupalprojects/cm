@@ -64,6 +64,9 @@ projects[delta][version] = "3.0-beta9"
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0-beta2"
 
+projects[elysia_cron][subdir] = "contrib"
+projects[elysia_cron][version] = "2.1"
+
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
 
