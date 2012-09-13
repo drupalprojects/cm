@@ -185,7 +185,7 @@ projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta2"
+projects[token][version] = "1.3"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0-alpha1"
