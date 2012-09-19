@@ -54,7 +54,6 @@ dependencies[] = delta
 dependencies[] = delta_blocks
 dependencies[] = delta_ui
 dependencies[] = diff
-dependencies[] = elysia_cron
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = features
