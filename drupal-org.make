@@ -83,7 +83,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable4"
 
 projects[filefield_sources][subdir] = "contrib"
-projects[filefield_sources][version] = "1.4"
+projects[filefield_sources][version] = "1.6"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.2"
