@@ -62,7 +62,7 @@ projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta9"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.0-beta2"
+projects[diff][version] = "3.1"
 
 projects[elysia_cron][subdir] = "contrib"
 projects[elysia_cron][version] = "2.1"
