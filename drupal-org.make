@@ -248,11 +248,11 @@ libraries[colorbox][directory_name] = "colorbox"
 
 ; FlexSlider
 
-libraries[cycle][download][type] = "get"
-libraries[cycle][download][url] = "https://raw.github.com/woothemes/FlexSlider/a9168b8978715b206d33d58f58349f35d895e92c/jquery.flexslider-min.js"
-libraries[cycle][download][filename] = "jquery.flexslider-min.js"
-libraries[cycle][destination] = "libraries"
-libraries[cycle][directory_name] = "flexslider"
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://raw.github.com/woothemes/FlexSlider/a9168b8978715b206d33d58f58349f35d895e92c/jquery.flexslider-min.js"
+libraries[flexslider][download][filename] = "jquery.flexslider-min.js"
+libraries[flexslider][destination] = "libraries"
+libraries[flexslider][directory_name] = "flexslider"
 
 ; GeoPHP
 
