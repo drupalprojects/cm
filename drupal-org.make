@@ -77,7 +77,7 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
 
 projects[flexslider][subdir] = "contrib"
-projects[flexslider][version] = "2.0-rc3"
+projects[flexslider][version] = "1.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.2"
