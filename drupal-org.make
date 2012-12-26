@@ -1,6 +1,6 @@
 api = 2
 
-core = "7.17"
+core = "7.18"
 
 ; Contrib Projects
 
@@ -38,7 +38,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.2"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta2"
+projects[context][version] = "3.0-beta6"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
