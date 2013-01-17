@@ -20,7 +20,10 @@ function cm_slider_ctools_plugin_api() {
 function cm_slider_views_api() {
   list($module, $api) = func_get_args();
   if ($module == "views" && $api == "views_default") {
-    return array("version" => "3.0");
+    return array("version" => "3.0",
+      'path' => drupal_get_path('module', 'cm_slider') . '/theme',
+      'template path' => drupal_get_path('module', 'cm_slider') . '/theme'
+    );
   }
 }
 
