@@ -9,9 +9,15 @@
 <?php if (!empty($title)): ?>
   <h3><?php print $title; ?></h3>
 <?php endif; ?>
+<?php flexslider_add('flexslider'); ?>
+<?php drupal_add_js("jQuery(document).ready(function () { jQuery('.flexslider').flexslider(); });", 'inline'); ?>
 
+<div class="flexslider">
+<ul class="slides">
 <?php foreach ($rows as $id => $row): ?>
-  <div class="<?php print $classes_array[$id]; ?>">
+  <li>
     <?php print $row; ?>
-  </div>
+  </li>
 <?php endforeach; ?>
+</ul>
+</div>
