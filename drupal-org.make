@@ -1,6 +1,6 @@
 api = 2
 
-core = "7.18"
+core = "7.19"
 
 ; Contrib Projects
 
