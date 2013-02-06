@@ -95,7 +95,6 @@
   <?php endif; ?>
 
   <div class="content"<?php print $content_attributes; ?>>
-    <h1>HELLO</h1>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);

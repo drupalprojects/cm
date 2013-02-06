@@ -1,6 +1,6 @@
 api = 2
 
-core = "7.15"
+core = "7.19"
 
 ; Contrib Projects
 
@@ -8,7 +8,7 @@ projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta2"
 
 projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "3.0-rc2"
+projects[admin_menu][version] = "3.0-rc3"
 
 projects[admin_views][subdir] = "contrib"
 projects[admin_views][version] = "1.0-alpha1"
@@ -35,7 +35,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.2"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta2"
+projects[context][version] = "3.0-beta6"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
@@ -44,7 +44,7 @@ projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0"
+projects[ctools][version] = "1.2"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.5"
@@ -56,7 +56,10 @@ projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta9"
 
 projects[diff][subdir] = "contrib"
-projects[diff][version] = "2.0-beta2"
+projects[diff][version] = "3.2"
+
+projects[elysia_cron][subdir] = "contrib"
+projects[elysia_cron][version] = "2.1"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
@@ -74,7 +77,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable4"
 
 projects[filefield_sources][subdir] = "contrib"
-projects[filefield_sources][version] = "1.4"
+projects[filefield_sources][version] = "1.6"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.0-rc3"
@@ -117,6 +120,9 @@ projects[logintoboggan][version] = "1.2"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable4"
+
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "1.0-rc2"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha6"
@@ -179,13 +185,13 @@ projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta2"
+projects[token][version] = "1.3"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0-alpha1"
 
 projects[twitter_pull][subdir] = "contrib"
-projects[twitter_pull][version] = "1.0-rc1"
+projects[twitter_pull][version] = "1.0-rc4"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
@@ -273,4 +279,4 @@ projects[delta][patch][] = "http://drupal.org/files/i1512744-28.patch"
 projects[openlayers][patch][] = "http://drupal.org/files/openlayers-blank-gif-1364304.patch"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
-projects[nice_menus][patch][] = "http://drupal.org/files/1148746-nice-mega-dropdowns-d7.patch"
+projects[nice_menus][patch][] = "http://drupal.org/files/1148746-nice-mega-dropdowns-d7_1.patch"

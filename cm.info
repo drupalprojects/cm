@@ -78,6 +78,7 @@ dependencies[] = logintoboggan_rules
 dependencies[] = media
 dependencies[] = mediafield
 dependencies[] = media_internet
+dependencies[] = menu_attributes
 dependencies[] = metatag
 dependencies[] = nice_menus
 dependencies[] = nice_mega_dropdowns

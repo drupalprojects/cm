@@ -39,6 +39,14 @@ function cm_defaults_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'mega_dropdown' => array(
+      'name' => t('Mega Dropdown'),
+      'base' => 'node_content',
+      'description' => t('The body of a Mega Dropdown node can be used as the contents of a dropdown menu.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
   );
   return $items;
 }
