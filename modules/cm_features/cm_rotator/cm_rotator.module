@@ -1,0 +1,21 @@
+<?php
+/**
+ * @file
+ * Code for the Rotator feature.
+ */
+
+include_once('cm_rotator.features.inc');
+
+/**
+ * Implementation of hook_theme().
+ */
+function cm_rotator_theme($existing) {
+  return array(
+    'views_view_unformatted__cm_rotator' => array(
+      'arguments' => array('view' => NULL, 'field' => NULL, 'row' => NULL),
+      'template' => 'views-view-unformatted--cm-rotator',
+      'original hook' => 'views_view_field',
+      'path' => drupal_get_path('module', 'cm_rotator') . '/theme',
+    ),
+  );
+}
