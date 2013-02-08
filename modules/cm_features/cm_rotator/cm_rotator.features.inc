@@ -20,10 +20,7 @@ function cm_rotator_ctools_plugin_api() {
 function cm_rotator_views_api() {
   list($module, $api) = func_get_args();
   if ($module == "views" && $api == "views_default") {
-    return array("version" => "3.0",
-      'path' => drupal_get_path('module', 'cm_rotator') . '/theme',
-      'template path' => drupal_get_path('module', 'cm_rotator') . '/theme'
-    );
+    return array("version" => "3.0");
   }
 }
 
@@ -64,9 +61,9 @@ function cm_rotator_image_default_styles() {
 function cm_rotator_node_info() {
   $items = array(
     'cm_rotator_item' => array(
-      'name' => t('rotator Item'),
+      'name' => t('Rotator Item'),
       'base' => 'node_content',
-      'description' => t('One of a series of items to be displayed in a rotator.'),
+      'description' => t('One of a series of items to be displayed in a Rotator.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
