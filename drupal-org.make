@@ -224,13 +224,6 @@ projects[zen][version] = "3.1"
 
 ; Libraries
 
-; ARC2 Library required by RDF 
-
-;libraries[arc][download][type] = get
-;libraries[arc][download][url] = http://code.semsol.org/source/arc.tar.gz
-;libraries[arc][destination] = modules/rdf/vendor
-;libraries[arc][directory_name] = arc
-
 ; CKEditor
 
 libraries[ckeditor][download][type] = "get"
@@ -244,13 +237,6 @@ libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
-
-; Facebook PHP SDK
-
-;libraries[facebook-php-sdk][download][type] = "get"
-;libraries[facebook-php-sdk][download][url] = "https://github.com/facebook/facebook-php-sdk/tarball/v3.1.1"
-;libraries[facebook-php-sdk][destination] = "libraries"
-;libraries[facebook-php-sdk][directory_name] = "facebook-php-sdk"
 
 ; FlexSlider
 
