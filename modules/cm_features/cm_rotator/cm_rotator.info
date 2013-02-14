@@ -34,3 +34,5 @@ features[variable][] = "node_options_cm_rotator_item"
 features[variable][] = "node_preview_cm_rotator_item"
 features[variable][] = "node_submitted_cm_rotator_item"
 features[views_view][] = "cm_rotator"
+stylesheets[all][] = "theme/cm_rotator.css"
+
