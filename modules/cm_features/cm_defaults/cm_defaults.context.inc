@@ -23,7 +23,18 @@ function cm_defaults_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-cm_rotator-block' => array(
+          'module' => 'views',
+          'delta' => 'cm_rotator-block',
+          'region' => 'highlighted',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 1;
 
   // Translatables
@@ -111,7 +122,7 @@ function cm_defaults_context_default_contexts() {
         ),
         'twitter_pull-0' => array(
           'module' => 'twitter_pull',
-          'delta' => 0,
+          'delta' => '0',
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),

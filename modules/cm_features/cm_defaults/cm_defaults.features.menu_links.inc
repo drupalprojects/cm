@@ -17,9 +17,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'blog',
     'link_title' => 'Blog',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
@@ -35,9 +33,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'contact',
     'link_title' => 'Contact',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
@@ -53,9 +49,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Documentation',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
@@ -71,9 +65,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Sample Content',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
@@ -89,9 +81,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Documentation',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
@@ -107,9 +97,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Getting Started',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
@@ -125,9 +113,7 @@ function cm_defaults_menu_default_menu_links() {
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Customization',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
     ),
     'module' => 'menu',
     'hidden' => '0',
