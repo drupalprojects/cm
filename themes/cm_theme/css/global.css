@@ -61,3 +61,10 @@ visibility:hidden;
 .openlayers-popup {
   color: #EEEEEE;
 }
+
+.openlayers-popup .openlayers-tooltip-name a:link,
+.openlayers-popup .openlayers-tooltip-name a:visited,
+.openlayers-popup .openlayers-tooltip-name a:hover,
+.openlayers-popup .openlayers-tooltip-name a:active {
+  color: #66AAFF;
+}
