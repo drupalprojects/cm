@@ -50,10 +50,14 @@ body {
   text-align: center;
 }
 
+/* locations View */
+
 /* Hide OpenLayers Map Popup - http://drupal.org/node/1540534 */
 
 .olLayerGooglePoweredBy.olLayerGoogleV3.gmnoprint {
 visibility:hidden;
 }
 
-
+.openlayers-popup {
+  color: #EEEEEE;
+}
