@@ -235,7 +235,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.4.3.zip"
-libraries[colorbox][destination] = "libraries"
+libraries[colorbox][destination] = "libraries/colorbox"
 libraries[colorbox][directory_name] = "colorbox"
 
 ; FlexSlider
