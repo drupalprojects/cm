@@ -234,7 +234,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 ; Colorbox
 
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "https://raw.github.com/jackmoore/colorbox/1.4.3/jquery.colorbox-min.js"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.4.3.zip"
 libraries[colorbox][destination] = "libraries"
 libraries[colorbox][directory_name] = "colorbox"
 
