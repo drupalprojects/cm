@@ -241,8 +241,7 @@ libraries[colorbox][directory_name] = "colorbox"
 ; FlexSlider
 
 libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://raw.github.com/woothemes/FlexSlider/a9168b8978715b206d33d58f58349f35d895e92c/jquery.flexslider-min.js"
-libraries[flexslider][download][filename] = "jquery.flexslider-min.js"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/a4647edaf7d44a32b1d568cef570128b8d28403b.zip"
 libraries[flexslider][destination] = "libraries"
 libraries[flexslider][directory_name] = "flexslider"
 
