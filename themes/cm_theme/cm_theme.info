@@ -442,6 +442,8 @@ settings[alpha_region_footer_second_equal_height_element] = '0'
 settings[alpha_region_footer_second_equal_height_container] = '0'
 settings[nice_menus_custom_css] = ''
 
+scripts[] = js/script.js
+
 version = '1.x'
 
 
