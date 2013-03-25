@@ -28,6 +28,10 @@ function cm_install_tasks() {
       'display_name' => st('Initialize Front Page'),
       'type' => 'normal',
     ),
+    'cm_initialize_configuration' => array(
+      'display_name' => st('Initialize Configuration'),
+      'type' => 'normal',
+    ),
   );
 }
 
@@ -84,6 +88,15 @@ function cm_initialize_front_page() {
     $result = array_shift($result['node']);
     variable_set('site_frontpage', 'node/' . $result->nid); // Set the front page
   }
+}
+
+/**
+ * Other configuration steps.
+ */
+function cm_initialize_configuration() {
+  cm_log('Initializing configuration');
+
+  variable_set('pathauto_node_pattern', '[node:title]');
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
