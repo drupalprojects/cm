@@ -170,7 +170,7 @@ projects[references][subdir] = "contrib"
 projects[references][version] = "2.0-beta3"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.1"
+projects[rules][version] = "2.3"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
@@ -194,7 +194,7 @@ projects[twitter_pull][subdir] = "contrib"
 projects[twitter_pull][version] = "1.0-rc4"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[views][version] = "3.6"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.0-beta3"
