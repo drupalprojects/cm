@@ -264,4 +264,4 @@ projects[delta][patch][] = "http://drupal.org/files/i1512744-28.patch"
 projects[openlayers][patch][] = "http://drupal.org/files/openlayers-blank-gif-1364304.patch"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
-projects[nice_menus][patch][] = "http://drupal.org/files/1148746-nice-mega-dropdowns-d7_1.patch"
+projects[nice_menus][patch][] = "http://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
