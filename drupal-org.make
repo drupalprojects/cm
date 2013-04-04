@@ -1,8 +1,11 @@
 api = 2
 
-core = "7.19"
+core = "7.22"
 
 ; Contrib Projects
+
+projects[addanother][subdir] = "contrib"
+projects[addanother][version] = "2.1"
 
 projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta2"
