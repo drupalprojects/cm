@@ -28,6 +28,7 @@ dependencies[] = rdf
 ; Contrib modules
 
 dependencies[] = actions_permissions
+dependencies[] = addanother
 dependencies[] = addressfield
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
