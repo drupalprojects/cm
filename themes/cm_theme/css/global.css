@@ -18,6 +18,10 @@ body {
   background: #eef2f6;
 }
 
+#page {
+  padding-top: 10px;
+}
+
 #block-system-main-menu,
 .logo-img,
 .site-name-slogan,
@@ -41,11 +45,19 @@ body {
   text-align: center;
 }
 
-#block-system-main-menu .block-title {
+#block-nice-menus-1 .block-title {
   display: none;
 }
 
-#block-system-main-menu li {
+#block-nice-menus-1 ul {
+  border: none;
+  width: 100%;
+}
+
+#block-nice-menus-1 ul li {
+  background: transparent;
+  border: none;
+  float: none;
   list-style: none;
   text-align: center;
 }

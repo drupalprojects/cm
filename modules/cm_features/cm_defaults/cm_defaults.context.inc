@@ -114,9 +114,9 @@ function cm_defaults_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
-        'system-main-menu' => array(
-          'module' => 'system',
-          'delta' => 'main-menu',
+        'nice_menus-1' => array(
+          'module' => 'nice_menus',
+          'delta' => '1',
           'region' => 'menu',
           'weight' => '-10',
         ),

@@ -26,11 +26,11 @@ function cm_defaults_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-49',
   );
-  // Exported menu link: main-menu:contact
-  $menu_links['main-menu:contact'] = array(
+  // Exported menu link: main-menu:node/14
+  $menu_links['main-menu:node/14'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'contact',
-    'router_path' => 'contact',
+    'link_path' => 'node/14',
+    'router_path' => 'node/%',
     'link_title' => 'Contact',
     'options' => array(
       'attributes' => array(),
@@ -40,7 +40,7 @@ function cm_defaults_menu_default_menu_links() {
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-47',
+    'weight' => '0',
   );
   // Exported menu link: main-menu:taxonomy/term/2
   $menu_links['main-menu:taxonomy/term/2'] = array(
