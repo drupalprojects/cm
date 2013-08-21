@@ -5,11 +5,12 @@ core = "6.x"
 
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://launchpadlibrarian.net/72484080/pressflow-6.22.102.tar.gz"
+projects[pressflow][download][url] = "https://codeload.github.com/pressflow/6/legacy.tar.gz/master"
 
 ; Cm Platform
 
 projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
-projects[cm][download][url] = "git://github.com/minimalmedia/Cm.git"
-projects[cm][download][tag] = "v0.15"
+projects[cm][download][url] = "http://git.drupal.org/project/cm.git"
+projects[cm][download][branch] = "6.x-dev"
+
