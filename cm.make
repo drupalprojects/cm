@@ -37,16 +37,16 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0"
+projects[context][version] = "3.1"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.1"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.8"
+projects[ctools][version] = "1.10"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.7"
+projects[date][version] = "2.9"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1-alpha3"
@@ -64,7 +64,7 @@ projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.3-alpha1"
+projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "3.3"
@@ -115,7 +115,7 @@ projects[mobile_tools][subdir] = "contrib"
 projects[mobile_tools][version] = "2.2"
 
 projects[mollom][subdir] = "contrib"
-projects[mollom][version] = "1.16"
+projects[mollom][version] = "2.5"
 
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.1"
@@ -124,19 +124,19 @@ projects[nodeblock][subdir] = "contrib"
 projects[nodeblock][version] = "1.4"
 
 projects[node_export][subdir] = "contrib"
-projects[node_export][version] = "2.21"
+projects[node_export][version] = "3.4"
 
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.9"
 
 projects[nodewords][subdir] = "contrib"
-projects[nodewords][version] = "1.12-beta9"
+projects[nodewords][version] = "1.14"
 
 projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.3"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.9"
+projects[panels][version] = "3.10"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.5"
@@ -175,7 +175,7 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.14"
+projects[views][version] = "2.16"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations[version] = "1.11"
