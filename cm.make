@@ -94,7 +94,7 @@ projects[install_profile_api][subdir] = "contrib"
 projects[install_profile_api][version] = "2.1"
 
 projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.4"
+projects[jquery_ui][version] = "1.5"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "1.1"
