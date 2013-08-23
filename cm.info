@@ -104,7 +104,6 @@ dependencies[] = scheduler
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = transliteration
-dependencies[] = twitter_pull
 dependencies[] = user_reference
 dependencies[] = views
 dependencies[] = views_content
