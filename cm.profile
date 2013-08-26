@@ -73,7 +73,7 @@ function cm_initialize_themes() {
  */
 function cm_initialize_front_page() {
   // Force cron to run here or else EntityFieldQuery won't find any nodes
-  drupal_cron_run();
+  cm_cron_run();
 
   cm_log('Initializing front page');
  
@@ -129,5 +129,84 @@ function cm_log($message, $severity = 'status') {
     return;
   }
   drupal_set_message($message, $severity, FALSE);
+}
+
+/**
+ * Executes a cron run.
+ *
+ * @return
+ *   TRUE if cron ran successfully.
+ */
+function cm_cron_run() {
+  // Allow execution to continue even if the request gets canceled.
+  @ignore_user_abort(TRUE);
+
+  // Prevent session information from being saved while cron is running.
+  $original_session_saving = drupal_save_session();
+  drupal_save_session(FALSE);
+
+  // Force the current user to anonymous to ensure consistent permissions on
+  // cron runs.
+  $original_user = $GLOBALS['user'];
+  $GLOBALS['user'] = drupal_anonymous_user();
+
+  // Try to allocate enough time to run all the hook_cron implementations.
+  drupal_set_time_limit(1800);
+
+  $return = FALSE;
+  // Grab the defined cron queues.
+  $queues = module_invoke_all('cron_queue_info');
+  drupal_alter('cron_queue_info', $queues);
+
+  // Try to acquire cron lock.
+  if (!lock_acquire('cron', 240.0)) {
+    // Cron is still running normally.
+    watchdog('cron', 'Attempting to re-run cron while it is already running.', array(), WATCHDOG_WARNING);
+  }
+  else {
+    // Make sure every queue exists. There is no harm in trying to recreate an
+    // existing queue.
+    foreach ($queues as $queue_name => $info) {
+      DrupalQueue::get($queue_name)->createQueue();
+    }
+    // Register shutdown callback.
+    drupal_register_shutdown_function('drupal_cron_cleanup');
+
+    // Iterate through the modules calling their cron handlers (if any):
+    foreach (module_implements('cron') as $module) {
+      // Do not let an exception thrown by one module disturb another.
+      try {
+        module_invoke($module, 'cron');
+      }
+      catch (Exception $e) {
+        watchdog_exception('cron', $e);
+      }
+    }
+
+    // Record cron time.
+    variable_set('cron_last', REQUEST_TIME);
+    watchdog('cron', 'Cron run completed.', array(), WATCHDOG_NOTICE);
+
+    // Release cron lock.
+    lock_release('cron');
+
+    // Return TRUE so other functions can check if it did run successfully
+    $return = TRUE;
+  }
+
+  foreach ($queues as $queue_name => $info) {
+    $function = $info['worker callback'];
+    $end = time() + (isset($info['time']) ? $info['time'] : 15);
+    $queue = DrupalQueue::get($queue_name);
+    while (time() < $end && ($item = $queue->claimItem())) {
+      $function($item->data);
+      $queue->deleteItem($item);
+    }
+  }
+  // Restore the user.
+  $GLOBALS['user'] = $original_user;
+  drupal_save_session($original_session_saving);
+
+  return $return;
 }
 
