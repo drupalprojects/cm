@@ -120,12 +120,6 @@ function cm_defaults_context_default_contexts() {
           'region' => 'menu',
           'weight' => '-10',
         ),
-        'twitter_pull-0' => array(
-          'module' => 'twitter_pull',
-          'delta' => '0',
-          'region' => 'sidebar_second',
-          'weight' => '-10',
-        ),
         'blog-recent' => array(
           'module' => 'blog',
           'delta' => 'recent',

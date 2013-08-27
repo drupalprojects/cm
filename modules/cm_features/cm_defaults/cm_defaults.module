@@ -35,19 +35,6 @@ function cm_defaults_block_view($delta = '') {
   }
 }
 
-function cm_defaults_twitter_pull_blocks() {
-  return array(
-    0 => (object) array(
-      'delta' => 'cm_defaults_0',
-      'tweetkey' => '@minimalmedia',
-      'title' => 'Latest Tweet',
-      'name'  => '@minimalmedia Latest Tweet',    
-      'number_of_items' => 1,
-      'theme_key' => 'twitter_pull_listing',    
-    )
-  );
-}
-
 /**
  * Get the standard contact form, then shorten the long text fields.
  */
