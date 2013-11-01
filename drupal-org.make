@@ -38,7 +38,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.2"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta6"
+projects[context][version] = "3.1"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
@@ -80,7 +80,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable4"
 
 projects[filefield_sources][subdir] = "contrib"
-projects[filefield_sources][version] = "1.6"
+projects[filefield_sources][version] = "1.9"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.0-rc3"
