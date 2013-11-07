@@ -53,7 +53,7 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.5"
 
 projects[defaultcontent][subdir] = "contrib"
-projects[defaultcontent][version] = "1.0-alpha4"
+projects[defaultcontent][version] = "1.0-alpha9"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta9"
@@ -68,7 +68,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.2"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta6"
+projects[features][version] = "2.0"
 
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "1.0-beta1"
