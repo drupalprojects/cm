@@ -8,7 +8,6 @@ dependencies[] = block
 dependencies[] = blog
 dependencies[] = color
 dependencies[] = comment
-dependencies[] = contact
 dependencies[] = contextual
 dependencies[] = help
 dependencies[] = image
