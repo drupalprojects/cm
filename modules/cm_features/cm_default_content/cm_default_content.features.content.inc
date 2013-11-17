@@ -12,14 +12,14 @@ $content = array();
 $content['about-us'] = (object)array(
   'exported_path' => 'content/about-us',
   'title' => 'About Us',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_page',
   'language' => 'und',
-  'created' => '1326404835',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1326404835,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'about-us',
   'body' => array(
     'und' => array(
@@ -36,7 +36,7 @@ $content['about-us'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '1',
+        'tid' => 1,
       ),
     ),
   ),
@@ -44,14 +44,14 @@ $content['about-us'] = (object)array(
 $content['cm-footer'] = (object)array(
   'exported_path' => 'content/footer',
   'title' => 'Footer',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_block',
   'language' => 'und',
-  'created' => '1330634308',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1330634308,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'cm-footer',
   'body' => array(
     'und' => array(
@@ -81,14 +81,14 @@ $content['cm-footer'] = (object)array(
 $content['contact-form'] = (object)array(
   'exported_path' => 'content/set-contact-form',
   'title' => 'Set up the Contact Form',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_page',
   'language' => 'und',
-  'created' => '1326405665',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1326405665,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'contact-form',
   'body' => array(
     'und' => array(
@@ -107,13 +107,13 @@ $content['contact-form'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '2',
+        'tid' => 2,
       ),
       1 => array(
-        'tid' => '3',
+        'tid' => 3,
       ),
       2 => array(
-        'tid' => '4',
+        'tid' => 4,
       ),
     ),
   ),
@@ -121,14 +121,14 @@ $content['contact-form'] = (object)array(
 $content['creating-content'] = (object)array(
   'exported_path' => 'content/creating-content',
   'title' => 'Creating Content',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_page',
   'language' => 'und',
-  'created' => '1326405299',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1326405299,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'creating-content',
   'body' => array(
     'und' => array(
@@ -167,10 +167,10 @@ $content['creating-content'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '2',
+        'tid' => 2,
       ),
       1 => array(
-        'tid' => '3',
+        'tid' => 3,
       ),
     ),
   ),
@@ -178,14 +178,14 @@ $content['creating-content'] = (object)array(
 $content['dive-right-in'] = (object)array(
   'exported_path' => 'content/dive-right',
   'title' => 'Dive Right In',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_rotator_item',
   'language' => 'und',
-  'created' => '1360622605',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1360622605,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'dive-right-in',
   'body' => array(
     'und' => array(
@@ -204,20 +204,20 @@ $content['dive-right-in'] = (object)array(
       0 => array(
         'alt' => NULL,
         'title' => NULL,
-        'width' => '1024',
-        'height' => '736',
+        'width' => 1024,
+        'height' => 736,
         'filename' => 'dive.png',
         'uri' => 'public://dive.png',
         'filemime' => 'image/png',
-        'filesize' => '1851098',
-        'status' => '1',
+        'filesize' => 1851098,
+        'status' => 1,
         'type' => 'image',
         'field_image_description' => array(),
         'metatags' => array(),
         'rdf_mapping' => array(),
         'image_dimensions' => array(
-          'width' => '1024',
-          'height' => '736',
+          'width' => 1024,
+          'height' => 736,
         ),
         'image' => '‰PNG
 
@@ -7076,14 +7076,14 @@ l…4ƒ˜a¨IRsD¡|‚î´Zjê©Š™Ï3zÿÁ3HôôG÷‹ØõÄÁO¼´tÆÃo\\h ùîÿ/À' . "\0" . '
 $content['features-overview'] = (object)array(
   'exported_path' => 'content/features-overview',
   'title' => 'Features Overview',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_page',
   'language' => 'und',
-  'created' => '1326402550',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1326402550,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'features-overview',
   'body' => array(
     'und' => array(
@@ -7107,7 +7107,7 @@ $content['features-overview'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '2',
+        'tid' => 2,
       ),
     ),
   ),
@@ -7115,28 +7115,28 @@ $content['features-overview'] = (object)array(
 $content['front-page'] = (object)array(
   'exported_path' => 'content/front-page',
   'title' => 'Front Page',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_panel',
   'language' => 'und',
-  'created' => '1328039174',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1328039174,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'front-page',
   'body' => array(),
 );
 $content['get-started'] = (object)array(
   'exported_path' => 'content/get-started',
   'title' => 'Get Started',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_rotator_item',
   'language' => 'und',
-  'created' => '1360680178',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1360680178,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'get-started',
   'body' => array(
     'und' => array(
@@ -7155,20 +7155,20 @@ $content['get-started'] = (object)array(
       0 => array(
         'alt' => NULL,
         'title' => NULL,
-        'width' => '1002',
-        'height' => '573',
+        'width' => 1002,
+        'height' => 573,
         'filename' => 'f1start.jpg',
         'uri' => 'public://f1start.jpg',
         'filemime' => 'image/jpeg',
-        'filesize' => '173109',
-        'status' => '1',
+        'filesize' => 173109,
+        'status' => 1,
         'type' => 'image',
         'field_image_description' => array(),
         'metatags' => array(),
         'rdf_mapping' => array(),
         'image_dimensions' => array(
-          'width' => '1002',
-          'height' => '573',
+          'width' => 1002,
+          'height' => 573,
         ),
         'image' => 'ÿØÿá' . "\0" . 'Exif' . "\0" . '' . "\0" . 'II*' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿì' . "\0" . 'Ducky' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '<' . "\0" . '' . "\0" . 'ÿá+http://ns.adobe.com/xap/1.0/' . "\0" . '<?xpacket begin="ï»¿" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.0-c060 61.134777, 2010/02/12-17:32:00        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmpMM:DocumentID="xmp.did:A113C25A17BB11E0AEAF8EF3C003D5B1" xmpMM:InstanceID="xmp.iid:A113C25917BB11E0AEAF8EF3C003D5B1" xmp:CreatorTool="Adobe Photoshop CS5 Macintosh"> <xmpMM:DerivedFrom stRef:instanceID="xmp.did:F87F117407206811A425E1CAB985E38F" stRef:documentID="xmp.did:F87F117407206811A425E1CAB985E38F"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>ÿî' . "\0" . 'Adobe' . "\0" . 'dÀ' . "\0" . '' . "\0" . '' . "\0" . 'ÿÛ' . "\0" . '„' . "\0" . '		
 
@@ -7813,14 +7813,14 @@ SS%Ý*eÔÐ¡ˆtê+ŠÏO¡7ÔP>¥©|Îš|•åOd@-ŒuN˜µz
 $content['sample-blog-post'] = (object)array(
   'exported_path' => 'content/about-nice-weather-were-having',
   'title' => 'About this nice weather we\'re having.',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'blog',
   'language' => 'und',
-  'created' => '1330482707',
-  'comment' => '2',
-  'translate' => '0',
+  'created' => 1330482707,
+  'comment' => 2,
+  'translate' => 0,
   'machine_name' => 'sample-blog-post',
   'body' => array(
     'und' => array(
@@ -7840,14 +7840,14 @@ $content['sample-blog-post'] = (object)array(
 $content['using-taxonomy'] = (object)array(
   'exported_path' => 'content/using-taxonomy',
   'title' => 'Using Taxonomy',
-  'status' => '1',
-  'promote' => '0',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 0,
+  'sticky' => 0,
   'type' => 'cm_page',
   'language' => 'und',
-  'created' => '1326402647',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1326402647,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'using-taxonomy',
   'body' => array(
     'und' => array(
@@ -7868,10 +7868,10 @@ $content['using-taxonomy'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '2',
+        'tid' => 2,
       ),
       1 => array(
-        'tid' => '4',
+        'tid' => 4,
       ),
     ),
   ),
@@ -7879,14 +7879,14 @@ $content['using-taxonomy'] = (object)array(
 $content['welcome-to-cm'] = (object)array(
   'exported_path' => 'content/welcome-cm',
   'title' => 'Welcome to Cm',
-  'status' => '1',
-  'promote' => '1',
-  'sticky' => '0',
+  'status' => 1,
+  'promote' => 1,
+  'sticky' => 0,
   'type' => 'cm_page',
   'language' => 'und',
-  'created' => '1330481683',
-  'comment' => '1',
-  'translate' => '0',
+  'created' => 1330481683,
+  'comment' => 1,
+  'translate' => 0,
   'machine_name' => 'welcome-to-cm',
   'body' => array(
     'und' => array(
@@ -7918,7 +7918,7 @@ $content['welcome-to-cm'] = (object)array(
   'field_tags' => array(
     'und' => array(
       0 => array(
-        'tid' => '3',
+        'tid' => 3,
       ),
     ),
   ),

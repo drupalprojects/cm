@@ -10,7 +10,7 @@
 function cm_defaults_menu_default_menu_custom() {
   $menus = array();
 
-  // Exported menu: menu-tags
+  // Exported menu: menu-tags.
   $menus['menu-tags'] = array(
     'menu_name' => 'menu-tags',
     'title' => 'Tags',

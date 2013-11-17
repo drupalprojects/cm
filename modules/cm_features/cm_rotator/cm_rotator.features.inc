@@ -7,8 +7,7 @@
 /**
  * Implements hook_ctools_plugin_api().
  */
-function cm_rotator_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
+function cm_rotator_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -17,11 +16,8 @@ function cm_rotator_ctools_plugin_api() {
 /**
  * Implements hook_views_api().
  */
-function cm_rotator_views_api() {
-  list($module, $api) = func_get_args();
-  if ($module == "views" && $api == "views_default") {
-    return array("version" => "3.0");
-  }
+function cm_rotator_views_api($module = NULL, $api = NULL) {
+  return array("api" => "3.0");
 }
 
 /**
@@ -30,7 +26,7 @@ function cm_rotator_views_api() {
 function cm_rotator_image_default_styles() {
   $styles = array();
 
-  // Exported image style: cm_rotator_image
+  // Exported image style: cm_rotator_image.
   $styles['cm_rotator_image'] = array(
     'name' => 'cm_rotator_image',
     'effects' => array(
@@ -44,12 +40,13 @@ function cm_rotator_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '1200',
-          'height' => '400',
+          'width' => 1200,
+          'height' => 400,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'cm_rotator_image',
   );
 
   return $styles;

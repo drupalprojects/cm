@@ -7,8 +7,7 @@
 /**
  * Implements hook_ctools_plugin_api().
  */
-function cm_media_gallery_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
+function cm_media_gallery_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -20,7 +19,7 @@ function cm_media_gallery_ctools_plugin_api() {
 function cm_media_gallery_image_default_styles() {
   $styles = array();
 
-  // Exported image style: cm_media_gallery_full_size
+  // Exported image style: cm_media_gallery_full_size.
   $styles['cm_media_gallery_full_size'] = array(
     'name' => 'cm_media_gallery_full_size',
     'effects' => array(
@@ -34,16 +33,17 @@ function cm_media_gallery_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '1200',
+          'width' => 1200,
           'height' => '',
           'upscale' => 0,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'cm_media_gallery_full_size',
   );
 
-  // Exported image style: cm_media_gallery_square_thumbnail
+  // Exported image style: cm_media_gallery_square_thumbnail.
   $styles['cm_media_gallery_square_thumbnail'] = array(
     'name' => 'cm_media_gallery_square_thumbnail',
     'effects' => array(
@@ -57,12 +57,13 @@ function cm_media_gallery_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '90',
-          'height' => '90',
+          'width' => 90,
+          'height' => 90,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
+    'label' => 'cm_media_gallery_square_thumbnail',
   );
 
   return $styles;
