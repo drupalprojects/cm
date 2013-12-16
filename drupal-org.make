@@ -255,13 +255,17 @@ libraries[geophp][directory_name] = "geophp"
 ; Patches
 
 ; Exportable WYSIWYG Profiles
-projects[wysiwyg][patch][] = "http://drupal.org/files/0001-feature.inc-from-624018-211.patch"
+projects[wysiwyg][patch][] = "https://drupal.org/files/0001-feature.inc-from-624018-211.patch"
 
 ; Delta issue where Contexts cannot be saved: http://drupal.org/node/1512744
-projects[delta][patch][] = "http://drupal.org/files/i1512744-28.patch"
+projects[delta][patch][] = "https://drupal.org/files/i1512744-28.patch"
 
 ; OpenLayers IE rendering bug: http://drupal.org/node/1364304#comment-6240652
-projects[openlayers][patch][] = "http://drupal.org/files/openlayers-blank-gif-1364304.patch"
+projects[openlayers][patch][] = "https://drupal.org/files/openlayers-blank-gif-1364304.patch"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
-projects[nice_menus][patch][] = "http://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
+projects[nice_menus][patch][] = "https://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
+
+; Fix [node:summary] token: https://drupal.org/node/1300920
+projects[drupal][patch][] = "https://drupal.org/files/drupal-1300920-126.patch"
+
