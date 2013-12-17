@@ -25,6 +25,9 @@ projects[auto_nodetitle][version] = "1.0"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
+projects[block_class][subdir] = "contrib"
+projects[block_class][version] = "2.1"
+
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.3"
 
