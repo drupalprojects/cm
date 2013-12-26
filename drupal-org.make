@@ -166,6 +166,9 @@ projects[pathauto][version] = "1.0-beta1"
 projects[plupload][subdir] = "contrib"
 projects[plupload][version] = "1.0-beta3"
 
+projects[proj4js][subdir] = "contrib"
+projects[proj4js][version] = "2.1"
+
 projects[publishcontent][subdir] = "contrib"
 projects[publishcontent][version] = "1.0"
 
