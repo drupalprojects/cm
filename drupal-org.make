@@ -263,9 +263,6 @@ projects[wysiwyg][patch][] = "https://drupal.org/files/0001-feature.inc-from-624
 ; Delta issue where Contexts cannot be saved: http://drupal.org/node/1512744
 projects[delta][patch][] = "https://drupal.org/files/i1512744-28.patch"
 
-; OpenLayers IE rendering bug: http://drupal.org/node/1364304#comment-6240652
-projects[openlayers][patch][] = "https://drupal.org/files/openlayers-blank-gif-1364304.patch"
-
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
 
