@@ -152,7 +152,7 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
-projects[openlayers][version] = "2.0-beta1"
+projects[openlayers][version] = "2.0-beta7"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "2.0"
