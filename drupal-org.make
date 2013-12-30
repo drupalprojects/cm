@@ -113,7 +113,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.0-alpha2"
+projects[libraries][version] = "2.1"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.0-alpha3"
