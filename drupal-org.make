@@ -95,10 +95,10 @@ projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.0-beta1"
 
 projects[geofield][subdir] = "contrib"
-projects[geofield][version] = "1.0"
+projects[geofield][version] = "2.1"
 
 projects[geophp][subdir] = "contrib"
-projects[geophp][version] = "1.1"
+projects[geophp][version] = "1.7"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
