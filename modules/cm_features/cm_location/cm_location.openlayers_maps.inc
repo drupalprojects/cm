@@ -90,8 +90,8 @@ function cm_location_openlayers_maps() {
       'openlayers_geojson_picture_this' => 0,
       'locations_openlayers_1' => 0,
     ),
-    'projection' => '900913',
-    'displayProjection' => '4326',
+    'projection' => 'EPSG:900913',
+    'displayProjection' => 'EPSG:4326',
     'styles' => array(
       'default' => 'default',
       'select' => 'default_select',
