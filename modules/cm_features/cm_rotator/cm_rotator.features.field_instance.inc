@@ -154,7 +154,7 @@ function cm_rotator_field_default_field_instances() {
         'url_cutoff' => 80,
       ),
       'enable_tokens' => 1,
-      'title' => 'optional',
+      'title' => 'none',
       'title_value' => '',
       'url' => 0,
       'user_register_form' => FALSE,

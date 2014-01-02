@@ -6,9 +6,6 @@
  * @ingroup views_templates
  */
 ?>
-<?php if (!empty($title)): ?>
-  <h3>HI <?php print $title; ?></h3>
-<?php endif; ?>
 <?php flexslider_add('flexslider'); ?>
 <?php drupal_add_js("jQuery(document).ready(function () { jQuery('.flexslider').flexslider(); });", 'inline'); ?>
 

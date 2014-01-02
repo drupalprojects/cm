@@ -31,11 +31,22 @@ function cm_rotator_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
+  /* Field: Content: URL */
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['id'] = 'field_cm_rotator_item_url';
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['table'] = 'field_data_field_cm_rotator_item_url';
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['field'] = 'field_cm_rotator_item_url';
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['label'] = '';
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['click_sort_column'] = 'url';
+  $handler->display->display_options['fields']['field_cm_rotator_item_url']['type'] = 'plain';
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['id'] = 'field_cm_rotator_item_image';
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['table'] = 'field_data_field_cm_rotator_item_image';
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['field'] = 'field_cm_rotator_item_image';
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['label'] = '';
+  $handler->display->display_options['fields']['field_cm_rotator_item_image']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['field_cm_rotator_item_image']['alter']['path'] = '[field_cm_rotator_item_url]';
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_cm_rotator_item_image']['settings'] = array(
