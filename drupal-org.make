@@ -89,7 +89,7 @@ projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.2"
+projects[fontyourface][version] = "2.8"
 
 projects[geocoder][subdir] = "contrib"
 projects[geocoder][version] = "1.0-beta1"
