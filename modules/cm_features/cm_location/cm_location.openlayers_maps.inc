@@ -19,7 +19,7 @@ function cm_location_openlayers_maps() {
   $openlayers_maps->data = array(
     'width' => 'auto',
     'height' => '400px',
-    'image_path' => 'sites/all/modules/openlayers/themes/default_dark/img/',
+    'image_path' => 'profiles/cm/modules/contrib/openlayers/themes/default_dark/img/',
     'css_path' => 'sites/all/modules/openlayers/themes/default_dark/style.css',
     'proxy_host' => '',
     'hide_empty_map' => 0,
@@ -36,12 +36,15 @@ function cm_location_openlayers_maps() {
     'behaviors' => array(
       'openlayers_behavior_keyboarddefaults' => array(),
       'openlayers_behavior_attribution' => array(
-        'seperator' => '',
+        'separator' => '',
       ),
       'openlayers_behavior_layerswitcher' => array(
         'ascending' => 1,
+        'sortBaseLayer' => '0',
         'roundedCorner' => 1,
         'roundedCornerColor' => '#222222',
+        'maximizeDefault' => 0,
+        'div' => '',
       ),
       'openlayers_behavior_navigation' => array(
         'zoomWheelEnabled' => 1,
@@ -56,6 +59,8 @@ function cm_location_openlayers_maps() {
         'layers' => array(
           'locations_openlayers_1' => 'locations_openlayers_1',
         ),
+        'panMapIfOutOfView' => 0,
+        'keepInMap' => 1,
       ),
     ),
     'default_layer' => 'google_normal',
@@ -68,27 +73,38 @@ function cm_location_openlayers_maps() {
     'layer_weight' => array(
       'locations_openlayers_1' => '0',
       'openlayers_geojson_picture_this' => '0',
+      'openlayers_kml_example' => '0',
       'geofield_formatter' => '0',
     ),
     'layer_styles' => array(
       'geofield_formatter' => '0',
+      'openlayers_kml_example' => '0',
       'openlayers_geojson_picture_this' => '0',
       'locations_openlayers_1' => '0',
     ),
     'layer_styles_select' => array(
       'geofield_formatter' => '0',
+      'openlayers_kml_example' => '0',
+      'openlayers_geojson_picture_this' => '0',
+      'locations_openlayers_1' => '0',
+    ),
+    'layer_styles_temporary' => array(
+      'geofield_formatter' => '0',
+      'openlayers_kml_example' => '0',
       'openlayers_geojson_picture_this' => '0',
       'locations_openlayers_1' => '0',
     ),
     'layer_activated' => array(
       'locations_openlayers_1' => 'locations_openlayers_1',
       'geofield_formatter' => 0,
+      'openlayers_kml_example' => 0,
       'openlayers_geojson_picture_this' => 0,
     ),
     'layer_switcher' => array(
-      'geofield_formatter' => 0,
-      'openlayers_geojson_picture_this' => 0,
       'locations_openlayers_1' => 0,
+      'geofield_formatter' => 0,
+      'openlayers_kml_example' => 0,
+      'openlayers_geojson_picture_this' => 0,
     ),
     'projection' => 'EPSG:900913',
     'displayProjection' => 'EPSG:4326',
