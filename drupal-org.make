@@ -265,6 +265,3 @@ projects[delta][patch][] = "https://drupal.org/files/i1512744-28.patch"
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
 
-; Fix [node:summary] token: https://drupal.org/node/1300920
-projects[drupal][patch][] = "https://drupal.org/files/drupal-1300920-126.patch"
-
