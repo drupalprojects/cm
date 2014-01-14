@@ -1,3 +1,6 @@
+api = 2
+core = 7.x
+
 ; Contrib Projects
 
 projects[addanother][subdir] = "contrib"
