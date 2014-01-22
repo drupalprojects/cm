@@ -130,7 +130,7 @@ projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha6"
+projects[metatag][version] = "1.0-beta9"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.0"
