@@ -10,5 +10,8 @@ projects[cm][type] = "profile"
 projects[cm][download][type] = "git"
 projects[cm][download][url] = "http://git.drupal.org/project/cm.git"
 
-projects[cm][download][tag] = "7.x-0.36"
+; To build from a branch or a tag, uncomment as needed
+
+projects[cm][download][branch] = "7.x-1.x"
+;projects[cm][download][tag] = "7.x-0.36"
 
