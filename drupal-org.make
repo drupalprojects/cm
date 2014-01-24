@@ -246,7 +246,7 @@ libraries[colorbox][directory_name] = "colorbox"
 ; FlexSlider
 
 libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/a4647edaf7d44a32b1d568cef570128b8d28403b.zip"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.2.2.tar.gz"
 libraries[flexslider][destination] = "libraries"
 libraries[flexslider][directory_name] = "flexslider"
 
