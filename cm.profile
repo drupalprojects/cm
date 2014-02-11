@@ -107,6 +107,7 @@ function cm_initialize_configuration() {
   cm_log('Initializing configuration');
 
   variable_set('pathauto_node_pattern', '[node:title]');
+  variable_set('error_level', '0');
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
