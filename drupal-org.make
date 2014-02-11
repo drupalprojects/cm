@@ -91,7 +91,7 @@ projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 
 projects[geocoder][subdir] = "contrib"
-projects[geocoder][version] = "1.0-beta1"
+projects[geocoder][version] = "1.2"
 
 projects[geofield][subdir] = "contrib"
 projects[geofield][version] = "2.1"
