@@ -91,7 +91,7 @@ projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 
 projects[geocoder][subdir] = "contrib"
-projects[geocoder][version] = "1.0-beta1"
+projects[geocoder][version] = "1.2"
 
 projects[geofield][subdir] = "contrib"
 projects[geofield][version] = "2.1"
@@ -267,4 +267,7 @@ projects[delta][patch][] = "https://drupal.org/files/i1512744-28.patch"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
+
+; CTools issue causing an error when adding nodeblocks to panels: https://drupal.org/node/1925018
+projects[ctools][patch][] = "https://drupal.org/files/ctools-1925018-61.patch"
 

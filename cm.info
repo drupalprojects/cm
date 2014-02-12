@@ -95,6 +95,7 @@ dependencies[] = page_manager
 dependencies[] = panelizer
 dependencies[] = panels
 dependencies[] = pathauto
+dependencies[] = proj4js
 dependencies[] = publishcontent
 dependencies[] = redirect
 dependencies[] = references

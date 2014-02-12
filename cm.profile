@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function cm_install() {
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+}
+
+/**
  * Implements hook_form_FORM_ID_alter().
  *
  * Allows the profile to alter the site configuration form.
@@ -97,6 +107,7 @@ function cm_initialize_configuration() {
   cm_log('Initializing configuration');
 
   variable_set('pathauto_node_pattern', '[node:title]');
+  variable_set('error_level', '0');
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {

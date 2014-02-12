@@ -80,3 +80,11 @@ visibility:hidden;
 .openlayers-popup .openlayers-tooltip-name a:active {
   color: #66AAFF;
 }
+
+/* Override Omega formalize css' effects on Colorbox */
+
+#colorbox button,
+#colorbox input {
+  border: 0px none;
+}
+
