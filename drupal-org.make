@@ -58,7 +58,7 @@ projects[defaultcontent][subdir] = "contrib"
 projects[defaultcontent][version] = "1.0-alpha9"
 
 projects[delta][subdir] = "contrib"
-projects[delta][version] = "3.0-beta9"
+projects[delta][version] = "3.0-beta11"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
@@ -261,9 +261,6 @@ libraries[geophp][directory_name] = "geophp"
 
 ; Exportable WYSIWYG Profiles
 projects[wysiwyg][patch][] = "https://drupal.org/files/0001-feature.inc-from-624018-211.patch"
-
-; Delta issue where Contexts cannot be saved: http://drupal.org/node/1512744
-projects[delta][patch][] = "https://drupal.org/files/i1512744-28.patch"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
