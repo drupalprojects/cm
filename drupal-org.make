@@ -196,7 +196,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.3"
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.0-alpha1"
+projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.6"
