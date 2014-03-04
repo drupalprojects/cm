@@ -133,7 +133,7 @@ projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta9"
 
 projects[mollom][subdir] = "contrib"
-projects[mollom][version] = "1.0"
+projects[mollom][version] = "2.9"
 
 projects[node_clone][subdir] = "contrib"
 projects[node_clone][version] = "1.0-beta1"
