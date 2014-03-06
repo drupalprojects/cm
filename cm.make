@@ -37,13 +37,13 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.1"
+projects[context][version] = "3.3"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.1"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.10"
+projects[ctools][version] = "1.11"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.9"
@@ -58,7 +58,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.7"
+projects[filefield][version] = "3.12"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.4"
@@ -79,7 +79,7 @@ projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.7"
 
 projects[image_resize_filter][subdir] = "contrib"
-projects[image_resize_filter][version] = "1.12"
+projects[image_resize_filter][version] = "1.14"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "2.1"
