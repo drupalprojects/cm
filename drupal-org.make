@@ -31,7 +31,7 @@ projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.3"
 
 projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.x-dev"
+projects[cck][version] = "3.0-alpha3"
 
 projects[coffee][subdir] = "contrib"
 projects[coffee][version] = "1.0"
