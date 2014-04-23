@@ -13,7 +13,7 @@ projects[adminrole][subdir] = "contrib"
 projects[adminrole][version] = "1.3"
 
 projects[advagg][subdir] = "contrib"
-projects[advagg][version] = "1.4"
+projects[advagg][version] = "1.9"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
