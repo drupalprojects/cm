@@ -105,6 +105,7 @@ dependencies[] = rules
 dependencies[] = rules_scheduler
 dependencies[] = rules_admin
 dependencies[] = scheduler
+dependencies[] = site_verify
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = transliteration
