@@ -202,7 +202,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.6"
+projects[views][version] = "3.8"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.0-beta3"
