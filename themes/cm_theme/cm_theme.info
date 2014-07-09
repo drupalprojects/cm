@@ -446,18 +446,3 @@ scripts[] = js/script.js
 
 version = '1.x'
 
-
-; Information added by drush on 2012-06-04
-version = "7.x-dev-dev"
-core = "7.x"
-project = "cm"
-datestamp = "1338843024"
-
-
-
-; Information added by drush on 2013-04-11
-version = "7.x-0.29"
-core = "7.x"
-project = "cm"
-datestamp = "1365696087"
-
