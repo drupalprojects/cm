@@ -266,5 +266,5 @@ libraries[geophp][directory_name] = "geophp"
 projects[wysiwyg][patch][] = "https://drupal.org/files/0001-feature.inc-from-624018-211.patch"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
-projects[nice_menus][patch][] = "https://drupal.org/files/1148746-nice-mega-dropdowns-d7_2.patch"
+projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nice-mega-dropdowns-d7_1.patch"
 
