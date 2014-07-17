@@ -121,7 +121,7 @@ projects[linkchecker][subdir] = "contrib"
 projects[linkchecker][version] = "1.0-beta1"
 
 projects[logintoboggan][subdir] = "contrib"
-projects[logintoboggan][version] = "1.2"
+projects[logintoboggan][version] = "1.4"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable4"
