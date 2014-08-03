@@ -52,7 +52,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.5"
+projects[date][version] = "2.8"
 
 projects[defaultcontent][subdir] = "contrib"
 projects[defaultcontent][version] = "1.0-alpha9"
