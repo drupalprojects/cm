@@ -7,7 +7,7 @@ projects[addanother][subdir] = "contrib"
 projects[addanother][version] = "2.1"
 
 projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-beta2"
+projects[addressfield][version] = "1.0-beta5"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
