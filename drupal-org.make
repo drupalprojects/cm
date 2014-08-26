@@ -79,7 +79,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.0"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable4"
+projects[file_entity][version] = "2.0-alpha3"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.9"
