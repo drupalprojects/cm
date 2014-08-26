@@ -124,7 +124,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable4"
+projects[media][version] = "2.0-alpha3"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
