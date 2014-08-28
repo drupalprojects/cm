@@ -160,7 +160,7 @@ projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.0"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-beta1"
+projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
 projects[plupload][version] = "1.0-beta3"
