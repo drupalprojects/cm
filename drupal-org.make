@@ -105,6 +105,9 @@ projects[globalredirect][version] = "1.5"
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "2.0"
 
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.17"
+
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
 
@@ -151,7 +154,7 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
-projects[openlayers][version] = "2.0-beta7"
+projects[openlayers][version] = "2.0-beta9"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "2.0"
@@ -267,4 +270,3 @@ projects[wysiwyg][patch][] = "https://drupal.org/files/0001-feature.inc-from-624
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nice-mega-dropdowns-d7_1_0.patch"
-
