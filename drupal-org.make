@@ -263,6 +263,13 @@ libraries[geophp][download][url] = "https://github.com/downloads/phayes/geoPHP/g
 libraries[geophp][destination] = "libraries"
 libraries[geophp][directory_name] = "geophp"
 
+; OpenLayers
+
+libraries[openlayers][download][type] = "get"
+libraries[openlayers][download][url] = "http://github.com/openlayers/openlayers/releases/download/release-2.13.1/OpenLayers-2.13.1.zip"
+libraries[openlayers][destination] = "libraries"
+libraries[openlayers][directory_name] = "openlayers"
+
 ; Patches
 
 ; Exportable WYSIWYG Profiles
