@@ -156,6 +156,7 @@ projects[omega_tools][version] = "3.0-rc4"
 projects[openlayers][subdir] = "contrib"
 projects[openlayers][download][type] = "git"
 projects[openlayers][download][url] = "http://git.drupal.org/project/openlayers.git"
+projects[openlayers][download][branch] = "7.x-2.x"
 projects[openlayers][download][revision] = "d01aae20f83e23c0e67ef94027dc0002d42f432a"
 
 projects[panelizer][subdir] = "contrib"
