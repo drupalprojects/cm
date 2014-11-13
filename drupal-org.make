@@ -187,7 +187,7 @@ projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.3"
 
 projects[scheduler][subdir] = "contrib"
-projects[scheduler][version] = "1.0"
+projects[scheduler][version] = "1.3"
 
 projects[site_verify][subdir] = "contrib"
 projects[site_verify][version] = "1.1"
