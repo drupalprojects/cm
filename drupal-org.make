@@ -103,7 +103,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.0"
+projects[google_analytics][version] = "2.1"
 
 projects[honeypot][subdir] = "contrib"
 projects[honeypot][version] = "1.17"
