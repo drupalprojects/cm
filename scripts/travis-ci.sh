@@ -17,8 +17,13 @@ system_install() {
   # Install the latest Drush
   header Installing Drush
   composer global require --prefer-source --no-interaction drush/drush:6.*
-  drush dl -y drupalorg_drush-7.x-1.x-dev --destination=$HOME/.drush
-  drush cc drush
+
+  # debug
+  echo $PATH
+  which drush
+
+  .drush/drush dl -y drupalorg_drush-7.x-1.x-dev --destination=$HOME/.drush
+  .drush/drush cc drush
 
   # Build Codebase
   mkdir profiles
