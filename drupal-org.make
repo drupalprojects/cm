@@ -40,7 +40,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.2"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.1"
+projects[context][version] = "3.6"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
