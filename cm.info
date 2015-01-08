@@ -71,6 +71,7 @@ dependencies[] = globalredirect
 dependencies[] = googleanalytics
 dependencies[] = imce
 dependencies[] = imce_wysiwyg
+dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = link
 dependencies[] = linkchecker
