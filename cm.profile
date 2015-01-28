@@ -108,6 +108,7 @@ function cm_initialize_configuration() {
 
   variable_set('pathauto_node_pattern', '[node:title]');
   variable_set('error_level', '0');
+  variable_set('jquery_update_jquery_admin_version','1.8');
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
