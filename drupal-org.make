@@ -280,3 +280,6 @@ libraries[openlayers][directory_name] = "openlayers"
 
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nice-mega-dropdowns-d7_1_0.patch"
+
+; Rules: Include rules.event.inc via .info file: https://www.drupal.org/node/2090511#comment-9084151
+projects[rules][patch][] = "https://www.drupal.org/files/issues/fix_errors_on_update-2090511-189.patch"
