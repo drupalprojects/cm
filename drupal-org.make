@@ -237,7 +237,7 @@ projects[omega][type] = "theme"
 projects[omega][version] = "3.1"
 
 projects[zen][type] = "theme"
-projects[zen][version] = "3.1"
+projects[zen][version] = "5.5"
 
 ; Libraries
 
