@@ -10,7 +10,7 @@ projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta5"
 
 projects[admin_menu][subdir] = "contrib"
-projects[admin_menu][version] = "3.0-rc3"
+projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][subdir] = "contrib"
 projects[admin_views][version] = "1.2"
@@ -22,7 +22,7 @@ projects[auto_nodetitle][subdir] = "contrib"
 projects[auto_nodetitle][version] = "1.0"
 
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.4"
+projects[backup_migrate][version] = "3.0"
 
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
@@ -40,7 +40,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "1.2"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.1"
+projects[context][version] = "3.6"
 
 projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
@@ -49,7 +49,7 @@ projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.7"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
@@ -67,7 +67,7 @@ projects[elysia_cron][subdir] = "contrib"
 projects[elysia_cron][version] = "2.1"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.6"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
@@ -76,7 +76,7 @@ projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "1.0-beta1"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.0"
+projects[field_group][version] = "1.4"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-alpha3"
@@ -114,11 +114,14 @@ projects[imce][version] = "1.5"
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.4"
+
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.2"
 
 projects[link][subdir] = "contrib"
-projects[link][version] = "1.0-alpha3"
+projects[link][version] = "1.3"
 
 projects[linkchecker][subdir] = "contrib"
 projects[linkchecker][version] = "1.0-beta1"
@@ -136,7 +139,7 @@ projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta9"
 
 projects[mollom][subdir] = "contrib"
-projects[mollom][version] = "2.9"
+projects[mollom][version] = "2.13"
 
 projects[node_clone][subdir] = "contrib"
 projects[node_clone][version] = "1.0-beta1"
@@ -178,13 +181,13 @@ projects[publishcontent][subdir] = "contrib"
 projects[publishcontent][version] = "1.0"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-beta3"
+projects[redirect][version] = "1.0-rc1"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.0-beta3"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.3"
+projects[rules][version] = "2.8"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.3"
@@ -202,28 +205,28 @@ projects[sweaver][subdir] = "contrib"
 projects[sweaver][version] = "1.3"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.3"
+projects[token][version] = "1.5"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.0-beta3"
+projects[views_bulk_operations][version] = "3.2"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "4.0-beta3"
+projects[webform][version] = "4.5"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.0-beta2"
+projects[xmlsitemap][version] = "2.2"
 
 projects[zenophile][subdir] = "contrib"
 projects[zenophile][version] = "1.0"
@@ -234,7 +237,7 @@ projects[omega][type] = "theme"
 projects[omega][version] = "3.1"
 
 projects[zen][type] = "theme"
-projects[zen][version] = "3.1"
+projects[zen][version] = "5.5"
 
 ; Libraries
 
@@ -275,8 +278,8 @@ libraries[openlayers][directory_name] = "openlayers"
 
 ; Patches
 
-; Exportable WYSIWYG Profiles
-projects[wysiwyg][patch][] = "https://drupal.org/files/0001-feature.inc-from-624018-211.patch"
-
 ; Nice Mega Dropdowns: http://drupal.org/node/1148746
 projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nice-mega-dropdowns-d7_1_0.patch"
+
+; Rules: Include rules.event.inc via .info file: https://www.drupal.org/node/2090511#comment-9084151
+projects[rules][patch][] = "https://www.drupal.org/files/issues/fix_errors_on_update-2090511-189.patch"
