@@ -109,6 +109,22 @@ function cm_initialize_configuration() {
   variable_set('pathauto_node_pattern', '[node:title]');
   variable_set('error_level', '0');
   variable_set('jquery_update_jquery_admin_version','1.8');
+
+  $region = 'dashboard_main';
+  $num_deleted = db_delete('block')
+    ->condition('region', $region)
+    ->execute();
+
+  $region = 'dashboard_sidebar';
+  $num_deleted = db_delete('block')
+    ->condition('region', $region)
+    ->execute();
+
+  $region = 'help';
+  $num_deleted = db_delete('block')
+    ->condition('region', $region)
+    ->execute();
+
 }
 
 function _cm_create_taxonomy_term($vid, $name, $tid) {
