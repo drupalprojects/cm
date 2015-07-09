@@ -181,7 +181,7 @@ projects[publishcontent][subdir] = "contrib"
 projects[publishcontent][version] = "1.0"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.0-rc3"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.0-beta3"
