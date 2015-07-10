@@ -28,7 +28,7 @@ projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
 
 projects[calendar][subdir] = "contrib"
-projects[calendar][version] = "3.3"
+projects[calendar][version] = "3.5"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
@@ -283,3 +283,9 @@ projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nic
 
 ; Rules: Include rules.event.inc via .info file: https://www.drupal.org/node/2090511#comment-9084151
 projects[rules][patch][] = "https://www.drupal.org/files/issues/fix_errors_on_update-2090511-189.patch"
+
+; Calendar: Multiple events at the same time overlap
+projects[calendar][patch][] = https://www.drupal.org/files/issues/calendar_overlapped-events-clickable-1895778-28.patch
+
+; Calendar: Overlap code does not run for events with no end date
+projects[calendar][patch][] = https://www.drupal.org/files/issues/calendar-overlap_events_no_end_date-2512348-1.patch
