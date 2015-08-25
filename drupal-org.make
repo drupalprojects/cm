@@ -152,7 +152,7 @@ projects[nodequeue][version] = "2.0-beta1"
 
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][download][type] = "git"
-projects[nice_menus][download][url] = "7.x-3.x"
+projects[nice_menus][download][url] = "http://git.drupal.org/project/nice_menus.git"
 projects[nice_menus][download][revision] = "81e5ccda2287b031da375fafba2516382431e0a5"
 
 projects[omega_tools][subdir] = "contrib"
