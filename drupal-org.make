@@ -151,6 +151,7 @@ projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.0-beta1"
 
 projects[nice_menus][subdir] = "contrib"
+projects[nice_menus][branch] = "7.x-3.x"
 projects[nice_menus][revision] = "81e5ccda2287b031da375fafba2516382431e0a5"
 
 projects[omega_tools][subdir] = "contrib"
