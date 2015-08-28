@@ -13,7 +13,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][subdir] = "contrib"
-projects[admin_views][version] = "1.2"
+projects[admin_views][version] = "1.5"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
@@ -28,7 +28,7 @@ projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
 
 projects[calendar][subdir] = "contrib"
-projects[calendar][version] = "3.3"
+projects[calendar][version] = "3.5"
 
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
@@ -37,7 +37,7 @@ projects[coffee][subdir] = "contrib"
 projects[coffee][version] = "1.0"
 
 projects[colorbox][subdir] = "contrib"
-projects[colorbox][version] = "1.2"
+projects[colorbox][version] = "2.9"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.6"
@@ -49,7 +49,7 @@ projects[cs_adaptive_image][subdir] = "contrib"
 projects[cs_adaptive_image][version] = "1.0-alpha2"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
@@ -115,7 +115,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
 
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.6"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.2"
@@ -181,7 +181,7 @@ projects[publishcontent][subdir] = "contrib"
 projects[publishcontent][version] = "1.0"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.0-rc3"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.0-beta3"
@@ -211,10 +211,10 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
@@ -244,7 +244,7 @@ projects[zen][version] = "5.5"
 ; CKEditor
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.1/ckeditor_4.5.1_standard.zip"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][directory_name] = "ckeditor"
 
@@ -283,3 +283,9 @@ projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nic
 
 ; Rules: Include rules.event.inc via .info file: https://www.drupal.org/node/2090511#comment-9084151
 projects[rules][patch][] = "https://www.drupal.org/files/issues/fix_errors_on_update-2090511-189.patch"
+
+; Calendar: Multiple events at the same time overlap
+projects[calendar][patch][] = https://www.drupal.org/files/issues/calendar_overlapped-events-clickable-1895778-28.patch
+
+; Calendar: Overlap code does not run for events with no end date
+projects[calendar][patch][] = https://www.drupal.org/files/issues/calendar-overlap_events_no_end_date-2512348-1.patch
