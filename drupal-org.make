@@ -151,7 +151,10 @@ projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.0-beta1"
 
 projects[nice_menus][subdir] = "contrib"
-projects[nice_menus][version] = "2.5"
+projects[nice_menus][download][type] = "git"
+projects[nice_menus][download][url] = "http://git.drupal.org/project/nice_menus.git"
+projects[nice_menus][download][branch] = "7.x-3.x"
+projects[nice_menus][download][revision] = "6c9d1e1fa2808886a71a3b3aa325a1b4ef4338c9"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -277,9 +280,6 @@ libraries[openlayers][destination] = "libraries"
 libraries[openlayers][directory_name] = "openlayers"
 
 ; Patches
-
-; Nice Mega Dropdowns: http://drupal.org/node/1148746
-projects[nice_menus][patch][] = "https://www.drupal.org/files/issues/1148746-nice-mega-dropdowns-d7_1_0.patch"
 
 ; Rules: Include rules.event.inc via .info file: https://www.drupal.org/node/2090511#comment-9084151
 projects[rules][patch][] = "https://www.drupal.org/files/issues/fix_errors_on_update-2090511-189.patch"
