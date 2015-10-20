@@ -154,7 +154,7 @@ projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][download][type] = "git"
 projects[nice_menus][download][url] = "http://git.drupal.org/project/nice_menus.git"
 projects[nice_menus][download][branch] = "7.x-3.x"
-projects[nice_menus][download][revision] = "6c9d1e1fa2808886a71a3b3aa325a1b4ef4338c9"
+projects[nice_menus][download][revision] = "9c543072e74c50a2b5ff7b0f84aefca4cd18fe11"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
