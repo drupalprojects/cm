@@ -12,6 +12,6 @@ projects[cm][download][url] = "https://github.com/drupalprojects/cm.git"
 
 ; To build from a branch or a tag, uncomment as needed
 
-projects[cm][download][branch] = "7.x-1.x"
-;projects[cm][download][tag] = "7.x-1.0"
+projects[cm][download][branch] = "8.x-1.x"
+;projects[cm][download][tag] = "8.x-1.0"
 
