@@ -25,7 +25,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "3.0"
 
 projects[block_class][subdir] = "contrib"
-projects[block_class][version] = "2.1"
+projects[block_class][version] = "2.3"
 
 projects[calendar][subdir] = "contrib"
 projects[calendar][version] = "3.5"
