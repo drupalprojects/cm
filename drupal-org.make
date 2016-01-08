@@ -76,7 +76,7 @@ projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "1.0-beta1"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-alpha3"
