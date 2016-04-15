@@ -70,7 +70,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.6"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0"
+projects[features][version] = "2.9"
 
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "1.0-beta1"
