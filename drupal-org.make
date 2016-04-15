@@ -175,7 +175,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.0-beta3"
+projects[plupload][version] = "1.7"
 
 projects[proj4js][subdir] = "contrib"
 projects[proj4js][version] = "1.2"
