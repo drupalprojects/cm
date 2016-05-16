@@ -275,7 +275,7 @@ libraries[geophp][directory_name] = "geophp"
 ; OpenLayers
 
 libraries[openlayers][download][type] = "get"
-libraries[openlayers][download][url] = "http://github.com/openlayers/openlayers/releases/download/release-2.13.1/OpenLayers-2.13.1.zip"
+libraries[openlayers][download][url] = "https://github.com/openlayers/ol2/releases/download/release-2.12/OpenLayers-2.12.zip"
 libraries[openlayers][destination] = "libraries"
 libraries[openlayers][directory_name] = "openlayers"
 
