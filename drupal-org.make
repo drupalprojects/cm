@@ -229,7 +229,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 
 projects[zenophile][subdir] = "contrib"
 projects[zenophile][version] = "1.0"
