@@ -166,10 +166,10 @@ projects[openlayers][download][branch] = "7.x-2.x"
 projects[openlayers][download][revision] = "b6ad4e57114c1d64d6896e3337c94512777140d0"
 
 projects[panelizer][subdir] = "contrib"
-projects[panelizer][version] = "3.1"
+projects[panelizer][version] = "3.3"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.4"
+projects[panels][version] = "3.6"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
