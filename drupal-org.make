@@ -34,7 +34,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
 
 projects[coffee][subdir] = "contrib"
-projects[coffee][version] = "1.0"
+projects[coffee][version] = "2.3"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
