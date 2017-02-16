@@ -139,7 +139,7 @@ projects[menu_views][subdir] = "contrib"
 projects[menu_views][version] = "2.4"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-beta9"
+projects[metatag][version] = "1.21"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.13"
