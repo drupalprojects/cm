@@ -205,7 +205,7 @@ projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.3"
 
 projects[site_verify][subdir] = "contrib"
-projects[site_verify][version] = "1.1"
+projects[site_verify][version] = "1.2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
