@@ -64,7 +64,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
 projects[elysia_cron][subdir] = "contrib"
-projects[elysia_cron][version] = "2.1"
+projects[elysia_cron][version] = "2.4"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.7"
@@ -79,7 +79,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "2.9"
 
 projects[features_override][subdir] = "contrib"
-projects[features_override][version] = "1.0-beta1"
+projects[features_override][version] = "2.0-rc3"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
