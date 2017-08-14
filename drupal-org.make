@@ -170,9 +170,7 @@ projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
 projects[openlayers][download][type] = "git"
-projects[openlayers][download][url] = "http://git.drupal.org/project/openlayers.git"
-projects[openlayers][download][branch] = "7.x-2.x"
-projects[openlayers][download][revision] = "b6ad4e57114c1d64d6896e3337c94512777140d0"
+projects[openlayers][download][version] = "7.x-3.1"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "3.3"
@@ -198,11 +196,17 @@ projects[redirect][version] = "1.0-rc3"
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.2"
 
+projects[registry_autoload][subdir] = "contrib"
+projects[registry_autoload][version] = "1.3"
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.8"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.3"
+
+projects[service_container][subdir] = "contrib"
+projects[service_container][version] = "1.0-beta5"
 
 projects[site_verify][subdir] = "contrib"
 projects[site_verify][version] = "1.2"
@@ -284,7 +288,7 @@ libraries[geophp][directory_name] = "geophp"
 ; OpenLayers
 
 libraries[openlayers][download][type] = "get"
-libraries[openlayers][download][url] = "https://github.com/openlayers/ol2/releases/download/release-2.12/OpenLayers-2.12.zip"
+libraries[openlayers][download][url] = "https://github.com/openlayers/openlayers/releases/download/v4.2.0/v4.2.0-dist.zip"
 libraries[openlayers][destination] = "libraries"
 libraries[openlayers][directory_name] = "openlayers"
 
