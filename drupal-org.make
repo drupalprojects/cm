@@ -70,7 +70,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.7"
 
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.2"
+projects[entityreference][version] = "1.5"
 
 projects[entityreference_migration][subdir] = "contrib"
 projects[entityreference_migration][version] = "7.x-2.x"
@@ -227,7 +227,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.15"
+projects[views][version] = "3.17"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
