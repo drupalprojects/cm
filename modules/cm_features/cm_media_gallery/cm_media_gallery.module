@@ -28,7 +28,7 @@ function cm_media_gallery_preprocess_node(&$variables) {
         'path' => $file['uri']
         ));
 
-      if(is_array($file['field_image_description'][$variables['language'])) {
+      if(is_array($file['field_image_description'][$variables['language']])) {
         $image_description = $file['field_image_description'][$variables['language']][0]['value'];
       } else {
         $image_description = "";
