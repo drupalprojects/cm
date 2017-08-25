@@ -28,7 +28,11 @@ function cm_media_gallery_preprocess_node(&$variables) {
         'path' => $file['uri']
         ));
 
-      $image_description = $file['field_image_description'][$variables['language']][0]['value'];
+      if(is_array($file['field_image_description'][$variables['language']])) {
+        $image_description = $file['field_image_description'][$variables['language']][0]['value'];
+      } else {
+        $image_description = "";
+      }
 
       $image_html = l($image_thumb, $image_full_size, array(
         'attributes' => array('class' => array('image-gallery'), 'title' => $image_description),

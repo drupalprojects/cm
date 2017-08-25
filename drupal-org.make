@@ -13,7 +13,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][subdir] = "contrib"
-projects[admin_views][version] = "1.5"
+projects[admin_views][version] = "1.6"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
@@ -34,7 +34,7 @@ projects[cck][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
 
 projects[coffee][subdir] = "contrib"
-projects[coffee][version] = "1.0"
+projects[coffee][version] = "2.3"
 
 projects[colorbox][subdir] = "contrib"
 projects[colorbox][version] = "2.10"
@@ -64,16 +64,22 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
 projects[elysia_cron][subdir] = "contrib"
-projects[elysia_cron][version] = "2.1"
+projects[elysia_cron][version] = "2.4"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
+
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.5"
+
+projects[entityreference_migration][subdir] = "contrib"
+projects[entityreference_migration][version] = "7.x-2.x"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0"
+projects[features][version] = "2.9"
 
 projects[features_override][subdir] = "contrib"
-projects[features_override][version] = "1.0-beta1"
+projects[features_override][version] = "2.0-rc3"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.5"
@@ -103,7 +109,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.1"
+projects[google_analytics][version] = "2.3"
 
 projects[honeypot][subdir] = "contrib"
 projects[honeypot][version] = "1.17"
@@ -130,13 +136,16 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-alpha3"
+projects[media][version] = "2.0"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
+projects[menu_views][subdir] = "contrib"
+projects[menu_views][version] = "2.4"
+
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-beta9"
+projects[metatag][version] = "1.21"
 
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.13"
@@ -160,19 +169,20 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
-projects[openlayers][version] = "3.1"
+projects[openlayers][download][type] = "git"
+projects[openlayers][download][version] = "7.x-3.1"
 
 projects[panelizer][subdir] = "contrib"
-projects[panelizer][version] = "3.1"
+projects[panelizer][version] = "3.3"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.4"
+projects[panels][version] = "3.6"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.0-beta3"
+projects[plupload][version] = "1.7"
 
 projects[proj4js][subdir] = "contrib"
 projects[proj4js][version] = "1.2"
@@ -184,7 +194,10 @@ projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc3"
 
 projects[references][subdir] = "contrib"
-projects[references][version] = "2.0-beta3"
+projects[references][version] = "2.2"
+
+projects[registry_autoload][subdir] = "contrib"
+projects[registry_autoload][version] = "1.3"
 
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.8"
@@ -192,8 +205,11 @@ projects[rules][version] = "2.8"
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.3"
 
+projects[service_container][subdir] = "contrib"
+projects[service_container][version] = "1.0-beta5"
+
 projects[site_verify][subdir] = "contrib"
-projects[site_verify][version] = "1.1"
+projects[site_verify][version] = "1.2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -211,7 +227,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.11"
+projects[views][version] = "3.17"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
@@ -226,7 +242,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 
 projects[zenophile][subdir] = "contrib"
 projects[zenophile][version] = "1.0"
@@ -272,7 +288,7 @@ libraries[geophp][directory_name] = "geophp"
 ; OpenLayers
 
 libraries[openlayers][download][type] = "get"
-libraries[openlayers][download][url] = "https://github.com/openlayers/ol3/releases/download/v3.14.2/v3.14.2-dist.zip"
+libraries[openlayers][download][url] = "https://github.com/openlayers/openlayers/releases/download/v4.2.0/v4.2.0-dist.zip"
 libraries[openlayers][destination] = "libraries"
 libraries[openlayers][directory_name] = "openlayers"
 
