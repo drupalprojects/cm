@@ -46,7 +46,7 @@ projects[cpn][subdir] = "contrib"
 projects[cpn][version] = "1.4"
 
 projects[cs_adaptive_image][subdir] = "contrib"
-projects[cs_adaptive_image][version] = "1.0-alpha2"
+projects[cs_adaptive_image][version] = "1.0"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.9"
@@ -138,7 +138,7 @@ projects[logintoboggan][subdir] = "contrib"
 projects[logintoboggan][version] = "1.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0"
+projects[media][version] = "2.10"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
