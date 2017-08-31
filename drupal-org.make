@@ -73,7 +73,9 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.5"
 
 projects[entityreference_migration][subdir] = "contrib"
-projects[entityreference_migration][version] = "7.x-2.x"
+projects[entityreference_migration][download][url] = "http://git.drupal.org/project/entityreference_migration.git"
+projects[entityreference_migration][download][branch] = "7.x-2.x"
+projects[entityreference_migration][download][revision] = "9c543072e74c50a2b5ff7b0f84aefca4cd18fe11"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.9"
@@ -169,7 +171,7 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
-projects[openlayers][version] = "7.x-3.1"
+projects[openlayers][version] = "3.1"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "3.3"
