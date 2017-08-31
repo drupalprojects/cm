@@ -169,8 +169,7 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[openlayers][subdir] = "contrib"
-projects[openlayers][download][type] = "git"
-projects[openlayers][download][version] = "7.x-3.1"
+projects[openlayers][version] = "7.x-3.1"
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = "3.3"
