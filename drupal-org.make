@@ -75,7 +75,7 @@ projects[entityreference][version] = "1.5"
 projects[entityreference_migration][subdir] = "contrib"
 projects[entityreference_migration][download][url] = "http://git.drupal.org/project/entityreference_migration.git"
 projects[entityreference_migration][download][branch] = "7.x-2.x"
-projects[entityreference_migration][download][revision] = "9c543072e74c50a2b5ff7b0f84aefca4cd18fe11"
+projects[entityreference_migration][download][revision] = "2f28126d14a654a47f9b58db0bb2c8b115fce35e"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.9"
